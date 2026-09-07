@@ -1,8 +1,12 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import defaultOffersData from '../data/offers.json';
 import type { InternshipOffer, MatchedOffer, ApplicationStatus, FilterState } from '../types/offer';
-
-
+import { 
+  getStoredSyncCode, 
+  setStoredSyncCode, 
+  saveToCloud, 
+  loadFromCloud 
+} from '../services/cloudSync';
 
 const LOCAL_STORAGE_MATCHES_KEY = 'stagematch_saved_matches_v1';
 const LOCAL_STORAGE_SWIPED_KEY = 'stagematch_swiped_ids_v1';
@@ -18,8 +22,12 @@ const defaultFilters: FilterState = {
   minSalaryOnly: false,
 };
 
-
 export function useOffers() {
+  const [syncCode, setSyncCode] = useState<string>(() => getStoredSyncCode());
+  const [syncStatus, setSyncStatus] = useState<'synced' | 'syncing' | 'error' | 'idle'>('idle');
+  const [lastSyncTime, setLastSyncTime] = useState<Date | null>(null);
+  const isInitialCloudLoadDone = useRef(false);
+
   const [allOffers, setAllOffers] = useState<InternshipOffer[]>(() => {
     try {
       const saved = localStorage.getItem(LOCAL_STORAGE_OFFERS_KEY);
@@ -57,15 +65,68 @@ export function useOffers() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
   const [activeOfferForModal, setActiveOfferForModal] = useState<InternshipOffer | null>(null);
 
-  // Sync matches to localStorage
+  // Sync matches to localStorage (offline backup)
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_MATCHES_KEY, JSON.stringify(matches));
   }, [matches]);
 
-  // Sync swiped ids to localStorage
+  // Sync swiped ids to localStorage (offline backup)
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_SWIPED_KEY, JSON.stringify(swipedIds));
   }, [swipedIds]);
+
+  // 1. Initial Cloud Pull on mount
+  useEffect(() => {
+    let isMounted = true;
+    loadFromCloud(syncCode).then((res) => {
+      if (!isMounted) return;
+      if (res.success && res.data) {
+        if (res.data.matches && Array.isArray(res.data.matches)) {
+          // Merge local & remote matches to ensure no data is lost
+          setMatches((localPrev) => {
+            const remoteMap = new Map<string, MatchedOffer>();
+            localPrev.forEach((m) => remoteMap.set(m.offer.id, m));
+            res.data!.matches.forEach((m) => remoteMap.set(m.offer.id, m));
+            return Array.from(remoteMap.values());
+          });
+        }
+        if (res.data.swipedIds && Array.isArray(res.data.swipedIds)) {
+          setSwipedIds((prev) => Array.from(new Set([...prev, ...res.data!.swipedIds])));
+        }
+        setSyncStatus('synced');
+        setLastSyncTime(new Date());
+      }
+      isInitialCloudLoadDone.current = true;
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [syncCode]);
+
+  // 2. Debounced Push to Cloud when matches or swipes change
+  useEffect(() => {
+    if (!isInitialCloudLoadDone.current && matches.length === 0 && swipedIds.length === 0) {
+      return;
+    }
+
+    setSyncStatus('syncing');
+    const timer = setTimeout(() => {
+      saveToCloud(syncCode, matches, swipedIds)
+        .then((res) => {
+          if (res.success) {
+            setSyncStatus('synced');
+            setLastSyncTime(new Date());
+          } else {
+            setSyncStatus('error');
+          }
+        })
+        .catch(() => setSyncStatus('error'));
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, [matches, swipedIds, syncCode]);
+
 
   // Filter available offers for deck
   const filteredOffers = useMemo(() => {
@@ -217,6 +278,48 @@ export function useOffers() {
     localStorage.removeItem(LOCAL_STORAGE_OFFERS_KEY);
   }, []);
 
+  const updateSyncCode = useCallback(async (newCode: string): Promise<boolean> => {
+
+    const sanitized = setStoredSyncCode(newCode);
+    setSyncCode(sanitized);
+    setSyncStatus('syncing');
+
+    const res = await loadFromCloud(sanitized);
+    if (res.success && res.data) {
+      if (res.data.matches && Array.isArray(res.data.matches)) {
+        setMatches(res.data.matches);
+      }
+      if (res.data.swipedIds && Array.isArray(res.data.swipedIds)) {
+        setSwipedIds(res.data.swipedIds);
+      }
+      setSyncStatus('synced');
+      setLastSyncTime(new Date());
+      return true;
+    } else {
+      // Create fresh bucket on cloud for this code with current matches
+      await saveToCloud(sanitized, matches, swipedIds);
+      setSyncStatus('synced');
+      setLastSyncTime(new Date());
+      return true;
+    }
+  }, [matches, swipedIds]);
+
+  const forceSync = useCallback(async () => {
+    setSyncStatus('syncing');
+    const res = await saveToCloud(syncCode, matches, swipedIds);
+    if (res.success) {
+      setSyncStatus('synced');
+      setLastSyncTime(new Date());
+    } else {
+      setSyncStatus('error');
+    }
+  }, [syncCode, matches, swipedIds]);
+
+  const importBackup = useCallback((newMatches: MatchedOffer[]) => {
+    setMatches(newMatches);
+    saveToCloud(syncCode, newMatches, swipedIds);
+  }, [syncCode, swipedIds]);
+
   return {
     allOffers,
     filteredOffers,
@@ -238,5 +341,13 @@ export function useOffers() {
     removeMatch,
     importCustomOffers,
     resetToDefaultOffers,
+    // Cloud Sync
+    syncCode,
+    syncStatus,
+    lastSyncTime,
+    updateSyncCode,
+    forceSync,
+    importBackup,
   };
 }
+

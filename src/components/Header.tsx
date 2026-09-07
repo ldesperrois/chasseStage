@@ -1,6 +1,5 @@
-import { Flame, Heart, Filter, Terminal, Layers } from 'lucide-react';
+import { Flame, Heart, Filter, Terminal, Layers, Cloud } from 'lucide-react';
 import type { FilterState } from '../types/offer';
-
 
 interface HeaderProps {
   activeTab: 'swipe' | 'matches';
@@ -8,17 +7,24 @@ interface HeaderProps {
   matchesCount: number;
   onOpenFilters: () => void;
   onOpenScraper: () => void;
+  onOpenCloudSync: () => void;
+  syncCode: string;
+  syncStatus: 'synced' | 'syncing' | 'error' | 'idle';
   filters: FilterState;
 }
 
-export const Header: React.FC<HeaderProps> = ({
+export const Header = ({
   activeTab,
   onTabChange,
   matchesCount,
   onOpenFilters,
   onOpenScraper,
+  onOpenCloudSync,
+  syncCode,
+  syncStatus,
   filters,
-}) => {
+}: HeaderProps) => {
+
   const hasActiveFilters =
     filters.countries.length > 0 ||
     filters.domains.length > 0 ||
@@ -88,6 +94,25 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Right Tools */}
         <div className="flex items-center gap-1.5 sm:gap-2">
+          {/* Cloud Sync Button */}
+          <button
+            onClick={onOpenCloudSync}
+            className="p-2 sm:px-2.5 sm:py-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-sky-500/50 text-slate-300 text-xs font-semibold flex items-center gap-1.5 transition group"
+            title={`Synchronisation Cloud : ${syncCode}`}
+          >
+            <Cloud className="w-4 h-4 text-sky-400 group-hover:scale-110 transition-transform" />
+            <span className="hidden sm:inline text-sky-300 font-mono text-[11px] font-bold">{syncCode}</span>
+            <span
+              className={`w-2 h-2 rounded-full ${
+                syncStatus === 'synced'
+                  ? 'bg-emerald-400 shadow-xs shadow-emerald-400'
+                  : syncStatus === 'syncing'
+                  ? 'bg-amber-400 animate-pulse'
+                  : 'bg-slate-500'
+              }`}
+            />
+          </button>
+
           {/* Filters Button */}
           <button
             onClick={onOpenFilters}
@@ -114,6 +139,7 @@ export const Header: React.FC<HeaderProps> = ({
             <span className="hidden md:inline">Scrappeur</span>
           </button>
         </div>
+
       </div>
     </header>
   );

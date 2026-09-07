@@ -6,14 +6,15 @@ import { MatchesView } from './components/MatchesView';
 import { OfferDetailsModal } from './components/OfferDetailsModal';
 import { FilterModal } from './components/FilterModal';
 import { ScraperModal } from './components/ScraperModal';
-import { Sparkles, Compass, ShieldCheck } from 'lucide-react';
+import { CloudSyncModal } from './components/CloudSyncModal';
+import { Sparkles, Compass, ShieldCheck, Cloud } from 'lucide-react';
 import type { InternshipOffer } from './types/offer';
-
 
 export function App() {
   const [activeTab, setActiveTab] = useState<'swipe' | 'matches'>('swipe');
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [isScraperOpen, setIsScraperOpen] = useState(false);
+  const [isCloudOpen, setIsCloudOpen] = useState(false);
 
   const {
     allOffers,
@@ -33,6 +34,12 @@ export function App() {
     removeMatch,
     importCustomOffers,
     resetToDefaultOffers,
+    syncCode,
+    syncStatus,
+    lastSyncTime,
+    updateSyncCode,
+    forceSync,
+    importBackup,
   } = useOffers();
 
   return (
@@ -44,8 +51,12 @@ export function App() {
         matchesCount={matches.length}
         onOpenFilters={() => setIsFilterOpen(true)}
         onOpenScraper={() => setIsScraperOpen(true)}
+        onOpenCloudSync={() => setIsCloudOpen(true)}
+        syncCode={syncCode}
+        syncStatus={syncStatus}
         filters={filters}
       />
+
 
       {/* Target Focus Banner */}
       <div className="bg-slate-900/60 border-b border-slate-800/80 px-4 py-2 text-[11px] sm:text-xs text-slate-300">
@@ -113,6 +124,14 @@ export function App() {
             >
               Pipeline Anti-Captcha
             </button>
+            <span>•</span>
+            <button
+              onClick={() => setIsCloudOpen(true)}
+              className="text-sky-400 hover:text-sky-300 transition flex items-center gap-1 font-medium"
+            >
+              <Cloud className="w-3 h-3" />
+              <span>Cloud : {syncCode}</span>
+            </button>
           </div>
         </div>
       </footer>
@@ -141,8 +160,21 @@ export function App() {
         onResetOffers={resetToDefaultOffers}
         currentOffersCount={allOffers.length}
       />
+
+      <CloudSyncModal
+        isOpen={isCloudOpen}
+        onClose={() => setIsCloudOpen(false)}
+        syncCode={syncCode}
+        onUpdateSyncCode={updateSyncCode}
+        syncStatus={syncStatus}
+        lastSyncTime={lastSyncTime}
+        onForceSync={forceSync}
+        matches={matches}
+        onImportBackup={importBackup}
+      />
     </div>
   );
 }
+
 
 export default App;
