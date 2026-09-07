@@ -109,20 +109,32 @@ export const SwipeCard: React.FC<SwipeCardProps> = ({
               <span className="font-bold text-lg text-white tracking-tight">{offer.company}</span>
               <span className="text-xl" title={offer.country}>{offer.countryFlag}</span>
             </div>
+            {offer.labName && (
+              <div className="text-[11px] text-purple-300 font-medium truncate max-w-[190px] sm:max-w-[240px]">
+                🔬 {offer.labName}
+              </div>
+            )}
             <div className="flex items-center text-xs text-slate-400 gap-1 mt-0.5">
-              <MapPin className="w-3.5 h-3.5 text-slate-400" />
+              <MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" />
               <span>{offer.city}, {offer.country}</span>
             </div>
           </div>
         </div>
 
-        {/* ENSTA Badge */}
-        <div className="flex flex-col items-end">
+        {/* ENSTA Badge & Org Type */}
+        <div className="flex flex-col items-end gap-1">
           <span className="inline-flex items-center gap-1 text-[11px] font-semibold px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/40">
             <Sparkles className="w-3 h-3 text-indigo-400" />
             <span>{offer.enstaFit.score}% ENSTA Match</span>
           </span>
-          <span className="text-[10px] text-slate-400 mt-1">{offer.source}</span>
+
+          <span className={`inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full border ${
+            offer.organizationType === 'university' || offer.organizationType === 'research_lab'
+              ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+              : 'bg-slate-800/80 text-slate-300 border-slate-700'
+          }`}>
+            {offer.organizationType === 'university' || offer.organizationType === 'research_lab' ? '🎓 Recherche / Labo' : '🏢 Entreprise'}
+          </span>
         </div>
       </div>
 
@@ -137,6 +149,7 @@ export const SwipeCard: React.FC<SwipeCardProps> = ({
             {offer.title}
           </h2>
         </div>
+
 
         {/* Quick Highlights Metrics */}
         <div className="grid grid-cols-2 gap-2 my-3">

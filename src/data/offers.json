@@ -54,7 +54,8 @@
       "score": 98,
       "badge": "Top Fit ENSTA FIPA",
       "reason": "Alignement parfait avec le cursus Systèmes Embarqués de l'ENSTA Bretagne : C bas-niveau, architectures ARM et RTOS."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "rpi-cambridge-2026-linux",
@@ -109,7 +110,8 @@
       "score": 96,
       "badge": "Excellence Linux Embarqué",
       "reason": "Idéal pour valider les compétences en noyau Linux, compilation croisée et drivers matériels."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "asml-veldhoven-2026-ctrl",
@@ -165,7 +167,8 @@
       "score": 95,
       "badge": "Pépite Industrie Mondiale",
       "reason": "Stage très valorisant sur un CV international, combinant automatique, C++ temps réel et semi-conducteurs."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "mclaren-woking-2026-telemetry",
@@ -221,7 +224,8 @@
       "score": 97,
       "badge": "Top Prestige Sport Auto",
       "reason": "Forte valeur ajoutée pour un élève de l'ENSTA Bretagne : protocoles de communication embarqués et fiabilité critique."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "adi-limerick-2026-firmware",
@@ -277,7 +281,8 @@
       "score": 99,
       "badge": "Option Sans Visa (UE)",
       "reason": "Irlande anglophone = aucune contrainte de visa post-Brexit ! Salaire attractif et technologies 100% au coeur du programme ENSTA."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "dyson-malmesbury-2026-motor",
@@ -332,7 +337,8 @@
       "score": 94,
       "badge": "Pôle R&D d'Excellence",
       "reason": "Excellente synthèse entre électronique de puissance, algorithmes de contrôle et microcontrôleurs STM32."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "blackberry-ottawa-2026-qnx",
@@ -388,7 +394,8 @@
       "score": 97,
       "badge": "Référence Mondiale RTOS",
       "reason": "Le summum pour un étudiant passionné de systèmes d'exploitation temps réel et de sûreté de fonctionnement."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "nordic-trondheim-2026-ble",
@@ -444,7 +451,8 @@
       "score": 96,
       "badge": "Écosystème Zephyr & IoT",
       "reason": "Zephyr RTOS est le système d'avenir pour l'embarqué connecté : expérience ultra recherchée sur le marché européen."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "garmin-olathe-2026-avionics",
@@ -500,7 +508,8 @@
       "score": 93,
       "badge": "Rêve Américain Aéro",
       "reason": "Expérience prestigieuse dans un grand groupe aéro/marine avec logement fourni et rémunération de premier rang."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "nxp-eindhoven-2026-radar",
@@ -556,7 +565,8 @@
       "score": 97,
       "badge": "Top Automobile & ADAS",
       "reason": "Directement connecté aux compétences radar, traitement du signal et microcontrôleurs dispensées à l'ENSTA Bretagne."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "bosch-stuttgart-2026-ros2",
@@ -612,7 +622,8 @@
       "score": 95,
       "badge": "Robotique Autonome & ROS2",
       "reason": "Excellente passerelle entre robotique, perception et programmation C++ temps réel de haut niveau."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "qualcomm-cork-2026-dsp",
@@ -667,7 +678,8 @@
       "score": 98,
       "badge": "Top Choix Irlande (Sans Visa)",
       "reason": "Irlande anglophone dans l'Union Européenne : zéro visa, rémunération excellente et renommée mondiale Qualcomm."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "formlabs-boston-2026-mecha",
@@ -723,7 +735,8 @@
       "score": 94,
       "badge": "High-Tech Boston & Hardware",
       "reason": "Projet concret où le code C pilote directement des moteurs et des lasers de précision."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "mda-space-brampton-2026-robotics",
@@ -779,7 +792,8 @@
       "score": 97,
       "badge": "Rêve Spatial & Canadarm",
       "reason": "Reconnaissance internationale majeure sur un CV ENSTA : robotique spatiale et code critique embarqué."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "st-edinburgh-2026-tof",
@@ -835,7 +849,8 @@
       "score": 98,
       "badge": "L'Écosystème STM32 par Excellence",
       "reason": "La référence absolue pour un étudiant ENSTA Bretagne spécialisé sur STM32 : travailler directement chez le fabricant à Édimbourg."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "siemens-munich-2026-rail",
@@ -891,7 +906,8 @@
       "score": 93,
       "badge": "Sécurité Critique & Sûreté",
       "reason": "Excellente opportunité pour valider des compétences pointues en sûreté de fonctionnement et normes critiques."
-    }
+    },
+    "organizationType": "company"
   },
   {
     "id": "jobicy-152085",
@@ -941,6 +957,469 @@
       "score": 94,
       "badge": "Excellence Linux & Kernel",
       "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    },
+    "organizationType": "company"
+  },
+  {
+    "id": "imperial-hamlyn-2026-robotics",
+    "title": "Robotic Surgery & Embedded Sensing Research Intern",
+    "company": "Imperial College London",
+    "organizationType": "university",
+    "labName": "Hamlyn Centre for Robotic Surgery",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#003E74",
+    "location": "South Kensington, Londres",
+    "city": "Londres",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Recherche Robotique Médicale & Embarqué",
+    "startDate": "11 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "£1,950 / mois (Bourse de recherche UK)",
+    "tags": [
+      "C++",
+      "ROS2",
+      "STM32",
+      "Micro-actionneurs",
+      "Linux RT",
+      "Python",
+      "Capteurs biomédicaux"
+    ],
+    "description": "Intégrez le réputé Hamlyn Centre à Imperial College London au coeur de South Kensington. Vous travaillerez sur le contrôle bas-niveau temps réel et l'acquisition haute fréquence de micro-capteurs pour des robots chirurgicaux mini-invasifs.",
+    "responsibilities": [
+      "Développer des drivers de micro-capteurs de force et de vision en C/C++ sur cartes STM32 et Linux temps réel",
+      "Implémenter des algorithmes d'asservissement haptique et de commande d'actionneurs piézoélectriques",
+      "Intégrer les flux capteurs dans un pipeline ROS2 avec latence inférieure à 2 ms",
+      "Co-rédiger les résultats d'expérimentation pour soumission à une conférence internationale (ICRA / IROS)"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués, robotique ou mécatronique (ENSTA Bretagne)",
+      "Très bon niveau en C++ et bases en traitement du signal / microcontrôleurs",
+      "Curiosité scientifique et autonomie pour l'expérimentation en laboratoire",
+      "Anglais fluide pour échanger avec les doctorants et chercheurs post-doctoraux internationaux"
+    ],
+    "perks": [
+      "Prestige mondial d'Imperial College London sur votre CV",
+      "Campus exceptionnel à South Kensington près des musées et parcs de Londres",
+      "Accès aux équipements de micro-fabrication et blocs opératoires expérimentaux",
+      "Tremplin idéal vers un doctorat (PhD) ou un poste de R&D de pointe"
+    ],
+    "applyUrl": "https://www.imperial.ac.uk/hamlyn-centre/research/opportunities/",
+    "source": "Imperial College London UROP",
+    "postedAt": "Il y a 2 jours",
+    "enstaFit": {
+      "score": 97,
+      "badge": "Excellence Recherche UK",
+      "reason": "Imperial College est classé dans le Top 5 mondial : parfait pour valoriser la recherche appliquée en robotique et micro-actionneurs temps réel."
+    }
+  },
+  {
+    "id": "cambridge-cl-2026-lowpower",
+    "title": "Low-Power Embedded Architectures & Security Research Intern",
+    "company": "University of Cambridge",
+    "organizationType": "university",
+    "labName": "Department of Computer Science and Technology (Computer Lab)",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#A3C1AD",
+    "location": "William Gates Building, Cambridge",
+    "city": "Cambridge",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Recherche Architecture & Sécurité Matérielle",
+    "startDate": "4 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "£2,100 / mois (Summer Research Stipend)",
+    "tags": [
+      "C",
+      "Rust",
+      "RISC-V",
+      "ARM TrustZone",
+      "CHERI",
+      "Bare-metal",
+      "QEMU"
+    ],
+    "description": "Le laboratoire d'informatique de Cambridge (William Gates Building) est le berceau de l'architecture CHERI (Capability Hardware Enhanced RISC Instructions). Rejoignez l'équipe de recherche en sécurité matérielle et architectures sécurisées pour microcontrôleurs.",
+    "responsibilities": [
+      "Concevoir et tester des micro-noyaux bare-metal sécurisés en C et Rust pour processeurs RISC-V CHERI",
+      "Analyser les vulnérabilités de corruption mémoire (buffer overflows) sur simulateur de microcontrôleur QEMU",
+      "Mesurer l'impact énergétique et les cycles d'horloge de l'isolation mémoire sécurisée",
+      "Participer aux séminaires de recherche hebdomadaires avec les pionniers de l'architecture ARM et Cambridge"
+    ],
+    "requirements": [
+      "Étudiant en école d'ingénieurs (ENSTA Bretagne) passionné par le bas-niveau et la sécurité",
+      "Maîtrise du langage C et des mécanismes de gestion mémoire (pointeurs, pile, tas)",
+      "Intérêt pour l'architecture des processeurs (RISC-V, ARM) et la sécurité système",
+      "Bon niveau d'anglais académique"
+    ],
+    "perks": [
+      "Immersion totale dans la tradition académique séculaire de Cambridge",
+      "Aide au logement dans l'un des Colleges de l'université",
+      "Réseau très étroit avec ARM Holdings et la Silicon Fen de Cambridge",
+      "Possibilité de publication scientifique internationale"
+    ],
+    "applyUrl": "https://www.cst.cam.ac.uk/research",
+    "source": "Cambridge CST Summer Projects",
+    "postedAt": "Il y a 3 jours",
+    "enstaFit": {
+      "score": 99,
+      "badge": "Sommet Académique Mondial",
+      "reason": "Cambridge est la référence absolue pour l'architecture processeur et le C bas-niveau : renommée incomparable pour un élève ENSTA."
+    }
+  },
+  {
+    "id": "oxford-ori-2026-robotics",
+    "title": "Autonomous Navigation & Embedded Linux Research Intern",
+    "company": "University of Oxford",
+    "organizationType": "university",
+    "labName": "Oxford Robotics Institute (ORI)",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#002147",
+    "location": "Department of Engineering Science, Oxford",
+    "city": "Oxford",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Recherche Robotique Autonome & Véhicules",
+    "startDate": "11 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "£2,000 / mois (Oxford Research Fellowship)",
+    "tags": [
+      "C++",
+      "ROS2",
+      "Linux RT",
+      "LiDAR Odometry",
+      "SLAM",
+      "Jetson Orin",
+      "Git"
+    ],
+    "description": "L'Oxford Robotics Institute (ORI) est l'un des centres de recherche en robotique autonome les plus influents au monde. Vous travaillerez sur le déploiement temps réel d'algorithmes de localisation et cartographie (SLAM) sur plateformes embarquées Nvidia Jetson et calculateurs industriels.",
+    "responsibilities": [
+      "Optimiser des pipelines de calcul C++20 pour centrales inertielles (IMU) et LiDARs 3D",
+      "Configurer des kernels Linux temps réel (PREEMPT_RT) sur calculateurs véhiculaires embarqués",
+      "Mener des campagnes de tests terrain sur les véhicules autonomes et robots à pattes de l'ORI",
+      "Intégrer les modules de navigation sous ROS2 Humble / Iron"
+    ],
+    "requirements": [
+      "Élève-ingénieur ENSTA Bretagne avec fort intérêt pour la robotique et la programmation système",
+      "Solides bases en C++ moderne et environnement Linux (scripts Bash, compilation GCC/Clang, CMake)",
+      "Connaissances en estimation d'état ou robotique mobile appréciées",
+      "Anglais courant pour la vie de laboratoire"
+    ],
+    "perks": [
+      "Vivre l'expérience étudiante d'Oxford l'été",
+      "Parc robotique d'exception (Spot de Boston Dynamics, robots autonomes d'exploration)",
+      "Accès aux bibliothèques historiques et infrastructures de recherche de l'université",
+      "Fortes perspectives de poursuite en recherche ou dans les spin-offs d'Oxford (Oxbotica)"
+    ],
+    "applyUrl": "https://ori.ox.ac.uk/vacancies/",
+    "source": "Oxford ORI Opportunities",
+    "postedAt": "Il y a 4 jours",
+    "enstaFit": {
+      "score": 98,
+      "badge": "Légende Mondiale Oxford",
+      "reason": "L'alliance parfaite entre le savoir-faire robotique de l'ENSTA Bretagne et la renommée académique de l'Université d'Oxford."
+    }
+  },
+  {
+    "id": "trinity-dublin-2026-edgeai",
+    "title": "Embedded Edge AI & Low-Power Firmware Research Intern",
+    "company": "Trinity College Dublin",
+    "organizationType": "university",
+    "labName": "School of Computer Science & Statistics (SCSS)",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#0E3A8C",
+    "location": "Dublin City Centre",
+    "city": "Dublin",
+    "country": "Irlande",
+    "countryCode": "IE",
+    "countryFlag": "🇮🇪",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "Recherche TinyML & Microcontrôleurs",
+    "startDate": "5 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 14,
+    "isEnstaCompliant": true,
+    "salary": "€2,200 / mois (Bourse de recherche SFI / Erasmus+ Traineeship)",
+    "tags": [
+      "C",
+      "C++",
+      "TinyML",
+      "STM32",
+      "ESP32",
+      "TensorFlow Lite Micro",
+      "BLE"
+    ],
+    "description": "Situé en plein coeur de Dublin, Trinity College Dublin est la plus ancienne université d'Irlande. Le laboratoire SCSS mène des recherches pionnières sur l'intelligence artificielle sur microcontrôleurs (TinyML) pour les capteurs environnementaux et marins sans fil.",
+    "responsibilities": [
+      "Quantifier et déployer des réseaux de neurones légers (TinyML) en C sur microcontrôleurs STM32 / ESP32-S3",
+      "Développer le firmware d'acquisition capteurs et de communication LoRaWAN / BLE ultra basse consommation",
+      "Concevoir des stratégies d'endormissement profond (Deep Sleep) pour assurer 3 ans d'autonomie sur pile",
+      "Participer aux campagnes de déploiement de bouées connectées sur la côte irlandaise"
+    ],
+    "requirements": [
+      "Étudiant en école d'ingénieurs (ENSTA Bretagne) en électronique ou informatique",
+      "Bonne maîtrise du langage C sur microcontrôleurs 32 bits",
+      "Bases en traitement de données et intérêt pour l'intelligence artificielle embarquée",
+      "Zéro contrainte de visa (Irlande membre de l'Union Européenne et 100% anglophone !)"
+    ],
+    "perks": [
+      "Pas de visa requis + cumulable avec la bourse européenne Erasmus+ Stage !",
+      "Cadre magnifique du campus historique de Trinity au centre de Dublin",
+      "Ville festive et jeune avec les QG européens de la tech (Google, Meta, Apple)",
+      "Thématique TinyML en plein essor industriel"
+    ],
+    "applyUrl": "https://www.scss.tcd.ie/research/",
+    "source": "Trinity Research Internships",
+    "postedAt": "Il y a 5 jours",
+    "enstaFit": {
+      "score": 98,
+      "badge": "Top Recherche Sans Visa (UE)",
+      "reason": "Irlande anglophone dans l'UE : zéro tracas de visa, cumul bourse Erasmus+ possible, et sujet TinyML au coeur des cours ENSTA."
+    }
+  },
+  {
+    "id": "tudelft-dcsc-2026-uav",
+    "title": "Embedded Real-Time Control & UAV Autonomy Research Intern",
+    "company": "TU Delft",
+    "organizationType": "university",
+    "labName": "Delft Center for Systems and Control (DCSC)",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#00A6D6",
+    "location": "Mekelweg, Delft (Tech Hub)",
+    "city": "Delft / Rotterdam Area",
+    "country": "Pays-Bas (Hub Anglophone)",
+    "countryCode": "NL",
+    "countryFlag": "🇳🇱",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Recherche Drones & Contrôle Temps Réel",
+    "startDate": "4 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 16,
+    "isEnstaCompliant": true,
+    "salary": "€1,850 / mois + aide déplacement",
+    "tags": [
+      "C++",
+      "C",
+      "PX4 Autopilot",
+      "STM32",
+      "CAN bus",
+      "Automatique",
+      "FreeRTOS"
+    ],
+    "description": "L'Université de Technologie de Delft (TU Delft) aux Pays-Bas est l'une des meilleures universités d'ingénierie d'Europe. Son laboratoire DCSC conduit des recherches de pointe 100% en anglais sur les drones autonomes miniatures et les lois de commande robuste.",
+    "responsibilities": [
+      "Développer des modules logiciels en C/C++ pour l'autopilote open-source PX4 sur cartes Pixhawk (STM32H7)",
+      "Implémenter des lois de commande prédictive (MPC) et d'évitement d'obstacles en vol à haute vitesse",
+      "Effectuer des essais de vol réels dans la cyber-zoo arène de vol de TU Delft",
+      "Travailler en équipe internationale anglophone avec des chercheurs de plus de 30 pays"
+    ],
+    "requirements": [
+      "Élève-ingénieur en automatique, robotique ou systèmes embarqués (ENSTA Bretagne)",
+      "Excellente maîtrise du C et de la programmation orientée objet C++",
+      "Compréhension des asservissements et du temps réel sous FreeRTOS / NuttX",
+      "Anglais fluide pour les réunions de laboratoire (l'anglais est la langue officielle de recherche à TU Delft)"
+    ],
+    "perks": [
+      "Campus d'ingénierie le plus réputé d'Europe continentale",
+      "Éligible aux aides Erasmus+ de l'Union Européenne",
+      "Ville universitaire pittoresque de Delft, pistes cyclables et vie étudiante active",
+      "Lien étroit avec les industriels du secteur aérospatial européen"
+    ],
+    "applyUrl": "https://www.tudelft.nl/en/3me/about/departments/delft-center-for-systems-and-control-dcsc",
+    "source": "TU Delft Vacancies",
+    "postedAt": "Il y a 3 jours",
+    "enstaFit": {
+      "score": 96,
+      "badge": "Prestige Européen TU Delft",
+      "reason": "TU Delft est classée n°1 aux Pays-Bas : adéquation remarquable avec les formations drones, automatique et embarqué de l'ENSTA."
+    }
+  },
+  {
+    "id": "epfl-esl-2026-wearables",
+    "title": "Ultra-Low Power Embedded Systems & Bio-Sensors Research Intern",
+    "company": "EPFL",
+    "organizationType": "university",
+    "labName": "Embedded Systems Laboratory (ESL)",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#FF0000",
+    "location": "Lausanne R&D Campus",
+    "city": "Lausanne",
+    "country": "Suisse (Laboratoire 100% Anglophone)",
+    "countryCode": "CH",
+    "countryFlag": "🇨🇭",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Recherche Systèmes Embarqués Basse Consommation",
+    "startDate": "11 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "CHF 2,400 / mois (~2,550 €)",
+    "tags": [
+      "C",
+      "ARM Cortex-M",
+      "Zephyr RTOS",
+      "Ultra-Low-Power",
+      "DSP",
+      "ECG/EEG Sensors"
+    ],
+    "description": "L'Embedded Systems Laboratory (ESL) de l'EPFL dirigé par le Prof. David Atienza est une référence mondiale en architectures multiprocesseurs basse consommation (PULP/RISC-V) et systèmes embarqués pour la santé connectée. La langue de recherche du labo est 100% l'anglais.",
+    "responsibilities": [
+      "Concevoir du firmware bare-metal et Zephyr RTOS pour puces bio-médicales miniaturisées",
+      "Optimiser des algorithmes de détection d'arythmie cardiaque en C sous contrainte de micro-watts",
+      "Conduire des mesures fines de consommation électrique sur banc d'essai de précision",
+      "Présenter ses travaux lors des séminaires de recherche internationaux de l'EPFL"
+    ],
+    "requirements": [
+      "Formation d'ingénieur en électronique, informatique ou systèmes embarqués",
+      "Solides compétences en langage C et microcontrôleurs (STM32, NXP ou Nordic)",
+      "Rigueur méthodologique et aisance en anglais pour les échanges scientifiques",
+      "Suisse / Accord bilatéral : démarches simplifiées pour étudiants de nationalité européenne"
+    ],
+    "perks": [
+      "Rémunération suisse attractive (CHF 2,400 / mois)",
+      "Campus exceptionnel de l'EPFL au bord du Lac Léman face aux Alpes",
+      "Laboratoire classé parmi les plus productifs au monde dans le domaine de l'embarqué",
+      "Réseau mondial de diplômés et partenariats avec les GAFAM et l'industrie médicale"
+    ],
+    "applyUrl": "https://www.epfl.ch/labs/esl/research/",
+    "source": "EPFL Summer Research Fellowship",
+    "postedAt": "Il y a 1 semaine",
+    "enstaFit": {
+      "score": 97,
+      "badge": "Top Recherche Embarqué Monde",
+      "reason": "L'ESL de l'EPFL est l'un des laboratoires d'embarqué les plus prestigieux de la planète : expérience en or sur un CV d'ingénieur."
+    }
+  },
+  {
+    "id": "utoronto-sfl-2026-cubesat",
+    "title": "Nanosatellite Flight Software & Embedded Linux Research Intern",
+    "company": "University of Toronto",
+    "organizationType": "university",
+    "labName": "Space Flight Laboratory (UTIAS-SFL)",
+    "companyLogo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#002A5C",
+    "location": "Toronto, Ontario",
+    "city": "Toronto",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Recherche Spatial & Logiciel de Vol CubeSat",
+    "startDate": "4 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "$28 CAD / heure (~3,500 € / mois)",
+    "tags": [
+      "C",
+      "C++",
+      "RTOS",
+      "Embedded Linux",
+      "Avionique",
+      "CubeSat",
+      "Canadarm"
+    ],
+    "description": "Le Space Flight Laboratory (SFL) de l'Université de Toronto conçoit, fabrique et opère de véritables satellites et CubeSats en orbite basse pour la NASA, l'Agence Spatiale Canadienne et l'ESA. Travaillez sur le logiciel de vol embarqué d'une vraie mission spatiale.",
+    "responsibilities": [
+      "Développer et déboguer en C/C++ le logiciel embarqué de gestion de bord (OBC) pour micro-satellites",
+      "Mettre en oeuvre les protocoles de télémesure et télécommande (CCSDS, CSP)",
+      "Tester la résistance aux pannes et l'autonomie du satellite sur simulateur matériel 'Flat-Sat'",
+      "Participer aux revues de conception critiques avec les ingénieurs aérospatiaux"
+    ],
+    "requirements": [
+      "Étudiant ingénieur en systèmes embarqués, génie logiciel ou aérospatial",
+      "Excellente maîtrise du C et de la programmation concurrente (threads, mutex)",
+      "Passion pour le domaine spatial et le code fiable à tolérance de panne",
+      "Anglais technique fluide (environnement 100% anglophone à Toronto)"
+    ],
+    "perks": [
+      "Voir son code partir littéralement dans l'espace en orbite terrestre !",
+      "Ville multiculturelle et dynamique de Toronto",
+      "Laboratoire universitaire avec bilan de vol réel exceptionnel (+ de 100 missions)",
+      "Accompagnement pour les démarches de stage EIC / Mobilité Canada"
+    ],
+    "applyUrl": "https://www.utias-sfl.net/?page_id=89",
+    "source": "UTIAS Space Flight Lab",
+    "postedAt": "Il y a 6 jours",
+    "enstaFit": {
+      "score": 98,
+      "badge": "Satellites en Orbite Réelle",
+      "reason": "Expérience aérospatiale d'élite : programmation de vrais ordinateurs de bord de satellites spatiaux."
+    }
+  },
+  {
+    "id": "cmu-riss-2026-robotics",
+    "title": "Autonomous Mobile Robotics & Embedded C++ Summer Scholar",
+    "company": "Carnegie Mellon University (CMU)",
+    "organizationType": "university",
+    "labName": "The Robotics Institute (RI)",
+    "companyLogo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#C41230",
+    "location": "Pittsburgh, Pennsylvania",
+    "city": "Pittsburgh",
+    "country": "États-Unis",
+    "countryCode": "US",
+    "countryFlag": "🇺🇸",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Recherche Robotique Autonome & Systèmes",
+    "startDate": "18 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 13,
+    "isEnstaCompliant": true,
+    "salary": "$5,000 USD Bourse + Logement campus offert (~4,600 €)",
+    "tags": [
+      "C++",
+      "ROS2",
+      "Linux RT",
+      "Motion Planning",
+      "Computer Vision",
+      "Perception"
+    ],
+    "description": "Le Robotics Institute de Carnegie Mellon University (CMU) est le plus grand et le plus prestigieux institut universitaire de robotique de la planète. Le programme RISS (Robotics Institute Summer Scholars) accueille des étudiants internationaux pour 11 à 13 semaines intensives de recherche de pointe.",
+    "responsibilities": [
+      "Concevoir et programmer en C++ moderne des algorithmes de navigation autonome et d'évitement d'obstacles",
+      "Déployer et tester le logiciel sur des robots mobiles autonomes réels en laboratoire",
+      "Publier et présenter ses résultats devant l'ensemble des professeurs et chercheurs de CMU",
+      "Participer à des ateliers de mentorat avec les plus grands pionniers mondiaux de la robotique"
+    ],
+    "requirements": [
+      "Étudiant ingénieur d'excellence (ENSTA Bretagne)",
+      "Excellente maîtrise du C++ et d'outils de robotique (ROS/ROS2, OpenCV, PCL)",
+      "Anglais courant indispensable (visa J-1 Summer Research)",
+      "Motivation forte pour la recherche appliquée et l'innovation technologique"
+    ],
+    "perks": [
+      "La référence absolue mondiale en robotique (CMU Robotics Institute)",
+      "Logement sur le campus universitaire de CMU intégralement pris en charge",
+      "Accès direct aux directeurs de recherche de Tesla Autopilot, Boston Dynamics et NASA JPL",
+      "Expérience déterminante sur un CV d'ingénieur international"
+    ],
+    "applyUrl": "https://riss.ri.cmu.edu/",
+    "source": "CMU Robotics Summer Scholars",
+    "postedAt": "Il y a 4 jours",
+    "enstaFit": {
+      "score": 99,
+      "badge": "Numéro 1 Mondial Robotique",
+      "reason": "Carnegie Mellon University est l'institut de robotique n°1 mondial : opportunité exceptionnelle pour un étudiant ENSTA Bretagne."
     }
   }
 ]

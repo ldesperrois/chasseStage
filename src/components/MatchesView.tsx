@@ -65,7 +65,9 @@ export const MatchesView: React.FC<MatchesViewProps> = ({
     if (matches.length === 0) return;
 
     const headers = [
-      'Entreprise',
+      'Type de Structure',
+      'Laboratoire de Recherche',
+      'Établissement / Entreprise',
       'Poste',
       'Ville',
       'Pays',
@@ -79,6 +81,8 @@ export const MatchesView: React.FC<MatchesViewProps> = ({
     ];
 
     const rows = matches.map((m) => [
+      `"${m.offer.organizationType === 'university' || m.offer.organizationType === 'research_lab' ? 'Université / Laboratoire' : 'Entreprise'}"`,
+      `"${(m.offer.labName || '').replace(/"/g, '""')}"`,
       `"${m.offer.company.replace(/"/g, '""')}"`,
       `"${m.offer.title.replace(/"/g, '""')}"`,
       `"${m.offer.city.replace(/"/g, '""')}"`,
@@ -91,6 +95,7 @@ export const MatchesView: React.FC<MatchesViewProps> = ({
       `"${m.offer.applyUrl}"`,
       `"${m.savedAt}"`,
     ]);
+
 
     const csvContent = 'data:text/csv;charset=utf-8,\uFEFF' + [headers.join(','), ...rows.map((r) => r.join(','))].join('\n');
     const encodedUri = encodeURI(csvContent);
@@ -254,10 +259,25 @@ export const MatchesView: React.FC<MatchesViewProps> = ({
                         <span className="font-bold text-base text-white">{m.offer.company}</span>
                         <span className="text-lg" title={m.offer.country}>{m.offer.countryFlag}</span>
                         <span className="text-xs text-slate-400">({m.offer.country})</span>
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
+                          m.offer.organizationType === 'university' || m.offer.organizationType === 'research_lab'
+                            ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                            : 'bg-slate-800 text-slate-300 border-slate-700'
+                        }`}>
+                          {m.offer.organizationType === 'university' || m.offer.organizationType === 'research_lab'
+                            ? '🎓 Labo Universitaire'
+                            : '🏢 Entreprise'}
+                        </span>
                       </div>
+                      {m.offer.labName && (
+                        <div className="text-xs text-purple-300 font-medium mt-0.5">
+                          🔬 {m.offer.labName}
+                        </div>
+                      )}
                       <h4 className="text-base font-semibold text-slate-100 mt-0.5">
                         {m.offer.title}
                       </h4>
+
                     </div>
                   </div>
 

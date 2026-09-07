@@ -81,11 +81,25 @@ export const OfferDetailsModal: React.FC<OfferDetailsModalProps> = ({
                 )}
               </div>
               <div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
                   <h3 className="text-xl font-bold">{offer.company}</h3>
                   <span className="text-2xl" title={offer.country}>{offer.countryFlag}</span>
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
+                    offer.organizationType === 'university' || offer.organizationType === 'research_lab'
+                      ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                      : 'bg-slate-800 text-slate-300 border-slate-700'
+                  }`}>
+                    {offer.organizationType === 'university' || offer.organizationType === 'research_lab'
+                      ? '🎓 Université / Labo'
+                      : '🏢 Entreprise'}
+                  </span>
                 </div>
-                <div className="flex items-center text-xs text-slate-400 gap-1.5 mt-0.5">
+                {offer.labName && (
+                  <div className="text-xs text-purple-300 font-semibold mt-0.5">
+                    🔬 {offer.labName}
+                  </div>
+                )}
+                <div className="flex items-center text-xs text-slate-400 gap-1.5 mt-1">
                   <MapPin className="w-3.5 h-3.5 text-slate-400" />
                   <span>{offer.city}, {offer.country}</span>
                   <span className="text-slate-600">•</span>
@@ -93,6 +107,7 @@ export const OfferDetailsModal: React.FC<OfferDetailsModalProps> = ({
                 </div>
               </div>
             </div>
+
 
             {/* Title */}
             <h2 className="text-xl sm:text-2xl font-extrabold mt-4 text-white leading-tight">

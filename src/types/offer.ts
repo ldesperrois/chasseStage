@@ -6,6 +6,8 @@ export type JobDomain =
   | 'firmware' 
   | 'fpga';
 
+export type OrganizationType = 'company' | 'university' | 'research_lab';
+
 export type ApplicationStatus = 
   | 'liked' 
   | 'to_apply' 
@@ -17,7 +19,9 @@ export type ApplicationStatus =
 export interface InternshipOffer {
   id: string;
   title: string;
-  company: string;
+  company: string; // Entreprise ou Université
+  organizationType: OrganizationType; // 'company' | 'university' | 'research_lab'
+  labName?: string; // Nom du laboratoire de recherche
   companyLogo?: string;
   companyColor?: string;
   location: string;
@@ -59,8 +63,10 @@ export interface MatchedOffer {
 export interface FilterState {
   countries: string[];
   domains: JobDomain[];
+  organizationTypes: OrganizationType[];
   minWeeks: number;
   searchQuery: string;
   enstaOnly: boolean;
   minSalaryOnly: boolean;
 }
+

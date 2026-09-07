@@ -11,11 +11,13 @@ const LOCAL_STORAGE_OFFERS_KEY = 'stagematch_custom_offers_v1';
 const defaultFilters: FilterState = {
   countries: [],
   domains: [],
+  organizationTypes: [],
   minWeeks: 10, // ENSTA requirement minimum 10 weeks
   searchQuery: '',
   enstaOnly: false,
   minSalaryOnly: false,
 };
+
 
 export function useOffers() {
   const [allOffers, setAllOffers] = useState<InternshipOffer[]>(() => {
@@ -84,6 +86,15 @@ export function useOffers() {
         return false;
       }
 
+      // Filter by organization type (Entreprise vs Université / Labo)
+      if (
+        filters.organizationTypes.length > 0 &&
+        offer.organizationType &&
+        !filters.organizationTypes.includes(offer.organizationType)
+      ) {
+        return false;
+      }
+
       // ENSTA only filter
       if (filters.enstaOnly && !offer.isEnstaCompliant) {
         return false;
@@ -94,13 +105,15 @@ export function useOffers() {
         const query = filters.searchQuery.toLowerCase();
         const matchesTitle = offer.title.toLowerCase().includes(query);
         const matchesCompany = offer.company.toLowerCase().includes(query);
+        const matchesLab = (offer.labName || '').toLowerCase().includes(query);
         const matchesLocation = offer.location.toLowerCase().includes(query);
         const matchesTags = offer.tags.some((tag) => tag.toLowerCase().includes(query));
         const matchesDesc = offer.description.toLowerCase().includes(query);
-        if (!matchesTitle && !matchesCompany && !matchesLocation && !matchesTags && !matchesDesc) {
+        if (!matchesTitle && !matchesCompany && !matchesLab && !matchesLocation && !matchesTags && !matchesDesc) {
           return false;
         }
       }
+
 
       return true;
     });

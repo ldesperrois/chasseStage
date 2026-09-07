@@ -118,10 +118,18 @@ def normalize_offer(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
     ensta_fit = calculate_ensta_fit(title, description, tags)
 
+    # Détection Université vs Entreprise
+    is_academic = any(k in (company + " " + title + " " + apply_url).lower() for k in [
+        "university", "college", "institut", "school", "faculty", "polytechnic", "laboratory", " lab ", "cst.cam.ac.uk", "ox.ac.uk", "imperial.ac.uk", ".ac.uk", ".edu", "tudelft", "epfl", "eth"
+    ])
+    org_type = raw.get("organizationType") or ("university" if is_academic else "company")
+
     return {
         "id": raw.get("id") or re.sub(r'[^a-zA-Z0-9]', '-', f"{company}-{title}".lower())[:40],
         "title": title,
         "company": company,
+        "organizationType": org_type,
+        "labName": raw.get("labName", ""),
         "companyLogo": raw.get("companyLogo") or "",
         "companyColor": raw.get("companyColor") or "#6366f1",
         "location": location,
@@ -131,6 +139,7 @@ def normalize_offer(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "countryFlag": country_info["flag"],
         "isAnglophone": country_info["anglophone"],
         "domain": raw.get("domain", "embedded"),
+
         "domainLabel": raw.get("domainLabel", "Systèmes Embarqués & Logiciel"),
         "startDate": raw.get("startDate", "Début Mai 2026"),
         "endDate": raw.get("endDate", "Fin Août 2026"),

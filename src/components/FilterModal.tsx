@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Filter, RotateCcw, Check, Sparkles } from 'lucide-react';
-import type { FilterState, JobDomain } from '../types/offer';
+import { X, Filter, RotateCcw, Check, Sparkles, Building2, GraduationCap } from 'lucide-react';
+import type { FilterState, JobDomain, OrganizationType } from '../types/offer';
+
 
 interface FilterModalProps {
   isOpen: boolean;
@@ -71,16 +72,30 @@ export const FilterModal = ({
     });
   };
 
+  const toggleOrgType = (orgType: OrganizationType) => {
+    setDraftFilters((prev) => {
+      const exists = prev.organizationTypes.includes(orgType);
+      return {
+        ...prev,
+        organizationTypes: exists
+          ? prev.organizationTypes.filter((t) => t !== orgType)
+          : [...prev.organizationTypes, orgType],
+      };
+    });
+  };
+
   const resetFilters = () => {
     setDraftFilters({
       countries: [],
       domains: [],
+      organizationTypes: [],
       minWeeks: 10,
       searchQuery: '',
       enstaOnly: false,
       minSalaryOnly: false,
     });
   };
+
 
   const handleSave = () => {
     onApplyFilters(draftFilters);
@@ -142,6 +157,71 @@ export const FilterModal = ({
                 className="w-full px-4 py-2.5 rounded-xl bg-slate-800/80 border border-slate-700 text-white text-sm focus:outline-none focus:border-indigo-500"
               />
             </div>
+
+            {/* Organization Type: Entreprises vs Universités */}
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                  Type de structure
+                </label>
+                {draftFilters.organizationTypes.length > 0 && (
+                  <button
+                    onClick={() => setDraftFilters({ ...draftFilters, organizationTypes: [] })}
+                    className="text-[11px] text-indigo-400 hover:text-indigo-300"
+                  >
+                    Voir tout
+                  </button>
+                )}
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  onClick={() => toggleOrgType('company')}
+                  className={`p-3 rounded-xl border text-left flex items-center justify-between transition ${
+                    draftFilters.organizationTypes.includes('company')
+                      ? 'bg-indigo-600/20 border-indigo-500/60 text-white'
+                      : 'bg-slate-800/50 border-slate-700/60 text-slate-300 hover:border-slate-600'
+                  }`}
+                >
+                  <div className="flex items-center gap-2.5">
+                    <div className="p-2 rounded-lg bg-slate-800 border border-slate-700 text-indigo-400">
+                      <Building2 className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-semibold">Entreprises Privées</div>
+                      <div className="text-[10px] text-slate-400">ARM, ASML, McLaren, Garmin...</div>
+                    </div>
+                  </div>
+                  {draftFilters.organizationTypes.includes('company') && (
+                    <Check className="w-4 h-4 text-indigo-400" />
+                  )}
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => toggleOrgType('university')}
+                  className={`p-3 rounded-xl border text-left flex items-center justify-between transition ${
+                    draftFilters.organizationTypes.includes('university')
+                      ? 'bg-purple-600/20 border-purple-500/60 text-white'
+                      : 'bg-slate-800/50 border-slate-700/60 text-slate-300 hover:border-slate-600'
+                  }`}
+                >
+                  <div className="flex items-center gap-2.5">
+                    <div className="p-2 rounded-lg bg-purple-950/60 border border-purple-800/60 text-purple-400">
+                      <GraduationCap className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-semibold">Universités & Labos</div>
+                      <div className="text-[10px] text-purple-300/80">Cambridge, Oxford, Imperial, CMU...</div>
+                    </div>
+                  </div>
+                  {draftFilters.organizationTypes.includes('university') && (
+                    <Check className="w-4 h-4 text-purple-400" />
+                  )}
+                </button>
+              </div>
+            </div>
+
 
             {/* Countries */}
             <div>
