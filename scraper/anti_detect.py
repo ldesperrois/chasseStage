@@ -1,18 +1,17 @@
 """
-Module Anti-Détection & Anti-Captcha pour StageMatch
-Fournit des sessions HTTP avec émulation d'empreintes de navigateurs réels (JA3/TLS),
-rotation d'en-têtes modernes et temporisation humaine (jitter).
+Module Anti-Détection & Anti-Captcha Haute Performance pour StageMatch
+Utilise curl_cffi pour émuler une véritable empreinte TLS/JA3 de Google Chrome 124,
+rotation d'en-têtes HTTP/2 modernes et temporisation humaine (jitter).
 """
 
 import time
 import random
 import logging
 from typing import Dict, Any, Optional
+from curl_cffi import requests as curl_requests
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("anti_detect")
 
-# Liste d'User-Agents récents de navigateurs desktop réels
 REAL_USER_AGENTS = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
@@ -22,14 +21,12 @@ REAL_USER_AGENTS = [
 ]
 
 def get_stealth_headers(referer: Optional[str] = None) -> Dict[str, str]:
-    """
-    Génère un jeu complet d'en-têtes HTTP/2 indifférenciables d'un navigateur humain.
-    """
+    """Génère un jeu complet d'en-têtes HTTP/2 indifférenciables d'un navigateur humain."""
     ua = random.choice(REAL_USER_AGENTS)
     headers = {
         "User-Agent": ua,
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "Accept-Language": "en-US,en;q=0.9,fr;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7",
         "Accept-Encoding": "gzip, deflate, br",
         "DNT": "1",
         "Connection": "keep-alive",
@@ -48,73 +45,62 @@ def get_stealth_headers(referer: Optional[str] = None) -> Dict[str, str]:
 
     return headers
 
-def human_delay(min_seconds: float = 1.0, max_seconds: float = 2.5):
-    """
-    Pause pseudo-aléatoire avec distribution gaussienne pour imiter le comportement humain.
-    """
-    sleep_time = random.uniform(min_seconds, max_seconds)
-    time.sleep(sleep_time)
+def human_delay(min_seconds: float = 0.8, max_seconds: float = 1.8):
+    """Pause pseudo-aléatoire avec distribution pour imiter le comportement d'un navigateur réel."""
+    time.sleep(random.uniform(min_seconds, max_seconds))
 
 class StealthClient:
-    """
-    Client HTTP résistant aux captchas et aux empreintes TLS.
-    Utilise curl_cffi si disponible (impersonate Chrome), sinon fallback sur urllib/requests avec headers furtifs.
-    """
+    """Client HTTP résistant aux captchas (Cloudflare / DataDome) via impersonation TLS Chrome 124."""
     def __init__(self):
-        self.use_curl_cffi = False
         try:
-            from curl_cffi import requests as curl_requests
-            self.session = curl_requests.Session(impersonate="chrome120")
-            self.use_curl_cffi = True
-            logger.info("Anti-détection : curl_cffi activé avec empreinte TLS Chrome 120 !")
-        except ImportError:
-            import urllib.request
-            self.session = None
-            logger.info("Anti-détection : Mode standard avec rotation d'en-têtes et TLS natif.")
+            self.session = curl_requests.Session(impersonate="chrome124")
+            self.has_curl_cffi = True
+            logger.info("🛡️ Moteur Anti-Captcha : curl_cffi activé avec empreinte TLS Chrome 124 !")
+        except Exception as e:
+            import requests
+            self.session = requests.Session()
+            self.has_curl_cffi = False
+            logger.warning(f"Fallback requests standard ({e})")
 
-    def get(self, url: str, headers: Optional[Dict[str, str]] = None, timeout: int = 15) -> Optional[str]:
-        """
-        Effectue une requête GET avec rotation d'en-têtes et temporisation.
-        """
+    def get(self, url: str, headers: Optional[Dict[str, str]] = None, timeout: int = 15, retries: int = 2) -> Optional[str]:
+        """Effectue une requête GET avec rotation d'en-têtes, gestion des retries et temporisation."""
         req_headers = get_stealth_headers()
         if headers:
             req_headers.update(headers)
 
-        human_delay(0.8, 1.8)
+        human_delay(0.5, 1.2)
 
-        if self.use_curl_cffi and self.session:
+        for attempt in range(retries + 1):
             try:
                 resp = self.session.get(url, headers=req_headers, timeout=timeout)
                 if resp.status_code == 200:
                     return resp.text
+                elif resp.status_code == 429:
+                    # Rate limited -> pause exponentielle
+                    wait = 3 * (attempt + 1)
+                    logger.warning(f"Rate limit sur {url}, pause de {wait}s...")
+                    time.sleep(wait)
                 else:
                     logger.warning(f"Statut HTTP {resp.status_code} pour {url}")
                     return None
             except Exception as e:
-                logger.error(f"Erreur curl_cffi sur {url}: {e}")
-                return None
-        else:
-            # Fallback standard library urllib
-            import urllib.request
-            import urllib.error
-            import ssl
-            import gzip
+                if attempt == retries:
+                    logger.error(f"Erreur requête sur {url}: {e}")
+                    return None
+                time.sleep(1.5)
+        return None
 
-            try:
-                ctx = ssl.create_default_context()
-                ctx.check_hostname = False
-                ctx.verify_mode = ssl.CERT_NONE
-
-                req = urllib.request.Request(url, headers=req_headers)
-                with urllib.request.urlopen(req, timeout=timeout, context=ctx) as response:
-                    content = response.read()
-                    # Gzip decode if necessary
-                    if response.info().get('Content-Encoding') == 'gzip':
-                        content = gzip.decompress(content)
-                    return content.decode('utf-8', errors='ignore')
-            except urllib.error.HTTPError as e:
-                logger.warning(f"HTTPError {e.code} pour {url}")
-                return None
-            except Exception as e:
-                logger.error(f"Erreur urllib sur {url}: {e}")
-                return None
+    def get_json(self, url: str, headers: Optional[Dict[str, str]] = None, timeout: int = 15) -> Optional[Any]:
+        """Récupère et parse directement du JSON avec en-têtes JSON appropriés."""
+        h = {"Accept": "application/json"}
+        if headers:
+            h.update(headers)
+        raw = self.get(url, headers=h, timeout=timeout)
+        if not raw:
+            return None
+        import json
+        try:
+            return json.loads(raw)
+        except Exception as e:
+            logger.warning(f"Erreur parsing JSON de {url}: {e}")
+            return None

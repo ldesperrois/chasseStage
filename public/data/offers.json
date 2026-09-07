@@ -1421,5 +1421,808 @@
       "badge": "Numéro 1 Mondial Robotique",
       "reason": "Carnegie Mellon University est l'institut de robotique n°1 mondial : opportunité exceptionnelle pour un étudiant ENSTA Bretagne."
     }
+  },
+  {
+    "id": "arbeitnow-working-student-it-infrastruct",
+    "title": "Working Student IT & Infrastructure (m/f/d)",
+    "company": "Idealworks",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "München",
+    "city": "München",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention de stage",
+    "tags": [
+      "BMW Group",
+      "Start-Up",
+      "Idealworks",
+      "ITinternship",
+      "NewTechnologies",
+      "Innovation",
+      "Growth",
+      "Mentorship",
+      "automationandrobotics",
+      "Munichjobs",
+      "Teamwork",
+      "ITInfrastructure",
+      "ITSupport"
+    ],
+    "description": "<br><strong>Role Responsibilities: What you will do</strong><p><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Support the smooth operation of our internal IT infrastructure and technical office environment.</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Help manage and maintain our Microsoft 365 environment in close collaboration with the IT team.</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Configure, maintain, and troubleshoot endpoints such as PCs, laptops, smartphones, tablets, and conference room equipment.</l...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/idealworks/working-student-it-infrastructure-munchen-115109",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Robotique & Perception",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "arbeitnow-staff-offensive-security-engin",
+    "title": "Staff Offensive Security Engineer",
+    "company": "Samsara",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "",
+    "city": "",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention de stage",
+    "tags": [
+      "IT Security"
+    ],
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif;&quot;&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 300; font-family: arial, helvetica, sans-serif;&quot;&gt;Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/samsara/staff-offensive-security-engineer-109752",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Écosystème IoT & RTOS",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "arbeitnow-staff-product-manager-physical",
+    "title": "Staff Product Manager - Physical AI/Robotics",
+    "company": "Coreweaveu",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "London",
+    "city": "London",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention de stage",
+    "tags": [
+      "Technology"
+    ],
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;\n&lt;div&gt;\n&lt;div class=&quot;gmail_quote&quot;&gt;\n&lt;div&gt;\n&lt;div&gt;&lt;span id=&quot;m_-113912706363268805m_-2746164444908759431gmail-docs-internal-guid-131e4fb0-7fff-b4e9-ff50-e8cf32449b1b&quot;&gt;CoreWeave is The Essential Cloud for AI™. Built for pioneers by pioneers, CoreWeave delivers a platform of technology, tools, and teams that enables innovators to build and scale AI with confidence. Trusted by leading AI labs, startups, and global enterprises, CoreWeave combines superior infrastructure performance with deep technical ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/coreweaveu/staff-product-manager-physical-ai-robotics-london-203840",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Robotique & Perception",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "arbeitnow-staff-product-manager-applied-",
+    "title": "Staff Product Manager, Applied Physical AI",
+    "company": "Coreweaveu",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "London",
+    "city": "London",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention de stage",
+    "tags": [
+      "Monolith T&I"
+    ],
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;\n&lt;div&gt;\n&lt;div class=&quot;gmail_quote&quot;&gt;\n&lt;div&gt;\n&lt;div&gt;&lt;span id=&quot;m_-113912706363268805m_-2746164444908759431gmail-docs-internal-guid-131e4fb0-7fff-b4e9-ff50-e8cf32449b1b&quot;&gt;CoreWeave is The Essential Cloud for AI™. Built for pioneers by pioneers, CoreWeave delivers a platform of technology, tools, and teams that enables innovators to build and scale AI with confidence. Trusted by leading AI labs, startups, and global enterprises, CoreWeave combines superior infrastructure performance with deep technical ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/coreweaveu/staff-product-manager-applied-physical-ai-london-308855",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Écosystème IoT & RTOS",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "arbeitnow-senior-recruiter-gtm-emea-lond",
+    "title": "Senior Recruiter, GTM, EMEA",
+    "company": "Coreweaveu",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "London",
+    "city": "London",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention de stage",
+    "tags": [
+      "People"
+    ],
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;\n&lt;div&gt;\n&lt;div class=&quot;gmail_quote&quot;&gt;\n&lt;div&gt;\n&lt;div&gt;&lt;span id=&quot;m_-113912706363268805m_-2746164444908759431gmail-docs-internal-guid-131e4fb0-7fff-b4e9-ff50-e8cf32449b1b&quot;&gt;CoreWeave is The Essential Cloud for AI™. Built for pioneers by pioneers, CoreWeave delivers a platform of technology, tools, and teams that enables innovators to build and scale AI with confidence. Trusted by leading AI labs, startups, and global enterprises, CoreWeave combines superior infrastructure performance with deep technical ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/coreweaveu/senior-recruiter-gtm-emea-london-399572",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Écosystème IoT & RTOS",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "arbeitnow-director-international-relatio",
+    "title": "Director – International Relations and Diplomacy Programs",
+    "company": "Schiller International University",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Paris",
+    "city": "Paris",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention de stage",
+    "tags": [
+      "students",
+      "university",
+      "quality",
+      "support",
+      "faculty",
+      "director",
+      "international relations",
+      "diplomacy"
+    ],
+    "description": "<br><strong>Your mission</strong><p>The Director of International Relations and Diplomacy (IRD) Programs, based at the Paris Campus, will provide academic leadership for Schiller International University’s undergraduate, graduate and online International Relations and Diplomacy programs across all campuses. The Director will be responsible for ensuring program currency and curriculum quality, faculty hiring and performance, and achieving student outcomes within the International Relations and Diplomacy discipline. In addition, the Director will provide Academic Leadership at the Paris Campus f...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/schiller-international-university/director-international-relations-and-diplomacy-programs-paris-10277",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Robotique & Perception",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "jobicy-151860",
+    "title": "Senior Software Engineer, Product Engineering - UK",
+    "company": "Ashby",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/63864ee6-221.png",
+    "companyColor": "#6366f1",
+    "location": "UK",
+    "city": "UK",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<p>Hi  I’m <a href=\"https://www.linkedin.com/in/abhikpramanik\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Abhik</u></a>, Ashby's Co-Founder and VP of Engineering. We’re looking for an ambitious full-stack engineer who is laser-focused on solving customer problems and making the right long-term investments to solve them not only today but in our future features and products.</p>\n<p>What Ashby gives you in return is the best of both early and growth-stage environments. The agency and no-nonsense of a seed startup: you write product specs, make product and design decisions, and build in an al...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/151860-senior-software-engineer-product-engineering-uk",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "jobicy-151859",
+    "title": "Staff Software Engineer, Product Engineering - UK",
+    "company": "Ashby",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/63864ee6-221.png",
+    "companyColor": "#6366f1",
+    "location": "UK",
+    "city": "UK",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<p>Hi  I’m <a href=\"https://www.linkedin.com/in/abhikpramanik\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Abhik</u></a>, Ashby's Co-Founder and VP of Engineering. We’re looking for an ambitious full-stack engineer who is laser-focused on solving customer problems and making the right long-term investments to solve them not only today but in our future features and products.</p>\n<p>What Ashby gives you in return is the best of both early and growth-stage environments. The agency and no-nonsense of a seed startup: you write product specs, make product and design decisions, and build in an al...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/151859-staff-software-engineer-product-engineering-uk",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "jobicy-151856",
+    "title": "Staff Software Engineer, Product Engineering - EU",
+    "company": "Ashby",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/63864ee6-221.png",
+    "companyColor": "#6366f1",
+    "location": "Europe",
+    "city": "Europe",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<p>Hi  I’m <a href=\"https://www.linkedin.com/in/abhikpramanik\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Abhik</u></a>, Ashby's Co-Founder and VP of Engineering. We’re looking for an ambitious full-stack engineer who is laser-focused on solving customer problems and making the right long-term investments to solve them not only today but in our future features and products.</p>\r\n<p>What Ashby gives you in return is the best of both early and growth-stage environments. The agency and no-nonsense of a seed startup: you write product specs, make product and design decisions, and build in an a...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/151856-staff-software-engineer-product-engineering-eu-2",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "jobicy-151853",
+    "title": "Senior Software Engineer, Product Engineering - EU",
+    "company": "Ashby",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/63864ee6-221.png",
+    "companyColor": "#6366f1",
+    "location": "Europe",
+    "city": "Europe",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<p>Hi  I’m <a href=\"https://www.linkedin.com/in/abhikpramanik\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Abhik</u></a>, Ashby's Co-Founder and VP of Engineering. We’re looking for an ambitious full-stack engineer who is laser-focused on solving customer problems and making the right long-term investments to solve them not only today but in our future features and products.</p>\r\n<p>What Ashby gives you in return is the best of both early and growth-stage environments. The agency and no-nonsense of a seed startup: you write product specs, make product and design decisions, and build in an a...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/151853-senior-software-engineer-product-engineering-eu-2",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "jobicy-142468",
+    "title": "Senior Software Engineer, Product Engineering, EU",
+    "company": "Ashby",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/63864ee6-221.png",
+    "companyColor": "#6366f1",
+    "location": "Europe",
+    "city": "Europe",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<p>Hi  I’m <a href=\"https://www.linkedin.com/in/abhikpramanik\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Abhik</u></a>, Ashby's Co-Founder and VP of Engineering. We’re looking for an ambitious full-stack engineer who is laser-focused on solving customer problems and making the right long-term investments to solve them not only today but in our future features and products.</p><p>What Ashby gives you in return is the best of both early and growth-stage environments. The agency and no-nonsense of a seed startup: you write product specs, make product and design decisions, and build in an alm...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/142468-senior-software-engineer-product-engineering-eu",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "jobicy-142467",
+    "title": "Staff Software Engineer, Product Engineering, EU",
+    "company": "Ashby",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/63864ee6-221.png",
+    "companyColor": "#6366f1",
+    "location": "Europe",
+    "city": "Europe",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<p>Hi  I’m <a href=\"https://www.linkedin.com/in/abhikpramanik\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Abhik</u></a>, Ashby's Co-Founder and VP of Engineering. We’re looking for an ambitious full-stack engineer who is laser-focused on solving customer problems and making the right long-term investments to solve them not only today but in our future features and products.</p><p>What Ashby gives you in return is the best of both early and growth-stage environments. The agency and no-nonsense of a seed startup: you write product specs, make product and design decisions, and build in an alm...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/142467-staff-software-engineer-product-engineering-eu",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "remotive-2091105",
+    "title": "Content Reviewer - English US",
+    "company": "TELUS Digital",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://remotive.com/job/2091105/logo",
+    "companyColor": "#6366f1",
+    "location": "USA",
+    "city": "USA",
+    "country": "États-Unis",
+    "countryCode": "US",
+    "countryFlag": "🇺🇸",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "$14/hour",
+    "tags": [
+      "android",
+      "ios",
+      "social media",
+      "AI/ML"
+    ],
+    "description": "Our global AI Community is a vibrant network of more than one million contributors from\ndiverse backgrounds who help customers collect, enhance, train, translate, and localize\ncontent to build better AI models. Become part of our growing community and contribute\nto the development of innovative AI technologies used by some of the world's largest\nbrands.\nWe are looking for an independent, flexible, remote opportunity where you can help\nimprove AI-powered search technology from the comfort of your home? If you're\ncurious, internet-savvy, and enjoy evaluating online content, this freelance projec...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
+    "source": "Remotive Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 87,
+      "badge": "Écosystème IoT & RTOS",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "remotive-2091068",
+    "title": "Head of Marketing & Communications",
+    "company": "garden3d",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://remotive.com/job/2091068/logo",
+    "companyColor": "#6366f1",
+    "location": "Worldwide",
+    "city": "Worldwide",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "$150k - $230k",
+    "tags": [
+      "C",
+      "video",
+      "open source",
+      "AI/ML",
+      "Figma",
+      "project management",
+      "editing",
+      "IoT",
+      "testing",
+      "themes",
+      "mobile development"
+    ],
+    "description": "We are hiring a Head of Marketing &amp; Communications to tell the garden3d story across the internet, from wherever in the world you happen to be.\nMore details if you check our original job posting link\nAbout garden3d\nWe are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions.\nOur client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, P...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+    "source": "Remotive Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 89,
+      "badge": "Robotique & Perception",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  },
+  {
+    "id": "remotive-1680495",
+    "title": "Remote Office Assistant",
+    "company": "Coalition Technologies",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://remotive.com/job/1680495/logo",
+    "companyColor": "#6366f1",
+    "location": "Worldwide",
+    "city": "Worldwide",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "$31,2k- $52k",
+    "tags": [
+      "CSS",
+      "excel",
+      "frontend",
+      "git",
+      "html",
+      "illustrator",
+      "magento",
+      "photoshop",
+      "php",
+      "shopify",
+      "wordpress",
+      "MySQL",
+      "startup",
+      "responsive",
+      "themes",
+      "bootstrap",
+      "insurance",
+      "jQuery",
+      "Ajax"
+    ],
+    "description": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role is ideal for someone with strong communication skills, discretion, attention to detail, and a willingness to learn and grow within a fast-paced remote work environment.\nAs an Office Assistant, you will help support daily administrative operations, assist with entry-level bookkeeping, organize client documents, support internal reporting, and help maintain accurate company reco...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+    "source": "Remotive Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 85,
+      "badge": "Écosystème IoT & RTOS",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
   }
 ]
