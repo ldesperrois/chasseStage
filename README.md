@@ -27,21 +27,29 @@
   - Calcul d'un **score de compatibilité ENSTA (85% à 99%)** avec explication détaillée du lien avec le programme académique.
 
 ### 3. 🌍 Pays Anglophones & Hubs R&D Internationaux
-- 🇬🇧 **Royaume-Uni** : ARM (Cambridge), Raspberry Pi, McLaren Applied (F1 Telemetry), Dyson R&D, STMicroelectronics (Édimbourg).
-- 🇮🇪 **Irlande (UE - Aucun visa requis !)** : Analog Devices (Limerick), Qualcomm (Cork), Intel.
-- 🇺🇸 **États-Unis** : Garmin (Avionique), Formlabs (Impression 3D Boston), Tesla (Firmware Autopilot).
-- 🇨🇦 **Canada** : BlackBerry QNX (RTOS Kernel Ottawa), MDA Space (Canadarm Toronto).
-- 🇳🇱 **Pays-Bas** : ASML (Lithographie EUV Veldhoven), NXP Semiconductors (Radar ADAS Eindhoven) — *Environnements 100% anglophones*.
-- 🇩🇪 **Allemagne** : Bosch Research (Robotique ROS2), Siemens Mobility (SIL-4 ferroviaire).
+- 🇬🇧 **Royaume-Uni** : ARM, Raspberry Pi, McLaren Applied, Dyson, STMicroelectronics, mais aussi **Imperial College London**, **Cambridge Computer Lab**, **Oxford Robotics Institute**.
+- 🇮🇪 **Irlande (UE - Aucun visa requis !)** : Analog Devices, Qualcomm, Intel, et **Trinity College Dublin** (Edge AI & TinyML Lab).
+- 🇺🇸 **États-Unis** : Garmin (Avionique), Formlabs, Tesla, et **Carnegie Mellon University (CMU)** (Robotics Institute).
+- 🇨🇦 **Canada** : BlackBerry QNX (Ottawa), MDA Space, et **University of Toronto Space Flight Lab** (CubeSats & nano-satellites).
+- 🇳🇱 **Pays-Bas** : ASML, NXP Semiconductors, et **TU Delft** (Drones & contrôle temps réel).
+- 🇨🇭 **Suisse** : **EPFL** (Embedded Systems Lab - ESL, microcontrôleurs ultra-low power).
+- 🇩🇪 **Allemagne** : Bosch Corporate Research, Siemens Mobility.
 - 🇳🇴 **Scandinavie** : Nordic Semiconductor (BLE & Zephyr RTOS).
 
-### 4. 📊 Suivi des Candidatures & Export Excel / CSV
+### 4. 🏢 vs 🎓 Filtre Entreprises & Universités / Labos
+- Possibilité de filtrer en 1 clic :
+  - Uniquement les entreprises privées (R&D industrielle, équipementiers, semi-conducteurs)
+  - Uniquement les universités & laboratoires de recherche (stages de recherche académique, programmes SURF/UROP, bourses Erasmus+)
+  - Ou les deux combinés !
+
+### 5. 📊 Suivi des Candidatures & Export Excel / CSV
 - Tableau de bord complet **"Mes Matchs"**.
 - Statuts d'avancement personnalisables : *À postuler*, *Candidature envoyée*, *Entretien RH / Tech*, *Offre reçue*, *Refusé*.
 - Notes personnelles (dates de relance, contacts RH, version du CV).
-- **Bouton d'export en 1 clic vers CSV/Excel** pour transmettre directement votre tableau de recherche de stage à vos tuteurs ENSTA Bretagne !
+- **Bouton d'export en 1 clic vers CSV/Excel** incluant type de structure et laboratoire pour transmettre directement votre tableau de recherche à vos tuteurs ENSTA Bretagne !
 
-### 5. 🕷️ Scrappeur Python Anti-Captcha Intégré
+### 6. 🕷️ Scrappeur Python Anti-Captcha Intégré
+
 - Situé dans le dossier `scraper/` :
   - Utilisation de `curl_cffi` pour imiter les empreintes TLS et JA3 de vrais navigateurs Chrome/Safari.
   - Rotation dynamique d'en-têtes HTTP/2 complets (`Sec-Ch-Ua`, `Sec-Fetch-*`, `Accept-Language`).
