@@ -1,0 +1,66 @@
+export type JobDomain = 
+  | 'embedded' 
+  | 'software' 
+  | 'robotics' 
+  | 'iot' 
+  | 'firmware' 
+  | 'fpga';
+
+export type ApplicationStatus = 
+  | 'liked' 
+  | 'to_apply' 
+  | 'applied' 
+  | 'interview' 
+  | 'rejected' 
+  | 'offer';
+
+export interface InternshipOffer {
+  id: string;
+  title: string;
+  company: string;
+  companyLogo?: string;
+  companyColor?: string;
+  location: string;
+  city: string;
+  country: string;
+  countryCode: string; // 'GB' | 'IE' | 'US' | 'CA' | 'NL' | 'DE' | 'SE' | 'AU' etc.
+  countryFlag: string;
+  isAnglophone: boolean;
+  domain: JobDomain;
+  domainLabel: string;
+  startDate: string; // e.g., "Mai 2026"
+  endDate: string;   // e.g., "Fin Août 2026"
+  durationWeeks: number;
+  isEnstaCompliant: boolean; // >= 10 weeks
+  salary: string;
+  tags: string[];
+  description: string;
+  responsibilities: string[];
+  requirements: string[];
+  perks: string[];
+  applyUrl: string;
+  source: string;
+  postedAt: string;
+  enstaFit: {
+    score: number; // 0 to 100
+    badge: string; // e.g. "Recommandé ENSTA FIPA", "Top Fit Embarqué"
+    reason: string;
+  };
+}
+
+export interface MatchedOffer {
+  offer: InternshipOffer;
+  status: ApplicationStatus;
+  savedAt: string;
+  notes?: string;
+  rating?: number; // 1 to 5 stars
+}
+
+export interface FilterState {
+  countries: string[];
+  domains: JobDomain[];
+  minWeeks: number;
+  searchQuery: string;
+  enstaOnly: boolean;
+  minSalaryOnly: boolean;
+}

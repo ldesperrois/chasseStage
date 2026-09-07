@@ -1,0 +1,946 @@
+[
+  {
+    "id": "arm-cambridge-2026-emb",
+    "title": "Embedded Software Engineering Intern - Cortex-M & FreeRTOS",
+    "company": "ARM Holdings",
+    "companyLogo": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#0091BD",
+    "location": "Cambridge, Cambridgeshire",
+    "city": "Cambridge",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Firmware",
+    "startDate": "4 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 16,
+    "isEnstaCompliant": true,
+    "salary": "£2,500 / mois (~2,950 €)",
+    "tags": [
+      "C",
+      "C++",
+      "FreeRTOS",
+      "ARM Cortex-M",
+      "Bare-Metal",
+      "GDB",
+      "Git"
+    ],
+    "description": "Rejoignez l'équipe Architecture & Firmware d'ARM au siège mondial de Cambridge. Vous participerez au développement des couches basses (HAL, drivers et OS temps réel) pour les futurs processeurs ARM Cortex-M dédiés à l'IoT sécurisé et à l'automobile.",
+    "responsibilities": [
+      "Développer et déboguer des drivers bas-niveau (SPI, I2C, UART, DMA) en C standard pour Cortex-M33/M55",
+      "Participer à l'intégration de FreeRTOS et CMSIS-RTOS sur les plateformes de simulation FVP et silicium",
+      "Écrire des suites de tests automatisés et benchmarks de consommation énergétique",
+      "Collaborer avec les équipes de vérification matérielle et de support technique"
+    ],
+    "requirements": [
+      "Étudiant en école d'ingénieurs (ENSTA Bretagne, Bac+3 à Bac+5)",
+      "Excellente maîtrise du langage C et des pointeurs en contexte contraint",
+      "Compréhension de l'architecture ARM (registres, interruptions, NVIC)",
+      "Anglais courant indispensable (environnement multiculturel international)",
+      "Expérience pratique sur banc d'essai (oscilloscope, analyseur logique) appréciée"
+    ],
+    "perks": [
+      "Aide au logement / Relocation package pour Cambridge",
+      "Salle de sport et restaurant d'entreprise subventionné",
+      "Accompagnement par un tuteur senior ARM dédié",
+      "Possibilité d'embauche ou de stage de fin d'études ultérieur"
+    ],
+    "applyUrl": "https://careers.arm.com/internships",
+    "source": "ARM Global Careers",
+    "postedAt": "Il y a 3 jours",
+    "enstaFit": {
+      "score": 98,
+      "badge": "Top Fit ENSTA FIPA",
+      "reason": "Alignement parfait avec le cursus Systèmes Embarqués de l'ENSTA Bretagne : C bas-niveau, architectures ARM et RTOS."
+    }
+  },
+  {
+    "id": "rpi-cambridge-2026-linux",
+    "title": "Embedded Linux Kernel & Hardware Intern",
+    "company": "Raspberry Pi Ltd",
+    "companyLogo": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#C51A4A",
+    "location": "Cambridge, UK",
+    "city": "Cambridge",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Linux Embarqué & Kernel",
+    "startDate": "11 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "£2,400 / mois (~2,820 €)",
+    "tags": [
+      "Linux Kernel",
+      "C",
+      "Device Drivers",
+      "RP2040/RP2350",
+      "Device Tree",
+      "Python"
+    ],
+    "description": "Intégrez le coeur de l'équipe système chez Raspberry Pi à Cambridge. Travaillez directement sur le kernel Linux Raspberry Pi OS, les Device Trees et le support firmware pour la famille de microcontrôleurs RP2350 (ARM Cortex-M33 & RISC-V).",
+    "responsibilities": [
+      "Contribuer aux pilotes périphériques du noyau Linux (GPIO, MIPI CSI/DSI, PCIe)",
+      "Développer des outils de validation et scripts de test en Python et Shell sous Linux",
+      "Mettre au point du firmware C/C++ pour le SDK Pico (ARM et RISC-V Hazard3)",
+      "Résoudre des bugs signalés par la communauté open-source et les clients industriels"
+    ],
+    "requirements": [
+      "Solides compétences en programmation C sous Linux",
+      "Connaissance des principes d'un OS (gestion mémoire, processus, ordonnancement)",
+      "Familiarité avec Git et la revue de code sur GitHub",
+      "Passion pour le hardware open-source et l'électronique de prototypage"
+    ],
+    "perks": [
+      "Matériel Raspberry Pi illimité fourni pour vos projets perso",
+      "Cadre de travail décontracté au centre historique de Cambridge",
+      "Participation aux conférences tech et meetups de l'écosystème",
+      "Titres de transport remboursés"
+    ],
+    "applyUrl": "https://www.raspberrypi.com/careers/",
+    "source": "Raspberry Pi Careers",
+    "postedAt": "Il y a 5 jours",
+    "enstaFit": {
+      "score": 96,
+      "badge": "Excellence Linux Embarqué",
+      "reason": "Idéal pour valider les compétences en noyau Linux, compilation croisée et drivers matériels."
+    }
+  },
+  {
+    "id": "asml-veldhoven-2026-ctrl",
+    "title": "Embedded Software & Motion Control Intern (Lithography EUV)",
+    "company": "ASML",
+    "companyLogo": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#0A192F",
+    "location": "Veldhoven (Eindhoven Tech Hub)",
+    "city": "Veldhoven / Eindhoven",
+    "country": "Pays-Bas (Hub Anglophone)",
+    "countryCode": "NL",
+    "countryFlag": "🇳🇱",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "Contrôle Commande & C++ Temps Réel",
+    "startDate": "4 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 16,
+    "isEnstaCompliant": true,
+    "salary": "€1,950 / mois + aide logement",
+    "tags": [
+      "C++",
+      "C",
+      "Real-Time Linux",
+      "DSP",
+      "Automatique",
+      "Python",
+      "Git"
+    ],
+    "description": "Travaillez chez le leader mondial des machines de photolithographie semi-conducteurs à Eindhoven. L'environnement R&D d'ASML est 100% en langue anglaise avec plus de 120 nationalités. Vous travaillerez sur le contrôle de positionnement sub-nanométrique des miroirs EUV.",
+    "responsibilities": [
+      "Concevoir des algorithmes de contrôle cinématique en C++ moderne et C sous Linux temps réel",
+      "Profiler les boucles de rétroaction à 20 kHz pour éliminer la gigue (jitter)",
+      "Mettre en place des bancs de simulation Hardware-in-the-Loop (HIL)",
+      "Rédiger la documentation technique d'architecture pour l'équipe internationale"
+    ],
+    "requirements": [
+      "Formation d'ingénieur en Systèmes Embarqués, Mécatronique ou Automatique",
+      "Maîtrise de C++ (C++17/20) et bases solides en mathématiques appliquées",
+      "Compréhension des asservissements et du temps réel dur",
+      "Niveau d'anglais B2/C1 requis pour les réunions de sprint"
+    ],
+    "perks": [
+      "Logement subventionné ou prime d'installation pour étudiants étrangers",
+      "Campus high-tech ultra moderne avec cantines et labos de pointe",
+      "Frais de trajet aller-retour France-Pays-Bas pris en charge",
+      "Très fort taux de recrutement post-stage"
+    ],
+    "applyUrl": "https://www.asml.com/en/careers/find-your-job/internships",
+    "source": "ASML Campus Recruitment",
+    "postedAt": "Il y a 1 jour",
+    "enstaFit": {
+      "score": 95,
+      "badge": "Pépite Industrie Mondiale",
+      "reason": "Stage très valorisant sur un CV international, combinant automatique, C++ temps réel et semi-conducteurs."
+    }
+  },
+  {
+    "id": "mclaren-woking-2026-telemetry",
+    "title": "Motorsport Telemetry & Embedded Systems Engineering Intern",
+    "company": "McLaren Applied",
+    "companyLogo": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#FF8000",
+    "location": "Woking, Surrey",
+    "city": "Woking / London Area",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués Automobile / F1",
+    "startDate": "11 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "£2,600 / mois (~3,050 €)",
+    "tags": [
+      "C",
+      "C++",
+      "CAN bus",
+      "CAN FD",
+      "Ethernet embarqué",
+      "RTOS",
+      "Matlab"
+    ],
+    "description": "Développez les ECU et systèmes de télémétrie embarqués déployés en Formule 1, Formule E et hypercars. Vous serez immergé dans le McLaren Technology Centre de Woking au sein de l'équipe Software & Sensors.",
+    "responsibilities": [
+      "Programmer en C embarqué les protocoles de communication sécurisés (CAN FD, FlexRay, BroadR-Reach)",
+      "Optimiser l'acquisition haute fréquence de capteurs de contrainte et de température sans fil",
+      "Participer aux tests d'endurance vibratoire et thermique en chambre climatique",
+      "Développer des dashboards d'analyse de données de télémétrie en temps réel"
+    ],
+    "requirements": [
+      "Étudiant ingénieur avec fort intérêt pour l'automobile de compétition ou l'aéronautique",
+      "Excellentes bases en C embarqué et bus de terrain (CAN / SPI)",
+      "Rigueur méthodologique et capacité à travailler sous contraintes de délai strictes",
+      "Bon niveau d'anglais professionnel à l'oral et à l'écrit"
+    ],
+    "perks": [
+      "Accès aux infrastructures prestigieuses du McLaren Technology Centre",
+      "Pass découverte Grand Prix et journées d'essais sur piste",
+      "Indemnités de transport et cantine des ingénieurs F1",
+      "Possibilité de parrainage de visa Graduate pour les meilleurs profils"
+    ],
+    "applyUrl": "https://www.mclarenapplied.com/careers",
+    "source": "Gradcracker UK Engineering",
+    "postedAt": "Il y a 4 jours",
+    "enstaFit": {
+      "score": 97,
+      "badge": "Top Prestige Sport Auto",
+      "reason": "Forte valeur ajoutée pour un élève de l'ENSTA Bretagne : protocoles de communication embarqués et fiabilité critique."
+    }
+  },
+  {
+    "id": "adi-limerick-2026-firmware",
+    "title": "Embedded Firmware & Sensor Interface Intern",
+    "company": "Analog Devices (ADI)",
+    "companyLogo": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#003865",
+    "location": "Limerick R&D Centre",
+    "city": "Limerick",
+    "country": "Irlande",
+    "countryCode": "IE",
+    "countryFlag": "🇮🇪",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "5 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 14,
+    "isEnstaCompliant": true,
+    "salary": "€2,350 / mois",
+    "tags": [
+      "C",
+      "STM32",
+      "ARM Cortex-M4",
+      "I2C",
+      "SPI",
+      "DSP",
+      "Python"
+    ],
+    "description": "Le campus européen de R&D d'Analog Devices à Limerick recherche un stagiaire en firmware embarqué pour travailler sur les circuits de traitement du signal de nouvelle génération et les capteurs biomédicaux/industriels.",
+    "responsibilities": [
+      "Développer du code firmware C bare-metal et FreeRTOS pour microcontrôleurs ultra basse consommation",
+      "Mettre au point les couches de communication avec les convertisseurs ADC/DAC haute résolution",
+      "Créer des bancs d'essai automatisés en Python (PySerial, VISA, instrumentation de labo)",
+      "Documenter les Application Notes destinées aux ingénieurs clients internationaux"
+    ],
+    "requirements": [
+      "Formation d'ingénieur en électronique, informatique industrielle ou systèmes embarqués",
+      "Pratique démontrée de la programmation C sur microcontrôleurs (STM32, NXP ou Microchip)",
+      "Capacité à lire un schéma électronique et utiliser un oscilloscope numérique",
+      "Aisance en anglais (Irlande anglophone membre de l'UE : visa non requis pour étudiants français !)"
+    ],
+    "perks": [
+      "Pas besoin de visa de travail complexe (UE / zone euro)",
+      "Campus vert à Limerick avec installations sportives de premier plan",
+      "Aide à la recherche de logement étudiant sur place",
+      "Nombreuses activités sociales et réseau de stagiaires internationaux"
+    ],
+    "applyUrl": "https://careers.analog.com/jobs/internships",
+    "source": "Analog Devices Careers Europe",
+    "postedAt": "Il y a 6 jours",
+    "enstaFit": {
+      "score": 99,
+      "badge": "Option Sans Visa (UE)",
+      "reason": "Irlande anglophone = aucune contrainte de visa post-Brexit ! Salaire attractif et technologies 100% au coeur du programme ENSTA."
+    }
+  },
+  {
+    "id": "dyson-malmesbury-2026-motor",
+    "title": "Embedded Software & Motor Inverter Intern",
+    "company": "Dyson Technology",
+    "companyLogo": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#7B1FA2",
+    "location": "Malmesbury Innovation Campus",
+    "city": "Malmesbury / Bristol",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Puissance",
+    "startDate": "18 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 14,
+    "isEnstaCompliant": true,
+    "salary": "£2,450 / mois (~2,880 €)",
+    "tags": [
+      "C",
+      "DSP",
+      "FOC (Field Oriented Control)",
+      "STM32",
+      "Matlab/Simulink",
+      "CAN"
+    ],
+    "description": "Rejoignez le campus secret d'innovation de Dyson à Malmesbury. Vous travaillerez au sein de l'équipe Digital Motors sur le contrôle vectoriel (FOC) et les algorithmes de pilotage de moteurs numériques tournant à plus de 125 000 tr/min.",
+    "responsibilities": [
+      "Implémenter des algorithmes de contrôle moteur brushless en C sans capteur (sensorless)",
+      "Développer des couches d'abstraction matérielle (HAL) sécurisées pour microcontrôleurs 32 bits",
+      "Valider le comportement thermique et électrique sur banc de puissance motorisé",
+      "Optimiser la consommation d'énergie pour prolonger l'autonomie des batteries lithium"
+    ],
+    "requirements": [
+      "Étudiant en 2ème ou 3ème année d'école d'ingénieur en électronique de puissance ou embarqué",
+      "Bonne maîtrise du C et de la modélisation sous Matlab/Simulink",
+      "Intérêt pour la mécatronique, les asservissements et les capteurs",
+      "Capacité à communiquer ses résultats de façon synthétique en anglais"
+    ],
+    "perks": [
+      "Navette gratuite quotidienne reliant Bristol et Bath au campus de Malmesbury",
+      "Réductions très avantageuses sur tous les produits Dyson",
+      "Événements sportifs et clubs étudiants du campus Dyson",
+      "Possibilité de proposition de Graduate Scheme à la sortie d'école"
+    ],
+    "applyUrl": "https://careers.dyson.com/early-careers",
+    "source": "Gradcracker UK",
+    "postedAt": "Il y a 2 jours",
+    "enstaFit": {
+      "score": 94,
+      "badge": "Pôle R&D d'Excellence",
+      "reason": "Excellente synthèse entre électronique de puissance, algorithmes de contrôle et microcontrôleurs STM32."
+    }
+  },
+  {
+    "id": "blackberry-ottawa-2026-qnx",
+    "title": "QNX RTOS Kernel & Driver Software Intern",
+    "company": "BlackBerry QNX",
+    "companyLogo": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#000000",
+    "location": "Ottawa, Ontario",
+    "city": "Ottawa",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "RTOS & Systèmes Critiques",
+    "startDate": "4 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "$30 CAD / heure (~3,800 € / mois)",
+    "tags": [
+      "C",
+      "QNX RTOS",
+      "Microkernel",
+      "POSIX",
+      "C++",
+      "Automotive SPICE",
+      "Git"
+    ],
+    "description": "BlackBerry QNX est la référence absolue de l'OS temps réel certifié pour plus de 235 millions de véhicules dans le monde (BMW, Mercedes, Toyota). Intégrez l'équipe Kernel Architecture au quartier général d'Ottawa.",
+    "responsibilities": [
+      "Contribuer aux composants du micro-noyau QNX Neutrino (gestion des threads, IPC sécurisé)",
+      "Développer des pilotes de périphériques réseau et bus haute vitesse selon les normes POSIX",
+      "Participer à la traçabilité des exigences de sécurité fonctionnelle ISO 26262 ASIL-D",
+      "Créer des suites de tests de robustesse sous stress mémoire et charge CPU extrême"
+    ],
+    "requirements": [
+      "Formation ingénieur systèmes embarqués, génie logiciel ou informatique système",
+      "Excellente maîtrise du langage C et des concepts d'OS (mutex, sémaphores, IPC, mémoire virtuelle)",
+      "Esprit analytique poussé et goût pour le code bas-niveau propre et certifiable",
+      "Bonne pratique de l'anglais technique (environnement bilingue canadien avec prédominance anglaise)"
+    ],
+    "perks": [
+      "Stage très réputé au Canada avec fort potentiel d'équivalence professionnelle",
+      "Télétravail flexible (2 jours par semaine)",
+      "Assistance pour les démarches EIC / Permis de travail stage coop au Canada",
+      "Mentorat rapproché par des sommités mondiales des micro-noyaux temps réel"
+    ],
+    "applyUrl": "https://www.blackberry.com/us/en/company/careers/students",
+    "source": "BlackBerry Student Careers",
+    "postedAt": "Il y a 1 semaine",
+    "enstaFit": {
+      "score": 97,
+      "badge": "Référence Mondiale RTOS",
+      "reason": "Le summum pour un étudiant passionné de systèmes d'exploitation temps réel et de sûreté de fonctionnement."
+    }
+  },
+  {
+    "id": "nordic-trondheim-2026-ble",
+    "title": "Low-Power Wireless & Zephyr RTOS Embedded Intern",
+    "company": "Nordic Semiconductor",
+    "companyLogo": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#00A9CE",
+    "location": "Trondheim R&D Headquarters",
+    "city": "Trondheim",
+    "country": "Norvège (Environnement Anglophone)",
+    "countryCode": "NO",
+    "countryFlag": "🇳🇴",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "11 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 13,
+    "isEnstaCompliant": true,
+    "salary": "35,000 NOK / mois (~3,100 €)",
+    "tags": [
+      "C",
+      "Zephyr RTOS",
+      "BLE",
+      "Matter/Thread",
+      "nRF52/nRF53",
+      "Git",
+      "Wireshark"
+    ],
+    "description": "Nordic Semiconductor est le champion mondial des puces Bluetooth Low Energy et cellulaires IoT. À Trondheim, dans une ambiance scandinave chaleureuse 100% anglophone, développez les briques logicielles sur Zephyr RTOS pour les objets connectés de demain.",
+    "responsibilities": [
+      "Implémenter des profils Bluetooth Low Energy et protocoles Matter en C sur Zephyr RTOS",
+      "Analyser et optimiser les profils de consommation de courant au microampère près",
+      "Développer des exemples d'applications pour le nRF Connect SDK et tester avec Wireshark",
+      "Automatiser les tests d'interopérabilité avec smartphones Android et iOS"
+    ],
+    "requirements": [
+      "Étudiant en école d'ingénieurs en électronique ou informatique embarquée",
+      "Très bon niveau en programmation C modulaire",
+      "Connaissance des protocoles radio sans fil (BLE, Zigbee, WiFi) ou intérêt marqué",
+      "Anglais fluide pour échanger avec les équipes en Norvège, Finlande et Pologne"
+    ],
+    "perks": [
+      "Cadre de vie exceptionnel entre fjords et nature en Norvège l'été",
+      "Équilibre vie pro / vie perso scandinave respecté",
+      "Accès aux activités outdoor et sauna d'entreprise",
+      "Démarches simplifiées pour citoyens européens (zone EEE)"
+    ],
+    "applyUrl": "https://www.nordicsemi.com/About-us/Careers/Summer-Internships",
+    "source": "Nordic Semi Student Program",
+    "postedAt": "Il y a 3 jours",
+    "enstaFit": {
+      "score": 96,
+      "badge": "Écosystème Zephyr & IoT",
+      "reason": "Zephyr RTOS est le système d'avenir pour l'embarqué connecté : expérience ultra recherchée sur le marché européen."
+    }
+  },
+  {
+    "id": "garmin-olathe-2026-avionics",
+    "title": "Embedded Software Engineering Intern - Aviation & Marine Systems",
+    "company": "Garmin International",
+    "companyLogo": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#007CC3",
+    "location": "Olathe, Kansas (Kansas City Metro)",
+    "city": "Olathe / Kansas City",
+    "country": "États-Unis",
+    "countryCode": "US",
+    "countryFlag": "🇺🇸",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Avionique & Systèmes Embarqués",
+    "startDate": "18 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 12,
+    "isEnstaCompliant": true,
+    "salary": "$32 USD / heure + Logement fourni (~4,800 € / mois)",
+    "tags": [
+      "C",
+      "C++",
+      "RTOS",
+      "DO-178C",
+      "Sensors",
+      "I2C/SPI",
+      "Linux"
+    ],
+    "description": "Passez l'été au quartier général américain de Garmin. Vous concevrez les logiciels embarqués de vol pour cockpits d'avions et bateaux de pointe. Garmin prend en charge le logement étudiant meublé et propose un mentorat technique individuel.",
+    "responsibilities": [
+      "Coder en C/C++ les modules d'affichage d'instruments de vol et de cartographie radar",
+      "Écrire des pilotes de communication avec les centrales inertielles et récepteurs GNSS",
+      "Respecter les processus rigoureux de certification aéronautique DO-178C",
+      "Conduire des tests d'intégration en simulateur de vol"
+    ],
+    "requirements": [
+      "Étudiant ingénieur admissible au visa J-1 Intern / Summer Work",
+      "Maîtrise du C et de la programmation orientée objet en C++",
+      "Sens du détail, rigueur documentaire et intérêt pour l'aéronautique",
+      "Excellente communication orale et écrite en anglais"
+    ],
+    "perks": [
+      "Logement individuel entièrement payé par Garmin à Olathe",
+      "Rémunération américaine très avantageuse ($32/h)",
+      "Possibilité d'heures de vol subventionnées au club d'aviation Garmin",
+      "Événements stagiaires : barbecues, sorties karting, conférences tech"
+    ],
+    "applyUrl": "https://careers.garmin.com/students",
+    "source": "Garmin US Careers",
+    "postedAt": "Il y a 4 jours",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Rêve Américain Aéro",
+      "reason": "Expérience prestigieuse dans un grand groupe aéro/marine avec logement fourni et rémunération de premier rang."
+    }
+  },
+  {
+    "id": "nxp-eindhoven-2026-radar",
+    "title": "Automotive Radar & Firmware Embedded Engineering Intern",
+    "company": "NXP Semiconductors",
+    "companyLogo": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#F58220",
+    "location": "High Tech Campus Eindhoven",
+    "city": "Eindhoven",
+    "country": "Pays-Bas (Hub Anglophone)",
+    "countryCode": "NL",
+    "countryFlag": "🇳🇱",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Automobile & Firmware ADAS",
+    "startDate": "4 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 16,
+    "isEnstaCompliant": true,
+    "salary": "€1,800 / mois + indemnité mobilité",
+    "tags": [
+      "C",
+      "AUTOSAR",
+      "ARM Cortex-R52",
+      "Radar 77GHz",
+      "DSP",
+      "Python",
+      "Git"
+    ],
+    "description": "Situé sur le High Tech Campus d'Eindhoven (surnommé le kilomètre carré le plus intelligent d'Europe), NXP conçoit les puces radar pour la conduite autonome de demain. Travaillez en anglais avec des experts de classe mondiale sur des processeurs multicœurs sécurisés.",
+    "responsibilities": [
+      "Développer du firmware en C temps réel pour microcontrôleurs automobiles S32R",
+      "Optimiser les algorithmes FFT et de détection de cibles sur accélérateur matériel",
+      "Intégrer les couches MCAL et drivers selon la spécification AUTOSAR Classic",
+      "Valider les performances RF et radar en laboratoire anéchoïque"
+    ],
+    "requirements": [
+      "Cursus d'ingénieur en Systèmes Embarqués ou Télécoms / Traitement du Signal",
+      "Maîtrise solide du langage C et compréhension des architectures multicœurs",
+      "Bases en traitement du signal (transformée de Fourier, filtrage)",
+      "Anglais courant (campus international avec plus de 85 nationalités)"
+    ],
+    "perks": [
+      "Cadre de travail inspirant au coeur du High Tech Campus d'Eindhoven",
+      "Accès aux vélos de campus, lacs et restaurants d'innovation",
+      "Prime de mobilité et remboursement des frais de transport",
+      "Stage très reconnu dans l'industrie automobile allemande et internationale"
+    ],
+    "applyUrl": "https://www.nxp.com/company/about-nxp/careers/students-and-graduates:STUDENTS-AND-GRADUATES",
+    "source": "NXP University Relations",
+    "postedAt": "Il y a 5 jours",
+    "enstaFit": {
+      "score": 97,
+      "badge": "Top Automobile & ADAS",
+      "reason": "Directement connecté aux compétences radar, traitement du signal et microcontrôleurs dispensées à l'ENSTA Bretagne."
+    }
+  },
+  {
+    "id": "bosch-stuttgart-2026-ros2",
+    "title": "Autonomous Driving Software & ROS2 Systems Intern (English Speaking Team)",
+    "company": "Bosch Corporate Research",
+    "companyLogo": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#EA1B23",
+    "location": "Renningen / Stuttgart R&D Campus",
+    "city": "Stuttgart",
+    "country": "Allemagne (Équipe Anglophone)",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & Véhicules Autonomes",
+    "startDate": "11 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "€1,850 / mois",
+    "tags": [
+      "C++",
+      "ROS2",
+      "Linux",
+      "LiDAR",
+      "Sensor Fusion",
+      "Python",
+      "Docker"
+    ],
+    "description": "Au centre de recherche de Renningen, l'équipe 'Automated Driving Research' travaille intégralement en langue anglaise. Vous développerez des modules de fusion de capteurs (LiDAR, caméra, radar) et de trajectoire sur architecture ROS2 pour véhicules expérimentaux.",
+    "responsibilities": [
+      "Implémenter des nœuds ROS2 temps réel en C++20 sous Ubuntu Linux RT",
+      "Intégrer et calibrer des flux de données capteurs hétérogènes (nuages de points LiDAR, IMU)",
+      "Effectuer des simulations réalistes sous CARLA / Gazebo et analyser les écarts réels",
+      "Participer aux essais sur piste fermée à bord des prototypes Bosch"
+    ],
+    "requirements": [
+      "Étudiant ingénieur en robotique, vision par ordinateur ou logiciel embarqué",
+      "Bonnes compétences en C++ moderne et familiarité avec l'environnement Linux",
+      "Connaissance de base de ROS / ROS2 appréciée",
+      "Langue de travail : 100% anglais (l'allemand n'est pas requis pour ce poste)"
+    ],
+    "perks": [
+      "Campus R&D ultra-moderne conçu comme un campus universitaire californien",
+      "Cantine gastronomique et installations sportives gratuites",
+      "Aide pour trouver une colocation étudiante à Stuttgart / Renningen",
+      "Accès aux publications et brevets de recherche Bosch"
+    ],
+    "applyUrl": "https://www.bosch.com/careers/job-offers/",
+    "source": "Bosch Global Careers",
+    "postedAt": "Il y a 3 jours",
+    "enstaFit": {
+      "score": 95,
+      "badge": "Robotique Autonome & ROS2",
+      "reason": "Excellente passerelle entre robotique, perception et programmation C++ temps réel de haut niveau."
+    }
+  },
+  {
+    "id": "qualcomm-cork-2026-dsp",
+    "title": "Embedded Audio DSP & Machine Learning Firmware Intern",
+    "company": "Qualcomm",
+    "companyLogo": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#3253DC",
+    "location": "Cork R&D Centre",
+    "city": "Cork",
+    "country": "Irlande",
+    "countryCode": "IE",
+    "countryFlag": "🇮🇪",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "DSP & Traitement du Signal Embarqué",
+    "startDate": "18 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 14,
+    "isEnstaCompliant": true,
+    "salary": "€2,400 / mois (~2,700 €)",
+    "tags": [
+      "C",
+      "C++",
+      "DSP Hexagon",
+      "Assembly",
+      "ANC (Réduction de bruit)",
+      "Python"
+    ],
+    "description": "Le centre d'excellence de Qualcomm à Cork (Irlande) développe les puces audio Snapdragon Sound et la suppression de bruit active pour écouteurs et casques de renommée mondiale. Venez optimiser du code DSP temps réel à très faible latence.",
+    "responsibilities": [
+      "Coder et optimiser des filtres audio numériques et algorithmes ANC en C et assembleur DSP",
+      "Profiler l'utilisation de mémoire cache et de cycles d'horloge sur processeur Hexagon",
+      "Développer des outils de validation automatisés en Python pour la mesure acoustique",
+      "Interagir avec les équipes systèmes de San Diego et de Cambridge"
+    ],
+    "requirements": [
+      "Étudiant en école d'ingénieur en électronique, informatique ou traitement du signal",
+      "Solide maîtrise du langage C et compréhension du traitement numérique du signal",
+      "Goût pour l'optimisation bas-niveau et l'acoustique",
+      "Anglais courant (cadre 100% anglophone en Irlande sans contrainte de visa)"
+    ],
+    "perks": [
+      "Rémunération très compétitive en Irlande avec bonus d'arrivée",
+      "Ville de Cork dynamique, jeune et accessible",
+      "Assurance santé privée prise en charge pendant le stage",
+      "Formation approfondie aux architectures DSP modernes"
+    ],
+    "applyUrl": "https://careers.qualcomm.com/careers/internships",
+    "source": "Qualcomm Early Careers",
+    "postedAt": "Il y a 6 jours",
+    "enstaFit": {
+      "score": 98,
+      "badge": "Top Choix Irlande (Sans Visa)",
+      "reason": "Irlande anglophone dans l'Union Européenne : zéro visa, rémunération excellente et renommée mondiale Qualcomm."
+    }
+  },
+  {
+    "id": "formlabs-boston-2026-mecha",
+    "title": "Embedded Systems & Mechatronics Firmware Intern (3D Printing)",
+    "company": "Formlabs",
+    "companyLogo": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#FF3366",
+    "location": "Somerville / Boston, MA",
+    "city": "Boston",
+    "country": "États-Unis",
+    "countryCode": "US",
+    "countryFlag": "🇺🇸",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Firmware & Impression 3D Haute Précision",
+    "startDate": "11 Mai 2026",
+    "endDate": "14 Août 2026",
+    "durationWeeks": 13,
+    "isEnstaCompliant": true,
+    "salary": "$35 USD / heure (~5,200 € / mois)",
+    "tags": [
+      "C",
+      "C++",
+      "FreeRTOS",
+      "STM32",
+      "Stepper Motors",
+      "Galvanometers",
+      "Git"
+    ],
+    "description": "Au siège de Formlabs près du MIT à Boston, concevez le firmware contrôlant les lasers et moteurs pas-à-pas des imprimantes 3D stéréolithographiques (SLA et SLS) les plus vendues au monde.",
+    "responsibilities": [
+      "Développer du code firmware C/C++ sur STM32F4/F7 pour la commande des galvanomètres laser",
+      "Réguler la température des cuves de résine et surveiller les capteurs de force en temps réel",
+      "Résoudre des problèmes complexes à l'intersection du code, de la mécanique et de la thermique",
+      "Participer aux hackathons internes et sessions d'impression 3D libres"
+    ],
+    "requirements": [
+      "Étudiant ingénieur curieux et touche-à-tout (hardware, firmware, prototypage)",
+      "Solide expérience en C embarqué sur microcontrôleurs 32 bits (STM32 de préférence)",
+      "Capacité à déboguer avec J-Link, analyseur logique et multimètre",
+      "Anglais oral fluide pour échanger avec une équipe d'ingénieurs internationaux"
+    ],
+    "perks": [
+      "Rémunération américaine exceptionnelle ($35/h)",
+      "Imprimante 3D Formlabs mise à disposition pour usage personnel",
+      "Déjeuners et snacks préparés par le chef de Formlabs chaque jour",
+      "Écosystème technologique stimulant de Boston / Cambridge (MIT, Harvard)"
+    ],
+    "applyUrl": "https://formlabs.com/careers/internships/",
+    "source": "Formlabs Boston Careers",
+    "postedAt": "Il y a 2 jours",
+    "enstaFit": {
+      "score": 94,
+      "badge": "High-Tech Boston & Hardware",
+      "reason": "Projet concret où le code C pilote directement des moteurs et des lasers de précision."
+    }
+  },
+  {
+    "id": "mda-space-brampton-2026-robotics",
+    "title": "Space Robotics Flight Software & Embedded Systems Intern",
+    "company": "MDA Space (Canadarm)",
+    "companyLogo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#002F6C",
+    "location": "Brampton, Greater Toronto Area",
+    "city": "Toronto Area",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Spatial & Robotique Embarquée",
+    "startDate": "4 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "$29 CAD / heure (~3,650 € / mois)",
+    "tags": [
+      "C++",
+      "C",
+      "RTOS",
+      "SpaceWire",
+      "Canadarm3",
+      "Robotics Kinematics",
+      "Git"
+    ],
+    "description": "MDA Space est le constructeur du légendaire bras robotique Canadarm pour la Station Spatiale Internationale et la future station lunaire Gateway de la NASA. Développez le logiciel de vol et les contrôleurs articulaires pour missions spatiales critiques.",
+    "responsibilities": [
+      "Concevoir des modules de contrôle articulaire en C/C++ temps réel certifiables pour le spatial",
+      "Mettre en oeuvre les protocoles de communication tolérants aux pannes (SpaceWire, MIL-STD-1553, CAN)",
+      "Modéliser et vérifier les trajectoires cinématiques de manipulation robotique",
+      "Effectuer des tests de qualification logicielle sur banc de test avionique"
+    ],
+    "requirements": [
+      "Formation ingénieur en systèmes embarqués, robotique ou aérospatial",
+      "Excellentes compétences en C++ et programmation temps réel structurée",
+      "Compréhension des contraintes de fiabilité spatiale (SEU, tolérance aux pannes)",
+      "Anglais technique fluide (Canada anglophone)"
+    ],
+    "perks": [
+      "Participer à l'histoire de l'exploration spatiale lunaire (programme Artemis)",
+      "Environnement d'ingénierie spatiale de réputation internationale",
+      "Support pour les démarches de permis vacances-travail / stage Canada",
+      "Excellente ambiance d'équipe et réseau d'ingénieurs passionnés"
+    ],
+    "applyUrl": "https://mda.space/en/careers/",
+    "source": "MDA Space Careers",
+    "postedAt": "Il y a 1 semaine",
+    "enstaFit": {
+      "score": 97,
+      "badge": "Rêve Spatial & Canadarm",
+      "reason": "Reconnaissance internationale majeure sur un CV ENSTA : robotique spatiale et code critique embarqué."
+    }
+  },
+  {
+    "id": "st-edinburgh-2026-tof",
+    "title": "Time-of-Flight Imaging Firmware & Embedded C Intern",
+    "company": "STMicroelectronics UK",
+    "companyLogo": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#03234B",
+    "location": "Edinburgh Design Centre, Scotland",
+    "city": "Edinburgh",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Capteurs & Firmware Optique",
+    "startDate": "11 Mai 2026",
+    "endDate": "21 Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "£2,350 / mois (~2,750 €)",
+    "tags": [
+      "C",
+      "STM32",
+      "Time-of-Flight (ToF)",
+      "Photonics",
+      "I2C/SPI",
+      "Python",
+      "Bare-metal"
+    ],
+    "description": "Le centre de design de STMicroelectronics à Édimbourg est le berceau mondial de la technologie de détection Time-of-Flight (FlightSense) présente dans des centaines de millions de smartphones et applications automobiles. Développez les drivers et algorithmes de traitement de photons en C.",
+    "responsibilities": [
+      "Développer du code firmware C bare-metal ultra optimisé pour microcontrôleurs STM32 intégrés aux capteurs",
+      "Implémenter des algorithmes de filtrage de lumière ambiante et d'estimation de distance millimétrique",
+      "Créer des suites de tests et d'étalonnage optique pilotées en Python",
+      "Collaborer avec les équipes de physique des semi-conducteurs et d'ingénierie optique"
+    ],
+    "requirements": [
+      "Étudiant en systèmes embarqués, électronique ou physique appliquée",
+      "Pratique démontrée de l'écosystème STM32 (STM32CubeIDE, HAL, registres)",
+      "Rigueur mathématique et méthodologique",
+      "Anglais courant pour travailler dans un cadre écossais et international"
+    ],
+    "perks": [
+      "Ville magnifique d'Édimbourg avec festivals d'été de renommée mondiale",
+      "Stage au coeur d'un leader européen du semi-conducteur",
+      "Accompagnement par des docteurs et ingénieurs seniors en optoélectronique",
+      "Possibilité de poursuite en VIE ou thèse CIFRE"
+    ],
+    "applyUrl": "https://www.st.com/content/st_com/en/about/careers/students-and-graduates.html",
+    "source": "ST UK Careers",
+    "postedAt": "Il y a 4 jours",
+    "enstaFit": {
+      "score": 98,
+      "badge": "L'Écosystème STM32 par Excellence",
+      "reason": "La référence absolue pour un étudiant ENSTA Bretagne spécialisé sur STM32 : travailler directement chez le fabricant à Édimbourg."
+    }
+  },
+  {
+    "id": "siemens-munich-2026-rail",
+    "title": "Safety-Critical Rail Automation & C++ Software Intern",
+    "company": "Siemens Mobility",
+    "companyLogo": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=128&auto=format&fit=crop&q=80",
+    "companyColor": "#00646E",
+    "location": "Munich R&D Headquarters",
+    "city": "Munich",
+    "country": "Allemagne (Équipe Internationale Anglophone)",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "Logiciel Critique Ferroviaire (SIL-4)",
+    "startDate": "4 Mai 2026",
+    "endDate": "28 Août 2026",
+    "durationWeeks": 16,
+    "isEnstaCompliant": true,
+    "salary": "€1,900 / mois",
+    "tags": [
+      "C++",
+      "C",
+      "Linux RT",
+      "Safety Critical (SIL-4)",
+      "EN 50128",
+      "Git",
+      "Automated Testing"
+    ],
+    "description": "Siemens Mobility à Munich développe les systèmes de pilotage automatique de trains à grande vitesse (ETCS / CBTC). Travaillez au sein d'une équipe R&D internationale anglophone sur des logiciels embarqués devant respecter le niveau maximal de sécurité SIL-4.",
+    "responsibilities": [
+      "Participer au développement en C++ moderne de briques logicielles embarquées conformes EN 50128 SIL-4",
+      "Implémenter des mécanismes de détection de fautes et de redondance 2-out-of-2 (2oo2)",
+      "Développer des scénarios de validation sur banc d'essai Hardware-in-the-Loop",
+      "Rédiger des analyses de sûreté et de couverture de code (gcov, MISRA C++)"
+    ],
+    "requirements": [
+      "Étudiant en informatique, systèmes embarqués ou génie logiciel",
+      "Solide compréhension des pointeurs, de la gestion mémoire et de C++",
+      "Intérêt prononcé pour la sûreté de fonctionnement et la haute disponibilité",
+      "Anglais professionnel courant (environnement international)"
+    ],
+    "perks": [
+      "Munich en été : ville agréable, proximité des Alpes pour randonnées et lacs",
+      "Expérience valorisante dans le domaine très recherché de la sûreté de fonctionnement",
+      "Pass de transport en commun offert en Bavière",
+      "Accès aux formations Siemens Academy"
+    ],
+    "applyUrl": "https://www.siemens.com/global/en/company/jobs.html",
+    "source": "Siemens Early Careers",
+    "postedAt": "Il y a 5 jours",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Sécurité Critique & Sûreté",
+      "reason": "Excellente opportunité pour valider des compétences pointues en sûreté de fonctionnement et normes critiques."
+    }
+  },
+  {
+    "id": "jobicy-152085",
+    "title": "Engineering Manager",
+    "company": "Teachable",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/04/Teachable.png",
+    "companyColor": "#6366f1",
+    "location": "Brazil",
+    "city": "Brazil",
+    "country": "International",
+    "countryCode": "GB",
+    "countryFlag": "🌍",
+    "isAnglophone": true,
+    "domain": "embedded",
+    "domainLabel": "Systèmes Embarqués & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "<h3>What is Teachable?</h3>\n<p>Teachable is the platform for experts and businesses who take education seriously. In a world where anyone can ask AI for information, we're the home for those who educate with purpose, modernity, and humanity. We help experts and businesses scale their impact and operations through courses, coaching, and digital downloads that students actually love. From a finance expert teaching Python for investment analysis to a multilingual coach offering business Spanish for executives, Teachable powers human-led learning that drives student trust, connection, and results....",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires et intégration continue",
+      "Interaction avec l'équipe d'ingénierie internationale"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Bonnes bases en C/C++ et systèmes d'exploitation",
+      "Anglais professionnel (écrit et oral)"
+    ],
+    "perks": [
+      "Encadrement par un tuteur ingénieur expérimenté",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement international anglophone"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/152085-engineering-manager-6",
+    "source": "Jobicy Tech Hub",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 94,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Excellente correspondance avec la formation d'ingénieur ENSTA Bretagne : permet de valider l'expérience internationale obligatoire de 10+ semaines tout en consolidant les compétences en programmation bas-niveau et architecture matérielle."
+    }
+  }
+]
