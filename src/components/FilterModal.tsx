@@ -1,8 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Filter, RotateCcw, Check, Sparkles, Building2, GraduationCap } from 'lucide-react';
-import type { FilterState, JobDomain, OrganizationType } from '../types/offer';
-
+import type { FilterState, JobDomain, OrganizationType, InternshipOffer } from '../types/offer';
 
 interface FilterModalProps {
   isOpen: boolean;
@@ -11,16 +10,20 @@ interface FilterModalProps {
   onApplyFilters: (newFilters: FilterState) => void;
   totalOffersCount: number;
   filteredCount: number;
+  allOffers?: InternshipOffer[];
 }
 
 const countryList = [
-  { code: 'GB', name: 'Royaume-Uni', flag: '🇬🇧', tip: 'Hub ARM / Cambridge / Gradcracker' },
-  { code: 'IE', name: 'Irlande', flag: '🇮🇪', tip: 'Anglophone • UE (Zéro visa requis)' },
-  { code: 'US', name: 'États-Unis', flag: '🇺🇸', tip: 'Salaires top niveau • Visa J-1' },
-  { code: 'CA', name: 'Canada', flag: '🇨🇦', tip: 'Ottawa / Toronto / Permis EIC' },
-  { code: 'NL', name: 'Pays-Bas', flag: '🇳🇱', tip: 'ASML / NXP • 100% Anglophone' },
-  { code: 'DE', name: 'Allemagne', flag: '🇩🇪', tip: 'Bosch / Siemens • R&D Anglophone' },
-  { code: 'NO', name: 'Norvège / Nordics', flag: '🇳🇴', tip: 'Nordic Semi • Zephyr RTOS' },
+  { code: 'US', name: 'États-Unis', flag: '🇺🇸', tip: 'Salaires top niveau • Visa J-1', region: 'Amériques', count: 0 },
+  { code: 'CA', name: 'Canada', flag: '🇨🇦', tip: 'Ottawa / Toronto / Permis EIC', region: 'Amériques', count: 0 },
+  { code: 'GB', name: 'Royaume-Uni', flag: '🇬🇧', tip: 'Hub ARM / Cambridge / Gradcracker', region: 'Europe', count: 0 },
+  { code: 'DE', name: 'Allemagne', flag: '🇩🇪', tip: 'Bosch / Siemens • R&D Anglophone', region: 'Europe', count: 0 },
+  { code: 'NL', name: 'Pays-Bas', flag: '🇳🇱', tip: 'ASML / NXP • 100% Anglophone', region: 'Europe', count: 0 },
+  { code: 'IE', name: 'Irlande', flag: '🇮🇪', tip: 'Anglophone • UE (Zéro visa requis)', region: 'Europe', count: 0 },
+  { code: 'CH', name: 'Suisse', flag: '🇨🇭', tip: 'EPFL / ETH Zurich • R&D', region: 'Europe', count: 0 },
+  { code: 'AU', name: 'Australie', flag: '🇦🇺', tip: 'Sydney / Melbourne • Anglophone', region: 'Océanie', count: 0 },
+  { code: 'SG', name: 'Singapour', flag: '🇸🇬', tip: 'Hub Asie R&D Anglophone', region: 'Asie', count: 0 },
+  { code: 'REMOTE', name: 'Remote International', flag: '🌐', tip: 'Télétravail mondial', region: 'Remote', count: 0 },
 ];
 
 const domainList: { id: JobDomain; label: string; icon: string }[] = [
@@ -38,12 +41,39 @@ export const FilterModal = ({
   onApplyFilters,
   totalOffersCount,
   filteredCount,
+  allOffers,
 }: FilterModalProps) => {
   const [draftFilters, setDraftFilters] = useState<FilterState>(filters);
+  const [selectedRegion, setSelectedRegion] = useState<string>('all');
 
   useEffect(() => {
     setDraftFilters(filters);
   }, [filters, isOpen]);
+
+  const availableCountries = useMemo(() => {
+    if (!allOffers || allOffers.length === 0) return countryList;
+    const map = new Map<string, { code: string; name: string; flag: string; count: number; region: string }>();
+    
+    for (const o of allOffers) {
+      const code = o.countryCode || 'INT';
+      const name = o.country || 'International';
+      const flag = o.countryFlag || '🌍';
+      const region = o.region || 'International';
+      const existing = map.get(code);
+      if (existing) {
+        existing.count += 1;
+      } else {
+        map.set(code, { code, name, flag, count: 1, region });
+      }
+    }
+    return Array.from(map.values()).sort((a, b) => b.count - a.count);
+  }, [allOffers]);
+
+  const displayedCountries = useMemo(() => {
+    if (selectedRegion === 'all') return availableCountries;
+    return availableCountries.filter((c) => c.region === selectedRegion);
+  }, [availableCountries, selectedRegion]);
+
 
 
   if (!isOpen) return null;
@@ -225,11 +255,47 @@ export const FilterModal = ({
 
             {/* Countries */}
             <div>
-              <label className="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-2">
-                Pays anglophones & Hubs R&D internationaux
-              </label>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                {countryList.map((c) => {
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                  Pays & Hubs Mondiaux ({displayedCountries.length})
+                </label>
+                {draftFilters.countries.length > 0 && (
+                  <button
+                    onClick={() => setDraftFilters({ ...draftFilters, countries: [] })}
+                    className="text-[11px] text-indigo-400 hover:text-indigo-300 font-medium"
+                  >
+                    Effacer sélection ({draftFilters.countries.length})
+                  </button>
+                )}
+              </div>
+
+              {/* Region Pills */}
+              <div className="flex items-center gap-1.5 overflow-x-auto pb-2 mb-2 scrollbar-none text-xs">
+                {[
+                  { id: 'all', label: '🌍 Tous' },
+                  { id: 'Amériques', label: '🇺🇸 Amériques' },
+                  { id: 'Europe', label: '🇪🇺 Europe' },
+                  { id: 'Océanie', label: '🇦🇺 Océanie' },
+                  { id: 'Asie', label: '🌏 Asie' },
+                  { id: 'Remote', label: '🌐 Remote' },
+                ].map((reg) => (
+                  <button
+                    key={reg.id}
+                    type="button"
+                    onClick={() => setSelectedRegion(reg.id)}
+                    className={`px-2.5 py-1 rounded-lg shrink-0 transition text-[11px] font-semibold ${
+                      selectedRegion === reg.id
+                        ? 'bg-indigo-600 text-white shadow-sm'
+                        : 'bg-slate-800 text-slate-400 hover:text-slate-200'
+                    }`}
+                  >
+                    {reg.label}
+                  </button>
+                ))}
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-56 overflow-y-auto pr-1">
+                {displayedCountries.map((c) => {
                   const isSelected = draftFilters.countries.includes(c.code);
                   return (
                     <button
@@ -237,7 +303,7 @@ export const FilterModal = ({
                       onClick={() => toggleCountry(c.code)}
                       className={`p-2.5 rounded-xl border text-left flex items-center justify-between transition ${
                         isSelected
-                          ? 'bg-indigo-600/20 border-indigo-500/60 text-white'
+                          ? 'bg-indigo-600/20 border-indigo-500/60 text-white shadow-sm'
                           : 'bg-slate-800/50 border-slate-700/60 text-slate-300 hover:border-slate-600'
                       }`}
                     >
@@ -245,7 +311,9 @@ export const FilterModal = ({
                         <span className="text-xl">{c.flag}</span>
                         <div>
                           <div className="text-xs font-semibold">{c.name}</div>
-                          <div className="text-[10px] text-slate-400">{c.tip}</div>
+                          <div className="text-[10px] text-slate-400">
+                            {c.count > 0 ? `${c.count} offres disponibles` : ('tip' in c ? (c as any).tip : '')}
+                          </div>
                         </div>
                       </div>
                       {isSelected && <Check className="w-4 h-4 text-indigo-400" />}
@@ -254,6 +322,7 @@ export const FilterModal = ({
                 })}
               </div>
             </div>
+
 
             {/* Domains */}
             <div>

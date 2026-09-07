@@ -29,6 +29,7 @@ export interface InternshipOffer {
   country: string;
   countryCode: string; // 'GB' | 'IE' | 'US' | 'CA' | 'NL' | 'DE' | 'SE' | 'AU' etc.
   countryFlag: string;
+  region?: string;
   isAnglophone: boolean;
   domain: JobDomain;
   domainLabel: string;

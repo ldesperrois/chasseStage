@@ -104,6 +104,31 @@ export function useOffers() {
     };
   }, [syncCode]);
 
+  // Load latest 2,000+ offers from public/data/offers.json dynamically
+  useEffect(() => {
+    let isCancelled = false;
+    fetch('/data/offers.json')
+      .then((res) => {
+        if (!res.ok) return null;
+        return res.json();
+      })
+      .then((data) => {
+        if (!isCancelled && Array.isArray(data) && data.length > 0) {
+          const hasCustom = localStorage.getItem(LOCAL_STORAGE_OFFERS_KEY);
+          if (!hasCustom) {
+            setAllOffers(data);
+          }
+        }
+      })
+      .catch((err) => {
+        console.debug('Using bundled offers fallback:', err);
+      });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, []);
+
   // 2. Debounced Push to Cloud when matches or swipes change
   useEffect(() => {
     if (!isInitialCloudLoadDone.current && matches.length === 0 && swipedIds.length === 0) {

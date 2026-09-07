@@ -71,7 +71,7 @@ export function App() {
           <div className="flex items-center gap-3 text-slate-400">
             <span className="hidden sm:inline-flex items-center gap-1">
               <Compass className="w-3 h-3 text-sky-400" />
-              <span>UK, Irlande, USA, Canada, Hubs R&D</span>
+              <span>Monde Entier • Hubs & Labos Anglophones</span>
             </span>
             <span className="inline-flex items-center gap-1 text-indigo-300">
               <Sparkles className="w-3 h-3 text-indigo-400" />
@@ -151,6 +151,7 @@ export function App() {
         onApplyFilters={setFilters}
         totalOffersCount={allOffers.length}
         filteredCount={filteredOffers.length}
+        allOffers={allOffers}
       />
 
       <ScraperModal
