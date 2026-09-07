@@ -1,0 +1,41 @@
+name: Daily Scrape & Netlify Update
+
+on:
+  schedule:
+    # S'exécute automatiquement tous les matins à 06h00 UTC (08h00 heure de Paris)
+    - cron: '0 6 * * *'
+  # Permet également de lancer le scraping manuellement en 1 clic depuis l'onglet Actions sur GitHub
+  workflow_dispatch:
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Récupération du dépôt
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configuration de Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Installation des dépendances de scraping
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+
+      - name: 🕷️ Exécution du scrappeur anti-captcha
+        run: |
+          python3 scraper/main.py
+
+      - name: 🚀 Commit et Push des nouvelles offres vers GitHub
+        run: |
+          git config --global user.name "StageMatch Bot"
+          git config --global user.email "bot@stagematch.local"
+          git add src/data/offers.json public/data/offers.json
+          # Si des modifications ont eu lieu, on commit et on push.
+          # Cela déclenche automatiquement le rebuild Netlify en 30 secondes !
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): actualisation quotidienne des offres de stage" && git push)
