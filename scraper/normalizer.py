@@ -114,8 +114,13 @@ COUNTRY_MAP = {
     "brisbane": {"name": "Australie", "code": "AU", "flag": "🇦🇺", "region": "Océanie", "anglophone": True},
     "adelaide": {"name": "Australie", "code": "AU", "flag": "🇦🇺", "region": "Océanie", "anglophone": True},
     "new zealand": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
+    "nouvelle-zélande": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
+    "nouvelle zelande": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
     "auckland": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
-    "wellington": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "NZ", "region": "Océanie", "anglophone": True},
+    "wellington": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
+    "christchurch": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
+    "hamilton, nz": {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True},
+
 
     # 🇸🇬 Singapour & Hubs Asie-Pacifique
     "singapore": {"name": "Singapour", "code": "SG", "flag": "🇸🇬", "region": "Asie", "anglophone": True},
@@ -180,6 +185,12 @@ US_STATES_REGEX = re.compile(
     r'\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b'
 )
 
+# Noms complets des 50 États américains
+US_STATES_FULL_REGEX = re.compile(
+    r'\b(alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|washington|west virginia|wisconsin|wyoming)\b',
+    re.IGNORECASE
+)
+
 # Provinces Canadiennes courantes dans les formats "City, PR, Canada"
 CA_PROVINCES_REGEX = re.compile(r'\b(ON|BC|QC|AB|MB|SK|NS|NB|NL|vancouver|toronto|montreal|waterloo|ottawa|calgary)\b', re.IGNORECASE)
 
@@ -190,20 +201,28 @@ def detect_country(location_str: str) -> Dict[str, Any]:
 
     loc_lower = location_str.lower().strip()
 
-    # 1. Vérification par mots-clés de pays / villes mondiales
+    # 1. Vérification explicite Nouvelle-Zélande
+    if any(k in loc_lower for k in ["new zealand", "nouvelle-zélande", "nouvelle zelande"]) or re.search(r'\b(nz|auckland|wellington|christchurch)\b', loc_lower):
+        return {"name": "Nouvelle-Zélande", "code": "NZ", "flag": "🇳🇿", "region": "Océanie", "anglophone": True}
+
+    # 2. Vérification explicite Australie
+    if "australia" in loc_lower or "australie" in loc_lower or re.search(r'\b(sydney|brisbane|adelaide)\b', loc_lower):
+        return {"name": "Australie", "code": "AU", "flag": "🇦🇺", "region": "Océanie", "anglophone": True}
+
+    # 3. Détection États-Unis explicite (évite que "Melbourne, FL", "Washington", "California" etc. soient pris pour un autre pays)
+    if "united states" in loc_lower or "usa" in loc_lower or "u.s.a" in loc_lower or US_STATES_REGEX.search(location_str) or US_CITIES_REGEX.search(location_str) or US_STATES_FULL_REGEX.search(location_str):
+        return {"name": "États-Unis", "code": "US", "flag": "🇺🇸", "region": "Amériques", "anglophone": True}
+
+    # 4. Détection Canada explicite
+    if "canada" in loc_lower or CA_PROVINCES_REGEX.search(location_str):
+        return {"name": "Canada", "code": "CA", "flag": "🇨🇦", "region": "Amériques", "anglophone": True}
+
+    # 5. Vérification par mots-clés de pays / villes mondiales
     for key, info in COUNTRY_MAP.items():
         if key in loc_lower:
             return info
 
-    # 2. Détection métropoles et États américains
-    if US_CITIES_REGEX.search(location_str) or US_STATES_REGEX.search(location_str) or "united states" in loc_lower or "usa" in loc_lower:
-        return {"name": "États-Unis", "code": "US", "flag": "🇺🇸", "region": "Amériques", "anglophone": True}
-
-    # 3. Détection format canadien
-    if CA_PROVINCES_REGEX.search(location_str) or "canada" in loc_lower:
-        return {"name": "Canada", "code": "CA", "flag": "🇨🇦", "region": "Amériques", "anglophone": True}
-
-    # 4. Par défaut : hub international tech
+    # 6. Par défaut : hub international tech
     clean_name = location_str.split(",")[0].strip() or "International"
     return {"name": clean_name, "code": "INT", "flag": "🌍", "region": "International", "anglophone": True}
 
@@ -266,18 +285,82 @@ def calculate_ensta_fit(title: str, description: str, tags: List[str]) -> Dict[s
         "reason": reason
     }
 
+# Regex pour éliminer les pages d'accueil génériques carrières
+GENERIC_CAREERS_REGEX = re.compile(
+    r'(careers\.[^/]+/?$|/careers/?$|/jobs/?$|/jobs\.html/?$|/company/jobs\.html/?$|/internships/?$|/summer-internships/?$|/students/?$|/students-and-graduates.*|/opportunities/?$|simplify\.jobs/c/|themuse\.com/jobs/[^/]+/?$|delft-center-for-systems-and-control-dcsc)',
+    re.IGNORECASE
+)
+
+# Domaines ATS majeurs contenant des réquisitions directes
+DIRECT_ATS_DOMAINS = [
+    "myworkdayjobs.com", "greenhouse.io", "lever.co", "ashbyhq.com",
+    "smartrecruiters.com", "icims.com", "eightfold.ai", "taleo.net",
+    "bamboohr.com", "personio.de", "recruitee.com", "workable.com",
+    "ycombinator.com", "arbeitnow.com", "arbeitnow.fr", "arbeitnow.co.uk",
+    "jobicy.com", "remotive.com"
+]
+
+def is_direct_job_url(url: str) -> bool:
+    """
+    Vérifie qu'une URL mène directement à l'offre d'emploi ou au formulaire de candidature,
+    et non à la page d'accueil d'un portail carrières.
+    """
+    if not url or not url.startswith("http"):
+        return False
+
+    url_clean = url.strip()
+
+    # Rejeter les pages d'accueil carrières génériques
+    if GENERIC_CAREERS_REGEX.search(url_clean):
+        return False
+
+    from urllib.parse import urlparse
+    parsed = urlparse(url_clean)
+    netloc = parsed.netloc.lower()
+    path = parsed.path.strip("/").lower()
+
+    # Rejeter les pages finissant par .html générique
+    if path.endswith((".html", ".htm")) and any(k in path for k in ["job", "career", "student", "graduate", "intern"]):
+        if not re.search(r'(/job/\d+|/jobs/[a-zA-Z0-9_-]{8,}|[?&](id|job_id|req)=)', url_clean):
+            return False
+
+    # Si c'est un ATS reconnu
+    if any(ats in netloc for ats in DIRECT_ATS_DOMAINS):
+        return True
+
+    # Si l'URL a un identifiant précis de poste (ex: /job/1234, /jobs/slug-123, id=, requisition=)
+    if re.search(r'(/job/[^/]+|/jobs/[^/]{4,}|/apply|/vacancies/[^/]+|/o/[^/]+|\b(id|job_id|req|slug)=)', url_clean, re.IGNORECASE):
+        return True
+
+    # Rejeter si le chemin n'est qu'un mot générique court
+    if path in ["careers", "jobs", "internships", "students", "early-careers", "vacancies", "research", "opportunities"]:
+        return False
+
+    # Liens d'universités ou pages de vacance détaillées
+    if any(ac in netloc for ac in [".ac.uk", ".edu", ".ac.nz", "tudelft.nl", "epfl.ch", "ethz.ch"]):
+        if any(bad in path for bad in ["about", "departments", "opportunities"]):
+            return False
+        return len(path.split("/")) >= 2 or bool(parsed.query)
+
+    return False
+
 def normalize_offer(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """
     Nettoie et transforme une offre brute en structure conforme à InternshipOffer.
-    Retourne None si l'offre ne correspond pas aux critères de stage ou de profil technique.
+    Retourne None si l'offre ne correspond pas aux critères de stage ou de profil technique,
+    ou si le lien n'est pas un lien direct vers l'offre.
     """
     title = raw.get("title", "").strip()
     company = raw.get("company", "").strip()
     description = raw.get("description", "").strip()
     location = raw.get("location", "International")
-    apply_url = raw.get("applyUrl") or raw.get("url", "")
+    apply_url = (raw.get("applyUrl") or raw.get("url", "")).strip()
 
     if not title or not company or not apply_url:
+        return None
+
+    # Rejeter impérativement les liens génériques de portails carrières
+    if not is_direct_job_url(apply_url):
         return None
 
     full_text = (title + " " + description + " " + raw.get("category", "")).lower()

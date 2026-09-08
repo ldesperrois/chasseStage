@@ -69,8 +69,11 @@ def main():
     def make_pair(o):
         return f"{o.get('company', '').lower().strip()}-{o.get('title', '').lower().strip()}"
 
-    # Priorité aux offres de référence déjà qualifiées
+    # Filtrer les offres existantes pour ne conserver QUE les liens profonds directs
+    from scraper.normalizer import is_direct_job_url, detect_country
     for off in existing_offers:
+        if not is_direct_job_url(off.get("applyUrl", "")):
+            continue
         pair = make_pair(off)
         if off["id"] not in seen_ids and pair not in seen_pairs:
             seen_ids.add(off["id"])
@@ -85,7 +88,6 @@ def main():
             combined_offers.append(off)
 
     # Re-détection de pays pour homogénéiser les drapeaux et noms
-    from scraper.normalizer import detect_country
     for off in combined_offers:
         c_info = detect_country(off.get("location", ""))
         off["country"] = c_info["name"]
@@ -93,8 +95,18 @@ def main():
         off["countryFlag"] = c_info["flag"]
         off["region"] = c_info.get("region", "International")
 
-    # Tri par pertinence ENSTA (les meilleurs matchs en premier dans la pile Tinder)
-    combined_offers.sort(key=lambda o: o.get("enstaFit", {}).get("score", 85), reverse=True)
+    # Priorité absolue aux offres HORS-USA (Océanie dont NZ & Australie en premier, puis Europe, Canada, Asie)
+    def sort_key(o):
+        is_us = o.get("countryCode") == "US" or o.get("country") == "États-Unis"
+        is_oceania = o.get("countryCode") in ["NZ", "AU"] or o.get("region") == "Océanie"
+        score = o.get("enstaFit", {}).get("score", 85)
+        # Groupe 0 = Océanie (Nouvelle-Zélande & Australie)
+        # Groupe 1 = Europe, Canada, Asie, Remote
+        # Groupe 2 = États-Unis
+        priority_group = 2 if is_us else (0 if is_oceania else 1)
+        return (priority_group, -score)
+
+    combined_offers.sort(key=sort_key)
 
     # 5. Statistiques de répartition
     countries_counter = Counter(o.get("country", "Autre") for o in combined_offers)

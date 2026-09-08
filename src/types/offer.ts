@@ -69,5 +69,6 @@ export interface FilterState {
   searchQuery: string;
   enstaOnly: boolean;
   minSalaryOnly: boolean;
+  excludeUSA?: boolean;
 }
 

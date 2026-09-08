@@ -20,6 +20,7 @@ const defaultFilters: FilterState = {
   searchQuery: '',
   enstaOnly: false,
   minSalaryOnly: false,
+  excludeUSA: false,
 };
 
 export function useOffers() {
@@ -161,6 +162,11 @@ export function useOffers() {
 
       // Filter by duration >= minWeeks (ENSTA >= 10 weeks)
       if (offer.durationWeeks < filters.minWeeks) return false;
+
+      // Exclude USA if selected
+      if (filters.excludeUSA && (offer.countryCode === 'US' || offer.country === 'États-Unis')) {
+        return false;
+      }
 
       // Filter by country if selected
       if (filters.countries.length > 0 && !filters.countries.includes(offer.countryCode)) {

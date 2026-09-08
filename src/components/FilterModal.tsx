@@ -22,6 +22,7 @@ const countryList = [
   { code: 'IE', name: 'Irlande', flag: '🇮🇪', tip: 'Anglophone • UE (Zéro visa requis)', region: 'Europe', count: 0 },
   { code: 'CH', name: 'Suisse', flag: '🇨🇭', tip: 'EPFL / ETH Zurich • R&D', region: 'Europe', count: 0 },
   { code: 'AU', name: 'Australie', flag: '🇦🇺', tip: 'Sydney / Melbourne • Anglophone', region: 'Océanie', count: 0 },
+  { code: 'NZ', name: 'Nouvelle-Zélande', flag: '🇳🇿', tip: 'Rocket Lab / F&P / Auckland', region: 'Océanie', count: 0 },
   { code: 'SG', name: 'Singapour', flag: '🇸🇬', tip: 'Hub Asie R&D Anglophone', region: 'Asie', count: 0 },
   { code: 'REMOTE', name: 'Remote International', flag: '🌐', tip: 'Télétravail mondial', region: 'Remote', count: 0 },
 ];
@@ -123,6 +124,7 @@ export const FilterModal = ({
       searchQuery: '',
       enstaOnly: false,
       minSalaryOnly: false,
+      excludeUSA: false,
     });
   };
 
@@ -186,6 +188,34 @@ export const FilterModal = ({
                 placeholder="Ex: C++, STM32, Linux, FreeRTOS, CAN, ARM..."
                 className="w-full px-4 py-2.5 rounded-xl bg-slate-800/80 border border-slate-700 text-white text-sm focus:outline-none focus:border-indigo-500"
               />
+            </div>
+
+            {/* Exclude USA Fast Toggle */}
+            <div className="p-3.5 rounded-2xl bg-indigo-950/20 border border-indigo-500/30 flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <span className="text-xl">🚫🇺🇸</span>
+                <div>
+                  <div className="text-xs font-bold text-white">
+                    Exclure les États-Unis
+                  </div>
+                  <div className="text-[11px] text-slate-400">
+                    Afficher uniquement Europe, Océanie (NZ, Australie), Canada et Asie
+                  </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setDraftFilters({ ...draftFilters, excludeUSA: !draftFilters.excludeUSA })}
+                className={`w-11 h-6 rounded-full transition-colors relative p-0.5 ${
+                  draftFilters.excludeUSA ? 'bg-indigo-600' : 'bg-slate-700'
+                }`}
+              >
+                <div
+                  className={`w-5 h-5 rounded-full bg-white transition-transform ${
+                    draftFilters.excludeUSA ? 'translate-x-5' : 'translate-x-0'
+                  }`}
+                />
+              </button>
             </div>
 
             {/* Organization Type: Entreprises vs Universités */}
