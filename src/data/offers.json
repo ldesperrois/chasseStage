@@ -1158,6 +1158,58 @@
     }
   },
   {
+    "id": "arbeitnow-remote-working-student-finance",
+    "title": "Working Student – Finance",
+    "company": "Apheris",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Germany - Remote",
+    "city": "Germany - Remote",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "About Apheris   At Apheris, we are building the future of how AI is applied in pharmaceutical R&amp;D. We enable leading pharmaceutical teams to discover and develop drugs faster. We host the industry’s largest federated data networks for drug discovery AI, spanning co-folding, ADMET, and antibody developability.     Across these networks, models are trained on proprietary industry datasets to achieve higher performance and broader applicability while keeping data control and IP protected. We ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/apheris/remote-working-student-finance-324850",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 96,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "asml-veldhoven-2026-ctrl",
     "title": "Embedded Software & Motion Control Intern (Lithography EUV)",
     "company": "ASML",
@@ -10670,59 +10722,6 @@
     "enstaFit": {
       "score": 91,
       "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-c01e4a39-29a1-4e02-876e-5385672c",
-    "title": "Software Engineer Intern-Runtime - Robotics",
-    "company": "PlusAI",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Santa Clara, CA",
-    "city": "Santa Clara",
-    "country": "États-Unis",
-    "countryCode": "US",
-    "countryFlag": "🇺🇸",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "robotics",
-    "domainLabel": "Robotique & ROS2",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "ROS",
-      "C++",
-      "Hardware",
-      "Robotics"
-    ],
-    "description": "Stage étudiant 'Software Engineer Intern-Runtime - Robotics' chez PlusAI pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://jobs.lever.co/plus-2/a3bcdba6-b0d0-46ba-9af3-a387926a6fb4/apply",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Robotique & Perception",
       "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
     }
   }
