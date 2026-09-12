@@ -4463,6 +4463,370 @@
     }
   },
   {
+    "id": "simplify-de75794d-d7b3-4986-b72f-59bf9ce8",
+    "title": "Test Engineering Co-op",
+    "company": "Armstrong Fluid Technology",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Toronto, ON, Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Software Engineering",
+      "Systems",
+      "Linux",
+      "Hardware"
+    ],
+    "description": "Stage étudiant 'Test Engineering Co-op' chez Armstrong Fluid Technology pour Winter 2026. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://armstrongfluidtechnology.bamboohr.com/careers/1001/",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-senior-product-manager-salesfo",
+    "title": "Senior Product Manager - Salesforce & Internal Enablement (all genders)",
+    "company": "Aroundhome",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Berlin",
+    "city": "Berlin",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Responsibilities   We are looking for an experienced, passionate, and hands-on Senior Product Manager to join our product team and empower Aroundhome’s core business operations for our next phase of growth.    Aroundhome is Germany's leading platform for home projects, connecting thousands of homeowners with the right local service partners. The Internal Enablement team owns the core CRM and operational infrastructure -primarily built on Salesforce- that powers our sales teams and customer car...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/aroundhome/senior-product-manager-salesforce-internal-enablement-all-genders-berlin-442684",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-werkstudentin-finance-projects",
+    "title": "Werkstudent*in Finance Projects & Systems (m/w/d)",
+    "company": "OXG Glasfaser GmbH",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Düsseldorf",
+    "city": "Düsseldorf",
+    "country": "Düsseldorf",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Was diesen Job so besonders macht?    Du möchtest bereits während deines Studiums praktische Erfahrungen sammeln und an anspruchsvollen Finanzprojekten mitwirken? Dann werde Teil unseres  Teams Finance Projects &amp; Systems  und unterstütze uns bei Projekten im Finanz- und SAP-Umfeld.   Je nach deinen Interessen, Kenntnissen und Fähigkeiten übernimmst du sowohl operative Aufgaben im SAP-Umfeld als auch Tätigkeiten im Projektmanagement. Gemeinsam finden wir Aufgaben, die zu dir passen und dir ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/oxg-glasfaser-gmbh/werkstudentin-finance-projects-systems-dusseldorf-64295",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-graduate-ai-and-secure-technol",
+    "title": "Graduate AI and Secure Technologies Engineer (2026 start)",
+    "company": "Cambridgeconsultantslimited",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "",
+    "city": "International",
+    "country": "International",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "All"
+    ],
+    "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Cambridge, UK&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;UK travel and occasional international travel&lt;/strong&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;\n&lt;p class=&quot;isSelectedEnd&quot;&gt;We’re looking for graduates who are excited by the opportunity to make emerging technologies secure, trustworthy and resilient. You’ll work on real-world engineering challenges across cyber security, artificial intellige...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/cambridgeconsultantslimited/graduate-ai-and-secure-technologies-engineer-2026-start-258690",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Robotique & Perception",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-senior-it-ot-systems-specialis",
+    "title": "Senior IT & OT Systems Specialist (gn)",
+    "company": "Workidentity",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Hamburg",
+    "city": "Hamburg",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Einleitung  Du möchtest die Verbindung zwischen Produktion und IT aktiv gestalten und dabei moderne Technologien, Automatisierung und Industrie-4.0-Lösungen vorantreiben? Dann könnte diese Position genau dein nächster Karriereschritt sein. Unser Auftraggeber ist eine international erfolgreiche Unternehmensgruppe mit weltweiten Produktions- und Vertriebsstandorten. Innovation, Digitalisierung und kontinuierliche Weiterentwicklung sind fest in der Unternehmenskultur verankert. Dich erwartet ein ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/senior-it-ot-systems-specialist-gn-hamburg-129995",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-network-infrastructure-enginee",
+    "title": "Network & Infrastructure Engineer (gn)",
+    "company": "Workidentity",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Hamburg",
+    "city": "Hamburg",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Einleitung   Unser Auftraggeber ist eine international aufgestellte Unternehmensgruppe mit modernen Standorten und einer leistungsstarken IT-Landschaft. Damit Mitarbeitende weltweit zuverlässig zusammenarbeiten können, wird die Netzwerk- und Infrastrukturumgebung kontinuierlich ausgebaut und modernisiert.     Für diese Schlüsselrolle suchen wir eine Persönlichkeit, die IT-Infrastrukturen und Netzwerke nicht nur betreibt, sondern aktiv weiterentwickelt und technische Standards setzt.       Dein...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/workidentity/network-infrastructure-engineer-gn-hamburg-285949",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "jobicy-153081",
+    "title": "Engineering Manager, SRE",
+    "company": "Remote",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/63a88d3a-221-1.png",
+    "companyColor": "#6366f1",
+    "location": "APAC,  EMEA",
+    "city": "APAC",
+    "country": "APAC",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "About Remote  \n Remote is solving modern organizations’ biggest challenge – navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You can find Remoters working from 6 different continents (Antarctica left to go!) and all of our positions are fully remote. \n...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/153081-engineering-manager-sre",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-791c0910-91a3-4d23-a3eb-98603c06",
     "title": "Software Engineer: Internship Opportunities - Vancouver - Bc",
     "company": "Microsoft",
@@ -7440,6 +7804,106 @@
     }
   },
   {
+    "id": "arbeitnow-intern-deployment-engineer-dat",
+    "title": "Intern Deployment Engineer - Data & AI",
+    "company": "celonis",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Munich",
+    "city": "Munich",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "Services"
+    ],
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI&#39;s operational blind spots into operational clarity. World&#39;s leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and pro...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/celonis/intern-deployment-engineer-data-ai-munich-416311",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 89,
+      "badge": "Top Fit ENSTA FIPA",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-account-executive-greenfield-l",
+    "title": "Account Executive - Greenfield - London UK",
+    "company": "Coreweaveu",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "London",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "Global Field Organization"
+    ],
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;\n&lt;div&gt;\n&lt;div class=&quot;gmail_quote&quot;&gt;\n&lt;div&gt;\n&lt;div&gt;&lt;span id=&quot;m_-113912706363268805m_-2746164444908759431gmail-docs-internal-guid-131e4fb0-7fff-b4e9-ff50-e8cf32449b1b&quot;&gt;CoreWeave is The Essential Cloud for AI™. Built for pioneers by pioneers, CoreWeave delivers a platform of technology, tools, and teams that enables innovators to build and scale AI with confidence. Trusted by leading AI labs, startups,...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/coreweaveu/account-executive-greenfield-london-uk-344861",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 89,
+      "badge": "Écosystème IoT & RTOS",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-04ba6b12-1c6a-4940-822e-3e83a4b8",
     "title": "Software Engineering Intern - Data Search",
     "company": "Woven",
@@ -10081,483 +10545,6 @@
       "Environnement de travail stimulant et international"
     ],
     "applyUrl": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Software-Engineer-Intern-Co-op_R_1467905",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-f81036ae-442c-4064-983b-e4c8d2e8",
-    "title": "Software Designer Co-op/Intern",
-    "company": "Nokia",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Ottawa, ON, Canada",
-    "city": "Ottawa",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Software Designer Co-op/Intern' chez Nokia pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28739",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-c0681e13-378a-41f9-92e4-cb4f68b0",
-    "title": "Software Developer – Co-op/Internship - Summer 2026 - 4 months",
-    "company": "Bank of Montreal",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Calgary, AB, Canada",
-    "city": "Calgary",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Software Developer – Co-op/Internship - Summer 2026 - 4 months' chez Bank of Montreal pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://bmo.wd3.myworkdayjobs.com/External/job/Calgary-AB-CAN/Software-Developer--Summer-2026--Co-op-Internship----4-months_R260002014-3",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-4542962c-69de-4242-8932-5c5f5f06",
-    "title": "Application Developer",
-    "company": "CIBC",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Toronto, ON, Canada",
-    "city": "Toronto",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Application Developer' chez CIBC pour Winter 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Developer-Co-op_2601391",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-a9a5549c-fe4a-44f2-bda8-56613a9b",
-    "title": "Software/Application Developer Co-op",
-    "company": "CIBC",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Toronto, ON, Canada",
-    "city": "Toronto",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Software/Application Developer Co-op' chez CIBC pour Spring 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Software-Application-Developer-Co-op_2601396",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-3fb5dc29-7fcd-4daa-8dab-fd6d369c",
-    "title": "Web Portal Developer Intern/Co-op",
-    "company": "Nokia",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Ottawa, ON, Canada",
-    "city": "Ottawa",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Web Portal Developer Intern/Co-op' chez Nokia pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28902",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-1bff635e-eb8e-459b-8da1-5046d668",
-    "title": "Software Developer – Co-op/Internship - Summer 2026 - 4 months",
-    "company": "BMO",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Calgary, AB, Canada",
-    "city": "Calgary",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Software Developer – Co-op/Internship - Summer 2026 - 4 months' chez BMO  pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Calgary-AB-CAN/Software-Developer--Summer-2026--Co-op-Internship----4-months_R260002014-2",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-df171f23-16d6-4ba0-8952-f6a97db1",
-    "title": "Software Engineer Intern - Tools",
-    "company": "Roku",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Cambridge, UK",
-    "city": "Cambridge",
-    "country": "Royaume-Uni",
-    "countryCode": "GB",
-    "countryFlag": "🇬🇧",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Software"
-    ],
-    "description": "Stage étudiant 'Software Engineer Intern - Tools' chez Roku pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.weareroku.com/jobs/7533355?gh_jid=7533355",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-e54f4cf7-430a-4e99-856b-bc9f6625",
-    "title": "Digital Logic Design Engineering Student - Summer 2026",
-    "company": "NXP Semiconductors",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Ottawa, ON, Canada",
-    "city": "Ottawa",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Hardware"
-    ],
-    "description": "Stage étudiant 'Digital Logic Design Engineering Student - Summer 2026' chez NXP Semiconductors pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Kanata/Digital-Logic-Design-Engineering-Student--COOP-Intern----Summer-2026_R-10061220",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-93da4058-89c1-4e5c-9135-d088a8de",
-    "title": "Software Engineering Intern",
-    "company": "NXP Semiconductors",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Ottawa, ON, Canada",
-    "city": "Ottawa",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software Engineering",
-      "Hardware"
-    ],
-    "description": "Stage étudiant 'Software Engineering Intern' chez NXP Semiconductors pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Kanata/Software-Engineering-Intern---Summer-2026_R-10061229",
     "source": "SimplifyJobs Global",
     "postedAt": "Récemment",
     "enstaFit": {
