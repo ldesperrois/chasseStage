@@ -5880,6 +5880,56 @@
     }
   },
   {
+    "id": "arbeitnow-ai-infrastructure-engineer-san",
+    "title": "AI Infrastructure Engineer, Sandbox Platform",
+    "company": "scaleai",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "London",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "Horizontals EPD"
+    ],
+    "description": "&lt;p&gt;As a Software Engineer on the AI Infrastructure team, you&#39;ll help build and evolve our agent sandboxing platform — the secure, high-performance code execution layer powering our agentic workflows, deployed across both internal and customer-managed environments. This is a role for someone who cares as much about the experience of the engineers and researchers using this system as they do about the kernel internals underneath it.&lt;/p&gt;\n&lt;p&gt;You&#39;ll combine deep systems expe...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/scaleai/ai-infrastructure-engineer-sandbox-platform-london-386233",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 90,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-2991bc41-f5c5-4b32-8c2c-b2c138d0",
     "title": "Software Engineer Intern - Embedded",
     "company": "Roku",
@@ -10482,59 +10532,6 @@
       "Environnement de travail stimulant et international"
     ],
     "applyUrl": "https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Ottawa-CAN/Instrumentation-Software-Co-Op_260004209-1",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 88,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-a43e02e1-63c5-43d9-bf48-824b2d5b",
-    "title": "Intern Software Developer",
-    "company": "Wealthsimple",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Toronto, ON, Canada",
-    "city": "Toronto",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Software",
-      "Software Engineering",
-      "Systems",
-      "Linux"
-    ],
-    "description": "Stage étudiant 'Intern Software Developer' chez Wealthsimple pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://jobs.lever.co/wealthsimple/6d809709-f7e2-410c-b186-869ebc960994/apply",
     "source": "SimplifyJobs Global",
     "postedAt": "Récemment",
     "enstaFit": {
