@@ -6178,6 +6178,164 @@
     }
   },
   {
+    "id": "simplify-35198eff-0919-482c-86ff-21b8e8d1",
+    "title": "C++ CGF Unreal Developer Intern",
+    "company": "CAE",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Montreal, QC, Canada",
+    "city": "Montreal",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Software",
+      "Linux",
+      "Systems",
+      "Software Engineering"
+    ],
+    "description": "Stage étudiant 'C++ CGF Unreal Developer Intern' chez CAE pour N/A. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-416---Stagiaire-dveloppeur-se--C---CGF-Unreal_123656",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "simplify-05c29d98-1be6-40fd-a754-fa374b2a",
+    "title": "C++ Backend Developer Intern - Image Generator",
+    "company": "CAE",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Montreal, QC, Canada",
+    "city": "Montreal",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Software",
+      "Linux",
+      "Systems",
+      "Software Engineering"
+    ],
+    "description": "Stage étudiant 'C++ Backend Developer Intern - Image Generator' chez CAE pour N/A. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-925---Dveloppeur-se--C-----Back-end--_123655",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-account-development-representa",
+    "title": "Account Development Representative - France",
+    "company": "Samsara",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "France",
+    "city": "France",
+    "country": "France",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Who we are   \n  Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our p...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/samsara/account-development-representative-france-239678",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-791c0910-91a3-4d23-a3eb-98603c06",
     "title": "Software Engineer: Internship Opportunities - Vancouver - Bc",
     "company": "Microsoft",
@@ -10303,156 +10461,6 @@
     "enstaFit": {
       "score": 89,
       "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-une-gestionnaire-administrativ",
-    "title": "Une Gestionnaire Administrative ou un Gestionnaire Administratif au Pôle International – CDD 12 mois – Temps Incomplet",
-    "company": "Institut Mines-Télécom",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "GARDANNE, Provence-Alpes-Côte d'Azur, France",
-    "city": "GARDANNE",
-    "country": "GARDANNE",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "firmware",
-    "domainLabel": "Firmware & Microcontrôleurs",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "Programmes et scolarité"
-    ],
-    "description": "Rejoindre   Mines Saint-Étienne  , c’est s’engager dans une institution où la science et l’innovation bâtissent un avenir plus durable. Une école d’excellence où chacun&nbsp;a l’opportunité de révéler son plein potentiel et de contribuer à relever les défis de demain.  Classée parmi les meilleures écoles d’ingénieurs en France et reconnue mondialement, notre école, membre de l’Institut Mines-Télécom, forme les talents de demain tout en contribuant activement à relever les grands défis industrie...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/institut-mines-telecom/une-gestionnaire-administrative-ou-un-gestionnaire-administratif-au-pole-international-cdd-12-mois-temps-incomplet-gardanne-209594",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-intern-technology-management-c",
-    "title": "Intern Technology & Management Consulting (Value Engineering)",
-    "company": "celonis",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "Value Engineering"
-    ],
-    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI&#39;s operational blind spots into operational clarity. World&#39;s leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and pro...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/celonis/intern-technology-management-consulting-value-engineering-paris-463436",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Top Fit ENSTA FIPA",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-intern-ai-management-consultin",
-    "title": "Intern AI & Management Consulting (Value Engineering)",
-    "company": "celonis",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "Value Engineering"
-    ],
-    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI&#39;s operational blind spots into operational clarity. World&#39;s leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and pro...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/celonis/intern-ai-management-consulting-value-engineering-paris-461432",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Top Fit ENSTA FIPA",
       "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
     }
   }
