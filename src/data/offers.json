@@ -2454,6 +2454,112 @@
     }
   },
   {
+    "id": "simplify-e1463384-633f-4fc1-a649-19685053",
+    "title": "Firmware Development Intern - PAL",
+    "company": "Qualcomm",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Markham, ON, Canada",
+    "city": "Markham",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Microcontrollers",
+      "Firmware",
+      "Hardware",
+      "RTOS"
+    ],
+    "description": "Stage étudiant 'Firmware Development Intern - PAL' chez Qualcomm pour Summer 2027. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://qualcomm.eightfold.ai/careers/job/446721229661",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Microcontrôleurs & C",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "simplify-c125d363-9bdc-456d-92f1-eff43afd",
+    "title": "Firmware Development Undergraduate Engineering Co-op",
+    "company": "Intel",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Remote in Canada",
+    "city": "Remote in Canada",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Microcontrollers",
+      "Firmware",
+      "Hardware",
+      "RTOS"
+    ],
+    "description": "Stage étudiant 'Firmware Development Undergraduate Engineering Co-op' chez Intel pour Winter 2027. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Virtual-Canada/Firmware-Development-Undergraduate-Engineering-Co-op_JR0286862",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Microcontrôleurs & C",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-3a39816d-0cd6-431f-ba08-94ac834b",
     "title": "C++ Content Pipeline Software Developer",
     "company": "CAE",
@@ -6860,6 +6966,267 @@
     }
   },
   {
+    "id": "simplify-e8a23788-bd3c-493a-9ede-be9de164",
+    "title": "Software Development Intern - Citizen Remote Identity Verification",
+    "company": "Entrust",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Ottawa, ON, Canada",
+    "city": "Ottawa",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Linux",
+      "Software",
+      "Systems",
+      "Software Engineering"
+    ],
+    "description": "Stage étudiant 'Software Development Intern - Citizen Remote Identity Verification' chez Entrust pour Winter 2027. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/Canada---Ottawa/Intern--Software-Development---Hybrid-in-Ottawa_R004360",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "simplify-3d3c9658-794e-4e6b-a5c4-c03ae49b",
+    "title": "Software Development Intern",
+    "company": "Entrust",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Ottawa, ON, Canada",
+    "city": "Ottawa",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Linux",
+      "Software",
+      "Systems",
+      "Software Engineering"
+    ],
+    "description": "Stage étudiant 'Software Development Intern' chez Entrust pour Winter 2027. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/Canada---Ottawa/XMLNAME--Intern---Software-Development----8-months---Hybrid-Ottawa_R004359",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-working-student-healthcare-sal",
+    "title": "Working Student - Healthcare Sales",
+    "company": "Snke",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Heidelberg",
+    "city": "Heidelberg",
+    "country": "Heidelberg",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "What you'll do  We are currently searching for an additional Healthcare Sales Working Student to support our sales and account management activities in our healthcare business. From our headquarters in Heidelberg and your home office, you will work with our international team of Healthcare Sales Consultants and Sales Leadership Team to achieve targets, ensure profitability and grow the business. You will be responsible for recurring administrative tasks and participate in lead generation activ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/snke/working-student-healthcare-sales-heidelberg-255564",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-stage-developpeur-ia-outils-in",
+    "title": "Stage - Développeur IA & Outils Internes - H/F/X (octobre 2026)",
+    "company": "Veepee",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Saint-Denis",
+    "city": "Saint-Denis",
+    "country": "Saint-Denis",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "Engineering"
+    ],
+    "description": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 milliards d’euros TTC et compte 5 000 collaborateurs répartis dans 10 pays.   📄 DESCRIPTION DU POSTE   \n ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/veepee/stage-developpeur-ia-outils-internes-octobre-2026-saint-denis-385921",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Robotique & Perception",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "jobicy-151502",
+    "title": "Front End Engineering Manager, Firefox Desktop",
+    "company": "Mozilla",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2020/10/mozilla.jpg",
+    "companyColor": "#6366f1",
+    "location": "Canada",
+    "city": "Canada",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "Why  Mozilla ?  \n Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/151502-front-end-engineering-manager-firefox-desktop",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-791c0910-91a3-4d23-a3eb-98603c06",
     "title": "Software Engineer: Internship Opportunities - Vancouver - Bc",
     "company": "Microsoft",
@@ -10133,358 +10500,6 @@
     "enstaFit": {
       "score": 89,
       "badge": "Top Fit ENSTA FIPA",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-payment-performance-analyst-in",
-    "title": "Payment Performance Analyst Intern",
-    "company": "Backmarket",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "INTERNSHIPS"
-    ],
-    "description": "Hi, we’re Back Market.  We’re here to help  make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new.  Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care repres...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/backmarket/payment-performance-analyst-intern-paris-411228",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-production-quality-engineer-in",
-    "title": "Production Quality Engineer Intern",
-    "company": "Signal Processing Engineer (RF Processing & Analytics)",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "robotics",
-    "domainLabel": "Robotique & ROS2",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "P&I"
-    ],
-    "description": "About Us   Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces.  Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a ...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/signal-processing-engineer-rf-processing-analytics/production-quality-engineer-intern-paris-477014",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Robotique & Perception",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-5206048b-f392-4172-9f1c-bc86c12e",
-    "title": "Firmware Engineer Intern - Embedded Software Engineering - Embedded Firmware and SDK Development",
-    "company": "Qualcomm",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Toronto, ON, Canada",
-    "city": "Toronto",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "firmware",
-    "domainLabel": "Firmware & Microcontrôleurs",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "C/C++",
-      "Hardware",
-      "Embedded Systems"
-    ],
-    "description": "Stage étudiant 'Firmware Engineer Intern - Embedded Software Engineering - Embedded Firmware and SDK Development' chez Qualcomm pour Summer 2027. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://qualcomm.eightfold.ai/careers/job/446721141411",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Co-conception Hard & Soft",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-seller-onboarding-and-support-",
-    "title": "Seller Onboarding and Support Intern",
-    "company": "Backmarket",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "INTERNSHIPS"
-    ],
-    "description": "Hi, we’re Back Market.  We’re here to help  make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new.  Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care repres...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/backmarket/seller-onboarding-and-support-intern-paris-481272",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-business-analyst-intern-trade-",
-    "title": "Business Analyst Intern, Trade-In",
-    "company": "Backmarket",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "INTERNSHIPS"
-    ],
-    "description": "Hi, we’re Back Market.  We’re here to help  make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new.  Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care repres...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/backmarket/business-analyst-intern-trade-in-paris-475270",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-crm-engagement-intern-paris-19",
-    "title": "CRM Engagement Intern",
-    "company": "Backmarket",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "INTERNSHIPS"
-    ],
-    "description": "Hi, we’re Back Market.  We’re here to help  make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new.  Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care repres...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/backmarket/crm-engagement-intern-paris-19939",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-ux-content-designer-intern-ux-",
-    "title": "UX Content Designer Intern (UX copywriter)",
-    "company": "Backmarket",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "INTERNSHIPS"
-    ],
-    "description": "Hi, we’re Back Market.  We’re here to help  make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new.  Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care repres...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/backmarket/ux-content-designer-intern-ux-copywriter-paris-494948",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
       "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
     }
   }
