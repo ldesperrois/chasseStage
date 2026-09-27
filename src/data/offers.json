@@ -7648,6 +7648,160 @@
     }
   },
   {
+    "id": "arbeitnow-senior-sales-managerin-wholesa",
+    "title": "(Senior) Sales Manager:in Wholesale & B2B (m/f/d) – 40h/week",
+    "company": "Horizn Studios",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Berlin",
+    "city": "Berlin",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "General Description   As  (Senior) Sales Manager Wholesale &amp; B2B , you are a key pillar of our sales team and responsible for establishing and expanding our wholesale and B2B partnerships. You independently manage a portfolio of national and international key accounts, develop new business relationships, and ensure that our brand is present with the right partners.    Your Role      Independent management and strategic development of a portfolio of wholesale and B2B key accounts      Acqui...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/horizn-studios/senior-sales-managerin-wholesale-b2b-40h-week-berlin-61471",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-senior-mechanical-engineer-rob",
+    "title": "Senior Mechanical Engineer - Robotic Systems",
+    "company": "Agilerobotsse",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Munich, Bavaria",
+    "city": "Munich",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "Applied Automation Intelligence"
+    ],
+    "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Agile Robots SE is an innovative company with a clear mission: bringing intelligent robotic solutions to our customers. We combine the latest technology in the field of AI with powerful robotic systems — from industrial robot arms and mobile manipulators to humanoids — to solve tasks that classical automation cannot address.&lt;/p&gt;\n&lt;p&gt;Our solutions are deployed with international customers across a wide range of industries. Seamless integration and...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/senior-mechanical-engineer-robotic-systems-munich-bavaria-408006",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Robotique & Perception",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-technical-product-lead-softwar",
+    "title": "Technical Product Lead / Software Architekt (m/w/d)   ab sofort",
+    "company": "Deutsche Gesellschaft für Nachhaltiges Bauen - DGNB e.V.",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Stuttgart",
+    "city": "Stuttgart",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Wir bieten Ihnen    Sie sind die (technische) Schnittstelle zwischen Strategie und Umsetzung im Umfeld unserer eigenen Prüf- und Audit-Software.   Sie steuern das Produkt und die Umsetzung der Anforderungen mit externen Partnern   Sie strukturieren und definieren die Anforderungen und Prozesse der internen und externen Nutzer   Sie formulieren User Stories, definieren die Features und verwalten das Backlog    Sie verantworten Testing und Qualitätssicherung der umgesetzten Funktionen   Sie konz...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/deutsche-gesellschaft-fur-nachhaltiges-bauen-dgnb-ev/technical-product-lead-software-architekt-ab-sofort-stuttgart-175462",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-791c0910-91a3-4d23-a3eb-98603c06",
     "title": "Software Engineer: Internship Opportunities - Vancouver - Bc",
     "company": "Microsoft",
@@ -10358,159 +10512,6 @@
     "enstaFit": {
       "score": 89,
       "badge": "Top Fit ENSTA FIPA",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-e0a4c475-6f3c-4f3e-a7ad-2e4046a6",
-    "title": "Embedded Developer Intern - Engine Data Reliability",
-    "company": "Geotab",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Oakville, ON, Canada",
-    "city": "Oakville",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "embedded",
-    "domainLabel": "Systèmes Embarqués (C/C++)",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "C/C++",
-      "Embedded Systems",
-      "Hardware"
-    ],
-    "description": "Stage étudiant 'Embedded Developer Intern - Engine Data Reliability' chez Geotab pour Winter 2027. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5396891008",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Co-conception Hard & Soft",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-fraud-and-risk-officer-intern-",
-    "title": "Fraud and Risk Officer Intern",
-    "company": "Backmarket",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Paris",
-    "city": "Paris",
-    "country": "Paris",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "INTERNSHIPS"
-    ],
-    "description": "Hi, we’re Back Market.  We’re here to help  make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new.  Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care repres...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/backmarket/fraud-and-risk-officer-intern-paris-38414",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-remote-director-sales-dach-col",
-    "title": "Director Sales DACH (f/m/d)",
-    "company": "Trusted Shops SE (DE)",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Remote job",
-    "city": "Remote job",
-    "country": "Remote International",
-    "countryCode": "REMOTE",
-    "countryFlag": "🌐",
-    "region": "Remote",
-    "isAnglophone": true,
-    "domain": "firmware",
-    "domainLabel": "Firmware & Microcontrôleurs",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "ACT DACH",
-      "Remote"
-    ],
-    "description": "Director Sales DACH (f/m/d)&nbsp;    New Business | B2B SaaS | E-Commerce | Revenue Leadership | Cologne | Hybrid | Permanent     Shape the next stage of our Sales organization.  At Trusted Shops, we build digital trust between people, businesses, and AI agents. Every day, millions of consumers rely on our solutions to make confident purchasing decisions, while thousands of businesses strengthen customer relationships and drive sustainable growth.    As  Director Sales DACH – New Business , yo...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.com/jobs/companies/trusted-shops-se-de/remote-director-sales-dach-cologne-113057",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Écosystème IoT & RTOS",
       "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
     }
   }
