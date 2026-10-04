@@ -9677,6 +9677,213 @@
     }
   },
   {
+    "id": "arbeitnow-senior-dokumentenmanager-berli",
+    "title": "Senior Dokumentenmanager",
+    "company": "TIS GmbH",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Berlin, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Wir stellen ein: Senior Dokumentenmanager (m/w/d)    Offshore-Windenergie | Onshore &amp; Offshore Projekte | Festanstellung   &nbsp;  Die  T.I.S. GmbH  ist seit über 20 Jahren ein spezialisiertes Beratungs- und Serviceunternehmen im Bereich  Offshore-Windenergie . Wir unterstützen internationale Kunden bei der Planung, Umsetzung und Qualitätssicherung komplexer Energieprojekte und arbeiten dabei mit  führenden Unternehmen der Branche  zusammen.  &nbsp;  Zur Verstärkung unseres Teams suchen wi...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/tis-gmbh/senior-dokumentenmanager-berlin-425732",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-select-major-account-executive",
+    "title": "Select Major Account Executive, UK&I",
+    "company": "Samsara",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "London, England, United Kingdom",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "iot",
+    "domainLabel": "IoT & Protocoles Sans Fil",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Who we are   \n  Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our p...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/samsara/select-major-account-executive-uki-london-496630",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-graduate-sales-associate-berli",
+    "title": "Graduate Sales Associate (f/m/d)",
+    "company": "Moss",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Berlin",
+    "city": "Berlin",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "Commercial"
+    ],
+    "description": "At Moss, we give finance professionals the power to automate their day-to-day and make forward-thinking decisions.    Our culture is what makes that possible: we play to win, we obsess over quality, and we win as One Moss, and it works. Moss closed a €35 million Series C in August 2026, crossing a €1 billion valuation, and became one of Europe's fintech unicorns. Join us for what's next.    Are you eager to kick-start a sales career?  Join us as a Graduate Sales Associate (f/m/d) at Moss! We’r...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/moss/graduate-sales-associate-berlin-405925",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Robotique & Perception",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "jobicy-152452",
+    "title": "Product Engineer, Internal Tools - LATAM",
+    "company": "Luxury Presence",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2022/05/f2b241fb769140fff2f70e8efaf5c0ff.jpg",
+    "companyColor": "#6366f1",
+    "location": "LATAM",
+    "city": "LATAM",
+    "country": "LATAM",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "Luxury Presence   is building the AI growth platform for real estate. Backed by Bessemer Venture Partners and other top investors, we're a Series C company that has hit $100M in annual recurring revenue. More than 90,000 real estate professionals, including over 30% of the WSJ Real Trends top 100 agents in the United States, use us to run and grow their business. \n\n  The Opportunity  \n We don't just use AI. We build with it, ship with it, and think with it. With a generous budget for tokens, ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/152452-product-engineer-internal-tools-latam",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 91,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-791c0910-91a3-4d23-a3eb-98603c06",
     "title": "Software Engineer: Internship Opportunities - Vancouver - Bc",
     "company": "Microsoft",
@@ -10306,214 +10513,6 @@
     "enstaFit": {
       "score": 90,
       "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-2991bc41-f5c5-4b32-8c2c-b2c138d0",
-    "title": "Software Engineer Intern - Embedded",
-    "company": "Roku",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Cambridge, UK",
-    "city": "Cambridge",
-    "country": "Royaume-Uni",
-    "countryCode": "GB",
-    "countryFlag": "🇬🇧",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "embedded",
-    "domainLabel": "Systèmes Embarqués (C/C++)",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Embedded Systems",
-      "Hardware",
-      "C/C++"
-    ],
-    "description": "Stage étudiant 'Software Engineer Intern - Embedded' chez Roku pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.weareroku.com/jobs/7533350?gh_jid=7533350",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Co-conception Hard & Soft",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-49ad2b6d-f5ad-47b0-aec4-2bb56dca",
-    "title": "Embedded Firmware Engineer Intern",
-    "company": "Block",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Toronto, ON, Canada",
-    "city": "Toronto",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "firmware",
-    "domainLabel": "Firmware & Microcontrôleurs",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Embedded Systems",
-      "Hardware",
-      "C/C++"
-    ],
-    "description": "Stage étudiant 'Embedded Firmware Engineer Intern' chez Block pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "http://block.xyz/careers/jobs/5083066008?gh_jid=5083066008",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Co-conception Hard & Soft",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-017c7fe0-385a-40b1-a350-75bf7a29",
-    "title": "Embedded Developer Intern - Embedded Software",
-    "company": "Geotab",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Oakville, ON, Canada",
-    "city": "Oakville",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "embedded",
-    "domainLabel": "Systèmes Embarqués (C/C++)",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Embedded Systems",
-      "Hardware",
-      "C/C++"
-    ],
-    "description": "Stage étudiant 'Embedded Developer Intern - Embedded Software' chez Geotab pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5075889008",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Co-conception Hard & Soft",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-b18dad89-4fad-4ae2-a25e-c7ad1e53",
-    "title": "Embedded Software Developer Co-op - Optical Circuit Switch",
-    "company": "Lumentum",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Ottawa, ON, Canada",
-    "city": "Ottawa",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "embedded",
-    "domainLabel": "Systèmes Embarqués (C/C++)",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Embedded Systems",
-      "Hardware",
-      "C/C++"
-    ],
-    "description": "Stage étudiant 'Embedded Software Developer Co-op - Optical Circuit Switch' chez Lumentum pour Summer 2026. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Developer-Co-op--Optical-Circuit-Switch-_202668",
-    "source": "SimplifyJobs Global",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 89,
-      "badge": "Co-conception Hard & Soft",
       "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
     }
   }
