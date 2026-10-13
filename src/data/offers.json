@@ -1759,6 +1759,59 @@
     }
   },
   {
+    "id": "jobicy-149049",
+    "title": "AI Enablement Lead [gn] Data Intelligence",
+    "company": "Actian",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/0fee3ec4-221.webp",
+    "companyColor": "#6366f1",
+    "location": "Europe",
+    "city": "Europe",
+    "country": "Europe",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif",
+    "tags": [
+      "C++",
+      "Software",
+      "Linux",
+      "Git"
+    ],
+    "description": "The AI Enablement Team is the catalyst for internal transformation and product acceleration across  Actian . In the modern data landscape, AI is not a siloed experimental lab; it is a core capability that must be embedded into our product DNA and our engineering workflows. \n We are looking for an  AI Enablement Lead  who will architect, scale, and own our AI enablement strategy end-to-end. You are not a theoretical researcher or a passive prompt engineer; you are a highly practical, technical...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://jobicy.com/jobs/149049-ai-enablement-lead-gn-data-intelligence",
+    "source": "Jobicy Global Tech",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "jobicy-151860",
     "title": "Senior Software Engineer, Product Engineering - UK",
     "company": "Ashby",
@@ -10447,59 +10500,6 @@
     ],
     "applyUrl": "https://news.ycombinator.com/item?id=49971729",
     "source": "Hacker News Hiring",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "simplify-2cd2eed4-ab82-44f3-bf55-31b70391",
-    "title": "Pharmaceutical Distribution Developer Intern - Pharmaceutical Distribution",
-    "company": "McKesson",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Montreal, QC, Canada",
-    "city": "Montreal",
-    "country": "Canada",
-    "countryCode": "CA",
-    "countryFlag": "🇨🇦",
-    "region": "Amériques",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (selon barème ingénieur)",
-    "tags": [
-      "Linux",
-      "Systems",
-      "Software",
-      "Software Engineering"
-    ],
-    "description": "Stage étudiant 'Pharmaceutical Distribution Developer Intern - Pharmaceutical Distribution' chez McKesson pour N/A. Projet d'ingénierie impliquant conception, développement et tests.",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-QC-Montreal-Ville-Saint-Laurent/Stagiaire-dveloppeur-se--en-distribution-pharmaceutique---Developper-Pharmaceutical-Distirbution---Winter-Intern_JR0154903",
-    "source": "SimplifyJobs Global",
     "postedAt": "Récemment",
     "enstaFit": {
       "score": 91,
