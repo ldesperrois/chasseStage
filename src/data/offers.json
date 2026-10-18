@@ -3400,6 +3400,59 @@
     }
   },
   {
+    "id": "simplify-3e4d8554-56dd-4759-ac78-791d119c",
+    "title": "Firmware Engineer Intern",
+    "company": "Leonardo",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Luton, UK",
+    "city": "Luton",
+    "country": "Royaume-Uni",
+    "countryCode": "GB",
+    "countryFlag": "🇬🇧",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Microcontrollers",
+      "RTOS",
+      "Hardware",
+      "Firmware"
+    ],
+    "description": "Stage étudiant 'Firmware Engineer Intern' chez Leonardo pour N/A. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Luton---Cap-Green-300/Industrial-Placement-Firmware-Engineer_R0032906",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 92,
+      "badge": "Microcontrôleurs & C",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "simplify-3a39816d-0cd6-431f-ba08-94ac834b",
     "title": "C++ Content Pipeline Software Developer",
     "company": "CAE",
@@ -10448,56 +10501,6 @@
       "Environnement de travail stimulant et international"
     ],
     "applyUrl": "https://www.arbeitnow.fr/jobs/companies/veepee/stage-chargee-doperations-media-janvier-2027-saint-denis-439301",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Robotique & Perception",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-stage-account-manager-brandspl",
-    "title": "Stage - Account Manager Brandsplace H/F/X - janvier 2027",
-    "company": "Veepee",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Saint-Denis",
-    "city": "Saint-Denis",
-    "country": "Saint-Denis",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "robotics",
-    "domainLabel": "Robotique & ROS2",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "Business Development"
-    ],
-    "description": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 milliards d’euros TTC et compte 5 000 collaborateurs répartis dans 10 pays.   📄 DESCRIPTION DU POSTE  \n D...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/veepee/stage-account-manager-brandsplace-janvier-2027-saint-denis-491846",
     "source": "Arbeitnow Europe",
     "postedAt": "Récemment",
     "enstaFit": {
