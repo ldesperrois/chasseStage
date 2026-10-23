@@ -1179,6 +1179,58 @@
     }
   },
   {
+    "id": "arbeitnow-ai-engineer-dongen-63078",
+    "title": "AI Engineer",
+    "company": "Follo",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Dongen, Noord-Brabant, Nederland",
+    "city": "Dongen",
+    "country": "Dongen",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "AI die het alleen in een demo doet? Daar heeft niemand iets aan. Bij Follo is AI geen laagje bovenop het werk, het zit in het werk. Onze specialisten zetten campagnes op, optimaliseren ze en rapporteren erover. Jij bouwt de interne tools waarmee dat sneller, slimmer en consistenter gaat.    Je schrijft echte code en je begrijpt wat je schrijft. Je draait mee in onze Laravel-codebase, van de Vue-frontend tot de backend, maar je bouwt geen producten voor klanten: je bouwt gereedschap voor colleg...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.nl/jobs/companies/follo/ai-engineer-dongen-63078",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 94,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "arbeitnow-principal-engineer-autonomous-",
     "title": "Principal Engineer - Autonomous Systems (m/f/d)",
     "company": "autonomous-teaming",
@@ -10459,56 +10511,6 @@
     "enstaFit": {
       "score": 91,
       "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-stage-chargee-de-projets-crm-j",
-    "title": "Stage - Chargé(e) de Projets CRM (H/F/X) - Janvier 2027",
-    "company": "Veepee",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Saint-Denis",
-    "city": "Saint-Denis",
-    "country": "Saint-Denis",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "robotics",
-    "domainLabel": "Robotique & ROS2",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "CRM / Data Insight"
-    ],
-    "description": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 milliards d’euros TTC et compte 5 000 collaborateurs répartis dans 10 pays.   📄 DESCRIPTION DU POSTE   Au...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/veepee/stage-chargee-de-projets-crm-janvier-2027-saint-denis-19899",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Robotique & Perception",
       "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
     }
   }
