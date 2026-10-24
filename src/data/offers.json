@@ -2021,6 +2021,110 @@
     }
   },
   {
+    "id": "arbeitnow-senior-manager-business-ethics",
+    "title": "Senior Manager Business Ethics, Speak-up & Investigations (m/f/d)",
+    "company": "Quantum-Systems GmbH",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Gilching, Bayern, Germany",
+    "city": "Gilching",
+    "country": "Allemagne",
+    "countryCode": "DE",
+    "countryFlag": "🇩🇪",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "At Quantum Systems, we develop advanced autonomous systems for defense and security across multiple domains, combining unmanned platforms with integrated software and AI. As  Senior Manager Business Ethics, Speak-up &amp; Investigations , you will play a key role in building and strengthening Quantum Systems’ Group Ethics &amp; Compliance programme. You will take end-to-end functional ownership for Business Ethics, Anti-Bribery &amp; Corruption, Speak-up and Internal Investigations.  This is a ...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-manager-business-ethics-speak-up-investigations-gilching-279113",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-senior-product-designer-move-i",
+    "title": "Senior Product Designer - Move-in & Staying",
+    "company": "HousingAnywhere Group",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Rotterdam, South Holland, Netherlands",
+    "city": "Rotterdam",
+    "country": "Pays-Bas",
+    "countryCode": "NL",
+    "countryFlag": "🇳🇱",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "We're on a mission to become the go-to destination for students across Europe to find a trusted home away from home. We make every step of the rental journey simple and seamless, so students can focus on what really matters: studying, exploring, and growing. \n With HousingAnywhere, Kamernet, and Studapart under our roof, we're Europe's largest student rental platform. You'll find us in Rotterdam, Paris, and Cergy, always guided by our four core values: Ownership, We are enablers, We are changem...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.nl/jobs/companies/housinganywhere-group/senior-product-designer-move-in-staying-rotterdam-96319",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "jobicy-151860",
     "title": "Senior Software Engineer, Product Engineering - UK",
     "company": "Ashby",
@@ -10404,109 +10508,6 @@
     ],
     "applyUrl": "https://www.arbeitnow.co.uk/jobs/companies/samsara/select-major-account-executive-uki-london-496630",
     "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-graduate-sales-associate-berli",
-    "title": "Graduate Sales Associate (f/m/d)",
-    "company": "Moss",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Berlin",
-    "city": "Berlin",
-    "country": "Allemagne",
-    "countryCode": "DE",
-    "countryFlag": "🇩🇪",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "robotics",
-    "domainLabel": "Robotique & ROS2",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "Commercial"
-    ],
-    "description": "At Moss, we give finance professionals the power to automate their day-to-day and make forward-thinking decisions.    Our culture is what makes that possible: we play to win, we obsess over quality, and we win as One Moss, and it works. Moss closed a €35 million Series C in August 2026, crossing a €1 billion valuation, and became one of Europe's fintech unicorns. Join us for what's next.    Are you eager to kick-start a sales career?  Join us as a Graduate Sales Associate (f/m/d) at Moss! We’r...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.com/jobs/companies/moss/graduate-sales-associate-berlin-405925",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Robotique & Perception",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "jobicy-152452",
-    "title": "Product Engineer, Internal Tools - LATAM",
-    "company": "Luxury Presence",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2022/05/f2b241fb769140fff2f70e8efaf5c0ff.jpg",
-    "companyColor": "#6366f1",
-    "location": "LATAM",
-    "city": "LATAM",
-    "country": "LATAM",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "software",
-    "domainLabel": "C++ Temps Réel & Logiciel",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif",
-    "tags": [
-      "C++",
-      "Software",
-      "Linux",
-      "Git"
-    ],
-    "description": "Luxury Presence   is building the AI growth platform for real estate. Backed by Bessemer Venture Partners and other top investors, we're a Series C company that has hit $100M in annual recurring revenue. More than 90,000 real estate professionals, including over 30% of the WSJ Real Trends top 100 agents in the United States, use us to run and grow their business. \n\n  The Opportunity  \n We don't just use AI. We build with it, ship with it, and think with it. With a generous budget for tokens, ...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://jobicy.com/jobs/152452-product-engineer-internal-tools-latam",
-    "source": "Jobicy Global Tech",
     "postedAt": "Récemment",
     "enstaFit": {
       "score": 91,
