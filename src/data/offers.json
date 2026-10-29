@@ -2177,6 +2177,110 @@
     }
   },
   {
+    "id": "arbeitnow-senior-digital-marketing-speci",
+    "title": "Senior Digital Marketing Specialist",
+    "company": "Helin Data",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Rijswijk",
+    "city": "Rijswijk",
+    "country": "Rijswijk",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "About Helin  At Helin, we empower industrial organizations to make faster, safer, and more informed decisions across maritime, offshore, renewable energy, and industrial operations. Our edge-to-cloud platform combines sensor, video, and machine data into a unified real-time view, enabling greater operational visibility, improved safety, and enhanced performance in remote and complex environments. Joining Helin means becoming part of an international team of 60+ professionals representing 30+ n...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.nl/jobs/companies/helin-data/senior-digital-marketing-specialist-rijswijk-89165",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
+    "id": "arbeitnow-senior-full-stack-engineer-ai-",
+    "title": "Senior Full-Stack Engineer, AI (m/f/d)",
+    "company": "Edri",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Essen",
+    "city": "Essen",
+    "country": "Essen",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Your mission   Our Data Scientists and AI/ML Engineers build AI solutions. You make them usable for everyone at EDRI. As a Full-Stack AI Engineer in our newly established AI UNIT within E.ON Drive Infrastructure (EDRI), a special unit built and run like a startup, you will build the internal platform that makes AI solutions accessible to hundreds of colleagues across EDRI. You will work across frontend, backend, infrastructure, and AI integration, taking full ownership from the initial archite...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.com/jobs/companies/edri/senior-full-stack-engineer-ai-essen-288385",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "jobicy-151860",
     "title": "Senior Software Engineer, Product Engineering - UK",
     "company": "Ashby",
@@ -10403,111 +10507,6 @@
     ],
     "applyUrl": "https://jobicy.com/jobs/149992-graduate-talent-scientist",
     "source": "Jobicy Global Tech",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "hn-49929563",
-    "title": "ONSITE in Seattle, WA &#x2F; Moses Lake, WA &#x2F; Cape Canaveral, FL (Internship/Junior)",
-    "company": "Stoke Space",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Software Engineer",
-    "city": "Software Engineer",
-    "country": "Software Engineer",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (Tech Startup)",
-    "tags": [
-      "C++",
-      "Embedded",
-      "Systems",
-      "Linux"
-    ],
-    "description": "Stoke Space | ONSITE in Seattle, WA &#x2F; Moses Lake, WA &#x2F; Cape Canaveral, FL | Software Engineer | Full-Time, Internship | Salary: $98k-$289k USD |  https:&#x2F;&#x2F;www.stokespace.com  Company: At Stoke, we believe a thriving space economy will enable a vibrant, sustainable, and equitable future here on Earth. That is why we’re building Nova, our fully and rapidly reusable launch vehicle. Designed for daily flight, Nova tackles the core challenges of space transportation by reducing cos...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://news.ycombinator.com/item?id=49929563",
-    "source": "Hacker News Hiring",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-senior-dokumentenmanager-berli",
-    "title": "Senior Dokumentenmanager",
-    "company": "TIS GmbH",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Berlin, Berlin, Germany",
-    "city": "Berlin",
-    "country": "Allemagne",
-    "countryCode": "DE",
-    "countryFlag": "🇩🇪",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "firmware",
-    "domainLabel": "Firmware & Microcontrôleurs",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "C++",
-      "Linux",
-      "Software"
-    ],
-    "description": "Wir stellen ein: Senior Dokumentenmanager (m/w/d)    Offshore-Windenergie | Onshore &amp; Offshore Projekte | Festanstellung   &nbsp;  Die  T.I.S. GmbH  ist seit über 20 Jahren ein spezialisiertes Beratungs- und Serviceunternehmen im Bereich  Offshore-Windenergie . Wir unterstützen internationale Kunden bei der Planung, Umsetzung und Qualitätssicherung komplexer Energieprojekte und arbeiten dabei mit  führenden Unternehmen der Branche  zusammen.  &nbsp;  Zur Verstärkung unseres Teams suchen wi...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.com/jobs/companies/tis-gmbh/senior-dokumentenmanager-berlin-425732",
-    "source": "Arbeitnow Europe",
     "postedAt": "Récemment",
     "enstaFit": {
       "score": 91,
