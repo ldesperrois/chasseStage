@@ -1231,6 +1231,58 @@
     }
   },
   {
+    "id": "arbeitnow-responsable-de-communication-e",
+    "title": "Responsable de communication événementielle (remplacement congé maternité)",
+    "company": "ECOLE NATIONALE SUPERIEURE DE TECHNIQUES AVANCEES",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Palaiseau, Île-de-France, France",
+    "city": "Palaiseau",
+    "country": "Palaiseau",
+    "countryCode": "INT",
+    "countryFlag": "🌍",
+    "region": "International",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "Contexte&nbsp;:     ENSTA, établissement d’enseignement supérieur et de recherche sous tutelle du ministère des Armées, développe des activités de formation, de recherche et d’innovation dans les domaines de la défense et de la sécurité, des transports, de l'énergie, des activités maritimes, du numérique et de la santé.  L’école, présente sur deux campus, à Paris-Saclay et à Brest, est membre de l’Institut Polytechnique de Paris. Classée dans le Top 10 des meilleures écoles d’ingénieurs en F...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.fr/jobs/companies/ecole-nationale-superieure-de-techniques-avancees/responsable-de-communication-evenementielle-remplacement-conge-maternite-palaiseau-334375",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 94,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "arbeitnow-principal-engineer-autonomous-",
     "title": "Principal Engineer - Autonomous Systems (m/f/d)",
     "company": "autonomous-teaming",
@@ -10452,59 +10504,6 @@
       "Environnement de travail stimulant et international"
     ],
     "applyUrl": "https://jobicy.com/jobs/152394-partner-success-manager-emea",
-    "source": "Jobicy Global Tech",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "jobicy-152389",
-    "title": "Sales Engineer",
-    "company": "Litmus",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/09/de9ae76263ed9c752bc3c61078de7b7d.png",
-    "companyColor": "#6366f1",
-    "location": "Germany",
-    "city": "Germany",
-    "country": "Allemagne",
-    "countryCode": "DE",
-    "countryFlag": "🇩🇪",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif",
-    "tags": [
-      "C++",
-      "Software",
-      "Linux",
-      "Git"
-    ],
-    "description": "Who is  Litmus   \n Litmus is building the data foundation that powers industrial AI. \n AI doesn’t work without real-world, contextualized data - Litmus makes that data usable. As AI adoption accelerates, most industrial environments still can’t access or use their operational data. We solve that gap. \n We’re a growth-stage software company helping manufacturers access, structure, and use real-time data from machines, systems, and sensors at the edge. Our platform sits at the intersection of ed...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://jobicy.com/jobs/152389-sales-engineer-5",
     "source": "Jobicy Global Tech",
     "postedAt": "Récemment",
     "enstaFit": {
