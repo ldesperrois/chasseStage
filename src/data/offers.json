@@ -1283,6 +1283,59 @@
     }
   },
   {
+    "id": "simplify-544116be-478d-4efc-831f-4d65a711",
+    "title": "Driver and Tools Developer Intern - Telemetry Firmware",
+    "company": "Qualcomm",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Markham, ON, Canada",
+    "city": "Markham",
+    "country": "Canada",
+    "countryCode": "CA",
+    "countryFlag": "🇨🇦",
+    "region": "Amériques",
+    "isAnglophone": true,
+    "domain": "firmware",
+    "domainLabel": "Firmware & Microcontrôleurs",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "RTOS",
+      "Hardware",
+      "Microcontrollers",
+      "Firmware"
+    ],
+    "description": "Stage étudiant 'Driver and Tools Developer Intern - Telemetry Firmware' chez Qualcomm pour Summer 2027. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://qualcomm.eightfold.ai/careers/job/446721989047",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 94,
+      "badge": "Microcontrôleurs & C",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "arbeitnow-principal-engineer-autonomous-",
     "title": "Principal Engineer - Autonomous Systems (m/f/d)",
     "company": "autonomous-teaming",
@@ -10452,59 +10505,6 @@
     ],
     "applyUrl": "https://www.arbeitnow.com/jobs/companies/transperfect/senior-hr-generalist-berlin-84143",
     "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "jobicy-152394",
-    "title": "Partner Success Manager (EMEA)",
-    "company": "Litmus",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/09/de9ae76263ed9c752bc3c61078de7b7d.png",
-    "companyColor": "#6366f1",
-    "location": "Germany",
-    "city": "Germany",
-    "country": "Allemagne",
-    "countryCode": "DE",
-    "countryFlag": "🇩🇪",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif",
-    "tags": [
-      "C++",
-      "Software",
-      "Linux",
-      "Git"
-    ],
-    "description": "Who is  Litmus   \n Litmus is building the data foundation that powers industrial AI. \n AI doesn’t work without real-world, contextualized data - Litmus makes that data usable. As AI adoption accelerates, most industrial environments still can’t access or use their operational data. We solve that gap. \n We’re a growth-stage software company helping manufacturers access, structure, and use real-time data from machines, systems, and sensors at the edge. Our platform sits at the intersection of ed...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://jobicy.com/jobs/152394-partner-success-manager-emea",
-    "source": "Jobicy Global Tech",
     "postedAt": "Récemment",
     "enstaFit": {
       "score": 91,
