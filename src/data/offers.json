@@ -2438,6 +2438,58 @@
     }
   },
   {
+    "id": "arbeitnow-senior-technical-sales-manager",
+    "title": "Senior Technical Sales Manager - AI-Driven Software Engineering",
+    "company": "Createq Space",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Pfäffikon, Switzerland",
+    "city": "Pfäffikon",
+    "country": "Suisse",
+    "countryCode": "CH",
+    "countryFlag": "🇨🇭",
+    "region": "Europe",
+    "isAnglophone": true,
+    "domain": "robotics",
+    "domainLabel": "Robotique & ROS2",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Selon convention internationale",
+    "tags": [
+      "C++",
+      "Linux",
+      "Software"
+    ],
+    "description": "About CREATEQ   CREATEQ is a Swiss software engineering company with more than 30 years of experience in delivering custom software solutions and modernizing complex legacy systems. We work with leading international companies across industries such as banking and fintech, insurance, aviation and transportation, telecommunications, and energy.  We design, build, and run high-quality software solutions, combining strong engineering expertise, modern technologies, AI-enabled approaches, and prov...",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://www.arbeitnow.ch/jobs/companies/createq-space/senior-technical-sales-manager-ai-driven-software-engineering-pfaffikon-299887",
+    "source": "Arbeitnow Europe",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 93,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "jobicy-151860",
     "title": "Senior Software Engineer, Product Engineering - UK",
     "company": "Ashby",
@@ -10453,58 +10505,6 @@
       "Environnement de travail stimulant et international"
     ],
     "applyUrl": "https://www.arbeitnow.fr/jobs/companies/mirakl-labs/product-manager-intern-platform-paris-244586",
-    "source": "Arbeitnow Europe",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "arbeitnow-remote-junior-solution-archite",
-    "title": "Junior Solution Architect DACH",
-    "company": "Proglove",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "Germany - remote",
-    "city": "Germany - remote",
-    "country": "Allemagne",
-    "countryCode": "DE",
-    "countryFlag": "🇩🇪",
-    "region": "Europe",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Selon convention internationale",
-    "tags": [
-      "C++",
-      "Linux",
-      "Software"
-    ],
-    "description": "Your mission   As  Junior Solution Architect    you will work closely with customers and internal stakeholders and will report to your Solution Architect Team Lead. We are looking for someone who is passionate about hardware and software products, enjoys solving problems, and is excited to grow into a trusted technical advisor role. You will be working in an experienced Presales team and support sales in the deal process as well as linking ideas with our product and engineering team. You will ...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://www.arbeitnow.com/jobs/companies/proglove/remote-junior-solution-architect-dach-453252",
     "source": "Arbeitnow Europe",
     "postedAt": "Récemment",
     "enstaFit": {
