@@ -547,6 +547,59 @@
     }
   },
   {
+    "id": "simplify-f8d027b7-dcfb-4dc2-8c62-0b33b849",
+    "title": "Software Engineer Intern",
+    "company": "Mytra",
+    "organizationType": "company",
+    "labName": "",
+    "companyLogo": "",
+    "companyColor": "#6366f1",
+    "location": "Brisbane, CA",
+    "city": "Brisbane",
+    "country": "Australie",
+    "countryCode": "AU",
+    "countryFlag": "🇦🇺",
+    "region": "Océanie",
+    "isAnglophone": true,
+    "domain": "software",
+    "domainLabel": "C++ Temps Réel & Logiciel",
+    "startDate": "Début Mai 2026",
+    "endDate": "Fin Août 2026",
+    "durationWeeks": 15,
+    "isEnstaCompliant": true,
+    "salary": "Compétitif (selon barème ingénieur)",
+    "tags": [
+      "Linux",
+      "Software Engineering",
+      "Systems",
+      "Software"
+    ],
+    "description": "Stage étudiant 'Software Engineer Intern' chez Mytra pour N/A. Projet d'ingénierie impliquant conception, développement et tests.",
+    "responsibilities": [
+      "Conception et développement de code C/C++ pour systèmes contraints",
+      "Mise au point de tests unitaires, validation matérielle et intégration continue",
+      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
+    ],
+    "requirements": [
+      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
+      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
+      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
+    ],
+    "perks": [
+      "Encadrement personnalisé par un ingénieur senior / chercheur",
+      "Aide à l'installation / Logement étudiant",
+      "Environnement de travail stimulant et international"
+    ],
+    "applyUrl": "https://ats.rippling.com/mytra/jobs/5e479468-c622-4d2b-8789-89fbc14f3292",
+    "source": "SimplifyJobs Global",
+    "postedAt": "Récemment",
+    "enstaFit": {
+      "score": 88,
+      "badge": "Excellence Linux & Kernel",
+      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
+    }
+  },
+  {
     "id": "arbeitnow-graduate-site-reliability-engi",
     "title": "Graduate Site Reliability Engineer",
     "company": "Axon",
@@ -10454,59 +10507,6 @@
     ],
     "applyUrl": "https://jobicy.com/jobs/154389-implementation-consultant-3",
     "source": "Jobicy Global Tech",
-    "postedAt": "Récemment",
-    "enstaFit": {
-      "score": 91,
-      "badge": "Excellence Linux & Kernel",
-      "reason": "Adéquation parfaite avec le cursus ingénieur ENSTA Bretagne : valide l'obligation internationale de 10+ semaines en immersion anglophone tout en consolidant les compétences en architecture matérielle et logicielle."
-    }
-  },
-  {
-    "id": "hn-49932264",
-    "title": "Multiple roles (Internship/Junior)",
-    "company": "Flok Health",
-    "organizationType": "company",
-    "labName": "",
-    "companyLogo": "",
-    "companyColor": "#6366f1",
-    "location": "ONSITE",
-    "city": "ONSITE",
-    "country": "ONSITE",
-    "countryCode": "INT",
-    "countryFlag": "🌍",
-    "region": "International",
-    "isAnglophone": true,
-    "domain": "iot",
-    "domainLabel": "IoT & Protocoles Sans Fil",
-    "startDate": "Début Mai 2026",
-    "endDate": "Fin Août 2026",
-    "durationWeeks": 15,
-    "isEnstaCompliant": true,
-    "salary": "Compétitif (Tech Startup)",
-    "tags": [
-      "C++",
-      "Embedded",
-      "Systems",
-      "Linux"
-    ],
-    "description": "Flok Health | Multiple roles | ONSITE | Cambridge UK | Series A  https:&#x2F;&#x2F;www.flok.health  Come help us build explainable AI for providing physiotherapy at scale. Our core systems are a custom decision engine, interactive streaming video over WebRTC, and multiple internal tools to help us scale. We care a ton about high quality software and great UX - healthcare apps has a bad rep for being unpolished. Commercially, we partner with national healthcare systems to provide high quality car...",
-    "responsibilities": [
-      "Conception et développement de code C/C++ pour systèmes contraints",
-      "Mise au point de tests unitaires, validation matérielle et intégration continue",
-      "Collaboration au sein d'une équipe d'ingénierie internationale anglophone"
-    ],
-    "requirements": [
-      "Élève-ingénieur en systèmes embarqués ou informatique (ENSTA Bretagne)",
-      "Maîtrise du C/C++, de Linux ou de l'architecture des microcontrôleurs",
-      "Anglais professionnel (écrit et oral) pour le travail d'équipe"
-    ],
-    "perks": [
-      "Encadrement personnalisé par un ingénieur senior / chercheur",
-      "Aide à l'installation / Logement étudiant",
-      "Environnement de travail stimulant et international"
-    ],
-    "applyUrl": "https://news.ycombinator.com/item?id=49932264",
-    "source": "Hacker News Hiring",
     "postedAt": "Récemment",
     "enstaFit": {
       "score": 91,
